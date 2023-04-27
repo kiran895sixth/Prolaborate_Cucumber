@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<MDG.Technology version="1.0"><Documentation id="VL_02" name="VL_MDGTechnology" version="02" notes="MDGTechnology used in Videotron, V02"/><Icon><Image type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAA
+N+P/Ht//IN//IN7/H97/Ht3/Hd3/Hdz/HNz/G9v/Gtv/Gtr/Gdn/Gdn/Etj/SeD/JOH/Ct3/
+C93/C9z/Ctz/Cdv/Cdr/CNr/B9n/Btj/Bdj/Bdf/BNf/A9b/ANT/ON7/J+L/Dd7/Dt7/Dt7/
+Ddz/Ddz/DNz/C9v/Ctr/Cdn/Cdn/CNj/B9j/Btf/ANb/O9//J+P/Dt//EN7/D97/DuD/DuP/
+Ddz/DNz/C9v/Ctv/Cdr/Cdn/CNn/B9j/Adb/POD/KOP/D+D/Ed//EOH/DsvpCZmwD/L/DeT/
+DNz/C9v/Ctv/Ctr/Cdn/CNj/Adf/PN//KeT/EOD/EeD/EeD/EOT/DsvoAiYsCqK7D/n/DeP/
+C9v/Ctr/Ctr/Cdr/Atj/PeD/KuX/EeH/EuH/EuD/Ed//EOP/EfT/AiowAAQFC7jUDvf/DOL/
+C9r/Ctr/A9n/PeH/KuX/EuL/E+H/EuH/EuH/Ed//EOD/Efv/CYyhAAAAAR0hCqrFDOL/C9v/
+BNr/PuH/K+b/EuP/FOL/E+H/E+H/EuH/EeH/E/3/CYSYAAAAAiAlCqrEDeP/DNv/Bdr/P+L/
+LOf/E+P/FeP/FOP/FOL/E+f/E/L/Ah4iAQ4RDb/bEfn/D+T/Dd3/Ddz/Btv/QOP/Lef/FOT/
+FuP/FeP/Fen/EcHaAy0yD7PLFPv/Eeb/EN//D97/Dt3/Dt3/B9z/QOP/Luj/FeX/F+X/Fub/
+E9DpD6vAFvf/FOj/EuH/EuD/Ed//EN//D9//D97/CNz/QeT/L+n/Fub/GOX/F+T/Fub/Fun/
+FeP/FOL/E+H/EuH/EuH/Ed//EN//D9//Cd3/QuT/MOr/F+b/GOb/GOb/F+T/FuT/FuP/FeP/
+FOL/E+L/E+H/EuH/EeD/EN//Ct7/QuX/Lur/Fef/F+b/Fub/FeX/FOT/FOT/E+P/EuP/EeL/
+EeH/EOH/D+D/DuD/CN7/QeX/SO3/Mur/NOr/M+n/Mun/Mej/Mej/MOf/L+b/L+b/Lub/LeX/
+LeX/LOT/JuP/Wen/</Image></Icon><UMLProfiles><UMLProfile profiletype="uml2">
+			<Documentation id="64CD165A-9" name="VL_Application_UMLProfile" version="02" notes="VL_Application_UMLProfile"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="VL_TMF_Function" metatype="VL_TMF_Function" notes="" bgcolor="16777152" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="TMF_ArchiMate3::TMF_Function" baseStereotypes="TMF_ArchiMate3::TMF_Function VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_ApplicationEvent" metatype="VL_ApplicationEvent" notes="" bgcolor="16777152" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_ApplicationEvent" baseStereotypes="ArchiMate3::ArchiMate_ApplicationEvent VL_ObjectCommonAttributes" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Application_UMLProfile::VL_Triggering" constraint="VL_Application_UMLProfile::VL_TMF_Application"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_ObjectCommonAttributes" metatype="VL_ObjectCommonAttributes" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" strictness="profile">
+						<TaggedValues>
+							<Tag name="ShortDescription_F" type="String" description="Description courte en français." unit="" values="" default=""/>
+							<Tag name="ShortDescription_E" type="String" description="Short description in english" unit="" values="" default=""/>
+							<Tag name="LongDescription_F" type="" description="Description longue en français." unit="" values="" default="&lt;memo&gt;"/>
+							<Tag name="LongDescription_E" type="" description="Long description in english." unit="" values="" default="&lt;memo&gt;"/>
+							<Tag name="ModificationStatus" type="enumeration" description="" unit="" values="Existing,New,Modified,Withdrawn,_" default="_"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="VL_ApplicationCollaboration" metatype="VL_ApplicationCollaboration" notes="" bgcolor="16777152" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_ApplicationCollaboration" baseStereotypes="ArchiMate3::ArchiMate_ApplicationCollaboration VL_ObjectCommonAttributes" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Application_UMLProfile::VL_Assignment" constraint="VL_Application_UMLProfile::VL_ApplicationInteraction"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_ApplicationComponent" metatype="VL_ApplicationComponent" notes="" bgcolor="16777152" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_ApplicationComponent" baseStereotypes="ArchiMate3::ArchiMate_ApplicationComponent VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Component">
+								<Property name="isActive" value=""/>
+								<Property name="isIndirectlyInstantiated" value="true"/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_ApplicationFunction" metatype="VL_ApplicationFunction" notes="" bgcolor="16777152" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_ApplicationFunction" baseStereotypes="ArchiMate3::ArchiMate_ApplicationFunction VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_ApplicationInteraction" metatype="VL_ApplicationInteraction" notes="" bgcolor="16777152" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_ApplicationInteraction" baseStereotypes="ArchiMate3::ArchiMate_ApplicationInteraction VL_ObjectCommonAttributes" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Application_UMLProfile::VL_Realization" constraint="VL_Application_UMLProfile::VL_ApplicationService"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_ApplicationInterface" metatype="VL_ApplicationInterface" notes="" bgcolor="16777152" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_ApplicationInterface" baseStereotypes="ArchiMate3::ArchiMate_ApplicationInterface VL_ObjectCommonAttributes" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Application_UMLProfile::VL_Serving" constraint="VL_Application_UMLProfile::VL_ApplicationInteraction"/>
+							<stereotypedrelationship stereotype="VL_Application_UMLProfile::VL_Assignment" constraint="VL_Application_UMLProfile::VL_ApplicationService"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Interface">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_ApplicationProcess" metatype="VL_ApplicationProcess" notes="" bgcolor="16777152" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_ApplicationProcess" baseStereotypes="ArchiMate3::ArchiMate_ApplicationProcess VL_ObjectCommonAttributes" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Application_UMLProfile::VL_Specialization" constraint="VL_Application_UMLProfile::VL_ApplicationProcess;VL_Application_UMLProfile::VL_ApplicationProcess"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_ApplicationService" metatype="VL_ApplicationService" notes="" bgcolor="16777152" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_ApplicationService" baseStereotypes="ArchiMate3::ArchiMate_ApplicationService VL_ObjectCommonAttributes" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Application_UMLProfile::VL_Serving" constraint="VL_Application_UMLProfile::VL_ApplicationProcess;VL_Application_UMLProfile::VL_TMF_Application"/>
+							<stereotypedrelationship stereotype="VL_Application_UMLProfile::VL_Triggering" constraint="VL_Application_UMLProfile::VL_TMF_Application"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_TMF_Application" metatype="VL_TMF_Application" notes="" bgcolor="16777152" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="TMF_ArchiMate3::TMF_Application" baseStereotypes="TMF_ArchiMate3::TMF_Application VL_ObjectCommonAttributes" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Application_UMLProfile::VL_Serving" constraint="VL_Application_UMLProfile::VL_TMF_Application"/>
+							<stereotypedrelationship stereotype="VL_Application_UMLProfile::VL_Triggering" constraint="VL_Application_UMLProfile::VL_ApplicationService"/>
+							<stereotypedrelationship stereotype="VL_Application_UMLProfile::VL_Composition" constraint="VL_Application_UMLProfile::VL_TMF_Function"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Component">
+								<Property name="isActive" value=""/>
+								<Property name="isIndirectlyInstantiated" value="true"/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_TMF_BusinessProcess" metatype="VL_TMF_BusinessProcess" notes="" bgcolor="16777152" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="TMF_ArchiMate3::TMF_BusinessProcess" baseStereotypes="TMF_ArchiMate3::TMF_BusinessProcess" strictness="profile">
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_TMF_OpenApi" metatype="VL_OpenApi" notes="" bgcolor="16777152" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="TMF_ArchiMate3::TMF_OpenAPI" baseStereotypes="TMF_ArchiMate3::TMF_OpenAPI VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Interface">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_LogicalDatastore" metatype="VL_LogicalDatastore" notes="" bgcolor="16777152" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Artifact" baseStereotypes="ArchiMate3::ArchiMate_Artifact VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+		<UMLProfile profiletype="uml2">
+			<Documentation id="E95A161D-3" name="VL_Business_UMLProfile" version="02" notes="VL_Business_UMLProfile"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="VL_UseCase" metatype="VL_UseCase" notes="" bgcolor="12648447" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="VL_ObjectCommonAttributes" baseStereotypes="VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="UseCase">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_eTomProcess" metatype="VL_eTomProcess" notes="" bgcolor="12648447" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="TMF_ArchiMate3::TMF_BusinessProcess" baseStereotypes="TMF_ArchiMate3::TMF_BusinessProcess" strictness="profile">
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isActive" value=""/>
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Organization" metatype="VL_Organization" notes="" bgcolor="12648447" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_BusinessRole" baseStereotypes="ArchiMate3::ArchiMate_BusinessRole VL_ObjectCommonAttributes" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Business_UMLProfile::VL_Specialization" constraint="VL_Business_UMLProfile::VL_BusinessActor"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_BusinessService" metatype="VL_BusinessService" notes="" bgcolor="12648447" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_BusinessService" baseStereotypes="ArchiMate3::ArchiMate_BusinessService VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isActive" value=""/>
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_ObjectCommonAttributes" metatype="VL_ObjectCommonAttributes" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" strictness="profile">
+						<TaggedValues>
+							<Tag name="ShortDescription_F" type="String" description="Description courte en français." unit="" values="" default=""/>
+							<Tag name="ShortDescription_E" type="String" description="Short description in english" unit="" values="" default=""/>
+							<Tag name="LongDescription_F" type="" description="Description longue en français." unit="" values="" default="&lt;memo&gt;"/>
+							<Tag name="LongDescription_E" type="" description="Long description in english." unit="" values="" default="&lt;memo&gt;"/>
+							<Tag name="ModificationStatus" type="enumeration" description="" unit="" values="Existing,New,Modified,Withdrawn,_" default="_"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="VL_BusinessProcess" metatype="VL_BusinessProcess" notes="" bgcolor="12648447" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_BusinessProcess" baseStereotypes="ArchiMate3::ArchiMate_BusinessProcess VL_ObjectCommonAttributes" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Business_UMLProfile::VL_Composition" constraint="VL_Business_UMLProfile::VL_BusinessProcess"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isActive" value=""/>
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Contract" metatype="VL_Contract" notes="" bgcolor="12648447" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Contract" baseStereotypes="ArchiMate3::ArchiMate_Contract VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_BusinessActor" metatype="VL_BusinessActor" notes="" bgcolor="12648447" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_BusinessActor" baseStereotypes="ArchiMate3::ArchiMate_BusinessActor VL_ObjectCommonAttributes" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Business_UMLProfile::VL_Aggregation" constraint="VL_Business_UMLProfile::VL_BusinessActor"/>
+							<stereotypedrelationship stereotype="VL_Business_UMLProfile::VL_Specialization" constraint="VL_Business_UMLProfile::VL_BusinessActor"/>
+							<stereotypedrelationship stereotype="VL_Business_UMLProfile::VL_Composition" constraint="VL_Business_UMLProfile::VL_BusinessActor"/>
+							<stereotypedrelationship stereotype="VL_Business_UMLProfile::VL_Triggering" constraint="VL_Business_UMLProfile::VL_BusinessActor"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_BusinessCollaboration" metatype="VL_BusinessCollaboration" notes="" bgcolor="12648447" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_BusinessCollaboration" baseStereotypes="ArchiMate3::ArchiMate_BusinessCollaboration VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_BusinessEvent" metatype="VL_BusinessEvent" notes="" bgcolor="12648447" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_BusinessEvent" baseStereotypes="ArchiMate3::ArchiMate_BusinessEvent VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isActive" value=""/>
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_BusinessFunction" metatype="VL_BusinessFunction" notes="" bgcolor="12648447" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_BusinessFunction" baseStereotypes="ArchiMate3::ArchiMate_BusinessFunction VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isActive" value=""/>
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_BusinessInteraction" metatype="VL_BusinessInteraction" notes="" bgcolor="12648447" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_BusinessInteraction" baseStereotypes="ArchiMate3::ArchiMate_BusinessInteraction VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isActive" value=""/>
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_BusinessInterface" metatype="VL_BusinessInterface" notes="" bgcolor="12648447" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_BusinessInterface" baseStereotypes="ArchiMate3::ArchiMate_BusinessInterface VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Interface">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_BusinessObject" metatype="VL_BusinessObject" notes="" bgcolor="12648447" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_BusinessObject" baseStereotypes="ArchiMate3::ArchiMate_BusinessObject VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_BusinessRole" metatype="VL_BusinessRole" notes="" bgcolor="12648447" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_BusinessRole" baseStereotypes="ArchiMate3::ArchiMate_BusinessRole VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Product" metatype="VL_Product" notes="" bgcolor="12648447" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Product" baseStereotypes="ArchiMate3::ArchiMate_Product VL_ObjectCommonAttributes" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Business_UMLProfile::VL_Aggregation" constraint="VL_Business_UMLProfile::VL_Product"/>
+							<stereotypedrelationship stereotype="VL_Business_UMLProfile::VL_Specialization" constraint="VL_Business_UMLProfile::VL_Product"/>
+							<stereotypedrelationship stereotype="VL_Business_UMLProfile::VL_Composition" constraint="VL_Business_UMLProfile::VL_Product"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Representation" metatype="VL_Representation" notes="" bgcolor="12648447" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Representation" baseStereotypes="ArchiMate3::ArchiMate_Representation VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_BusinessStream" metatype="VL_BusinessStream" notes="" bgcolor="12648447" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="VL_BusinessProcess" baseStereotypes="VL_BusinessProcess" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Business_UMLProfile::VL_Aggregation" constraint="VL_Business_UMLProfile::VL_eTomProcess"/>
+							<stereotypedrelationship stereotype="VL_Business_UMLProfile::VL_Specialization" constraint="VL_Business_UMLProfile::VL_BusinessProcess"/>
+						</stereotypedrelationships>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+		<UMLProfile profiletype="uml2">
+			<Documentation id="D7BD5766-2" name="VL_Connectors_UMLProfile" version="02" notes="Connectors used accross Videotron architecture diagrams"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="VL_ObjectCommonAttributes" metatype="VL_ObjectCommonAttributes" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" strictness="profile">
+						<TaggedValues>
+							<Tag name="ShortDescription_F" type="String" description="Description courte en français." unit="" values="" default=""/>
+							<Tag name="ShortDescription_E" type="String" description="Short description in english" unit="" values="" default=""/>
+							<Tag name="LongDescription_F" type="" description="Description longue en français." unit="" values="" default="&lt;memo&gt;"/>
+							<Tag name="LongDescription_E" type="" description="Long description in english." unit="" values="" default="&lt;memo&gt;"/>
+							<Tag name="ModificationStatus" type="enumeration" description="" unit="" values="Existing,New,Modified,Withdrawn,_" default="_"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="VL_Connector" metatype="VL_Connector" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="VL_ObjectCommonAttributes" baseStereotypes="VL_ObjectCommonAttributes" strictness="profile">
+						<TaggedValues>
+							<Tag name="Version" type="enumeration" description="" unit="" values="TBC" default=""/>
+							<Tag name="Weight" type="int" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="VL_Composition" metatype="VL_Composition" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Composition" baseStereotypes="ArchiMate3::ArchiMate_Composition VL_Connector" strictness="profile">
+						<AppliesTo>
+							<Apply type="Composition">
+								<Property name="direction" value="Source -&gt; Destination"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Aggregation" metatype="VL_Aggregation" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Aggregation" baseStereotypes="ArchiMate3::ArchiMate_Aggregation VL_Connector" strictness="profile">
+						<AppliesTo>
+							<Apply type="Aggregation">
+								<Property name="direction" value="Source -&gt; Destination"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Assignment" metatype="VL_Assignment" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Assignment" baseStereotypes="ArchiMate3::ArchiMate_Assignment VL_Connector" strictness="profile">
+						<AppliesTo>
+							<Apply type="Association">
+								<Property name="compositionKind" value="none"/>
+								<Property name="direction" value="Source -&gt; Destination"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Realization" metatype="VL_Realization" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Realization" baseStereotypes="ArchiMate3::ArchiMate_Realization VL_Connector" strictness="profile">
+						<AppliesTo>
+							<Apply type="Dependency">
+								<Property name="direction" value="Source -&gt; Destination"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Serving" metatype="VL_Serving" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Serving" baseStereotypes="ArchiMate3::ArchiMate_Serving VL_Connector" strictness="profile">
+						<AppliesTo>
+							<Apply type="Association">
+								<Property name="compositionKind" value="none"/>
+								<Property name="direction" value="Source -&gt; Destination"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Access" metatype="VL_Access" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Access" baseStereotypes="ArchiMate3::ArchiMate_Access VL_Connector" strictness="profile">
+						<AppliesTo>
+							<Apply type="Dependency">
+								<Property name="direction" value="Source -&gt; Destination"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Influence" metatype="VL_Influence" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Influence" baseStereotypes="ArchiMate3::ArchiMate_Influence VL_Connector" strictness="profile">
+						<AppliesTo>
+							<Apply type="ControlFlow">
+								<Property name="direction" value="Source -&gt; Destination"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Triggering" metatype="VL_Triggering" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Triggering" baseStereotypes="ArchiMate3::ArchiMate_Triggering VL_Connector" strictness="profile">
+						<AppliesTo>
+							<Apply type="ControlFlow">
+								<Property name="direction" value="Source -&gt; Destination"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Flow" metatype="VL_Flow" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Flow" baseStereotypes="ArchiMate3::ArchiMate_Flow VL_Connector" strictness="profile">
+						<AppliesTo>
+							<Apply type="ControlFlow">
+								<Property name="direction" value="Source -&gt; Destination"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Specialization" metatype="VL_Specialization" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Specialization" baseStereotypes="ArchiMate3::ArchiMate_Specialization VL_Connector" strictness="profile">
+						<AppliesTo>
+							<Apply type="Generalization">
+								<Property name="direction" value="Source -&gt; Destination"/>
+								<Property name="isSubstitutable" value="true"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Association" metatype="VL_Association" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Association" baseStereotypes="ArchiMate3::ArchiMate_Association VL_Connector" strictness="profile">
+						<AppliesTo>
+							<Apply type="Association">
+								<Property name="compositionKind" value="none"/>
+								<Property name="direction" value="Source -&gt; Destination"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Impact" metatype="VL_Impact" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="VL_Association" baseStereotypes="VL_Association" strictness="profile">
+						<AppliesTo>
+							<Apply type="Association">
+								<Property name="compositionKind" value="none"/>
+								<Property name="direction" value="Source -&gt; Destination"/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="Impact" type="enumeration" description="&quot;Impact&quot; which defines the degree of impact on scale of 1 to 5 (5 = highest impact)" unit="" values="1,2,3,4,5" default=""/>
+							<Tag name="ImpactType" type="enumeration" description="&quot;Type of impact&quot; which defines AMUD (Add, Modify, Use, Delete)" unit="" values="A,M,U,D" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="VL_Trace" metatype="VL_Trace" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="VL_Connector" baseStereotypes="VL_Connector" strictness="profile">
+						<AppliesTo>
+							<Apply type="Dependency">
+								<Property name="direction" value="Source -&gt; Destination"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_CapabilityImpact" metatype="VL_CapabilityImpact" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="VL_Impact" baseStereotypes="VL_Impact" strictness="profile">
+						<AppliesTo>
+							<Apply type="Association">
+								<Property name="compositionKind" value="none"/>
+								<Property name="direction" value="Source -&gt; Destination"/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="AllocatedInvestmentDollarsCaptured" type="int" description="&quot;Allocated Investment $ Captured&quot;. Mutually exclusive with AllocatedInvestmentDollarsDerived" unit="" values="" default=""/>
+							<Tag name="AllocatedInvestmentPercent" type="int" description="&quot;Allocated Investment %&quot; which defines the % of the total investment of the work package that is allocated to each related capability" unit="" values="" default=""/>
+							<Tag name="AllocatedInvestmentDollarsDerived" type="int" description="&quot;Allocated Investment $ Derived&quot; which is derived from the &quot;Allocated Investment %&quot; and the Investment attribute of the initiative. Mutually exclusive with AllocatedInvestmentDollarsCaptured." unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="VL_InitiativeImpact" metatype="VL_InitiativeImpact" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="VL_Impact" baseStereotypes="VL_Impact" strictness="profile">
+						<AppliesTo>
+							<Apply type="Association">
+								<Property name="compositionKind" value="none"/>
+								<Property name="direction" value="Source -&gt; Destination"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+		<UMLProfile profiletype="uml2">
+			<Documentation id="74E04F47-C" name="VL_Data_UMLProfile" version="02" notes="VL_Data_UMLProfile"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="VL_TMF_ABE" metatype="VL_TMF_ABE" notes="" bgcolor="16777152" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="TMF_ArchiMate3::TMF_ABE" baseStereotypes="TMF_ArchiMate3::TMF_ABE VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_ConformedDimension" metatype="VL_ConformedDimension" notes="" bgcolor="16777152" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="VL_ObjectCommonAttributes" baseStereotypes="VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_DataConformedFact" metatype="VL_DataConformedFact" notes="" bgcolor="16777152" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="VL_ObjectCommonAttributes" baseStereotypes="VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_ObjectCommonAttributes" metatype="VL_ObjectCommonAttributes" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" strictness="profile">
+						<TaggedValues>
+							<Tag name="ShortDescription_F" type="String" description="Description courte en français." unit="" values="" default=""/>
+							<Tag name="ShortDescription_E" type="String" description="Short description in english" unit="" values="" default=""/>
+							<Tag name="LongDescription_F" type="" description="Description longue en français." unit="" values="" default="&lt;memo&gt;"/>
+							<Tag name="LongDescription_E" type="" description="Long description in english." unit="" values="" default="&lt;memo&gt;"/>
+							<Tag name="ModificationStatus" type="enumeration" description="" unit="" values="Existing,New,Modified,Withdrawn,_" default="_"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="Archimate3::Archimate_DataObject" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0"/>
+					<Stereotype name="VL_DataObject" metatype="VL_DataObject" notes="" bgcolor="16777152" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="Archimate3::Archimate_DataObject" baseStereotypes="Archimate3::Archimate_DataObject VL_ObjectCommonAttributes" strictness="profile">
+						<metarelationships>
+							<metarelationship metaclass="Trace" constraint="TMF_ArchiMate3::TMF_API_Resource"/>
+						</metarelationships>
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Data_UMLProfile::VL_Realization" constraint="VL_Data_UMLProfile::VL_TMF_ABE"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_TMF_API_Resource" notes="" bgcolor="16777152" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="TMF_ArchiMate3::TMF_API_Resource" baseStereotypes="TMF_ArchiMate3::TMF_API_Resource VL_ObjectCommonAttributes">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+		<UMLProfile profiletype="uml2">
+			<Documentation id="932F17D2-C" name="VL_Impl-Migr_UMLProfile" version="02" notes="VL_Impl-Migr_UMLProfile"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="VL_ObjectCommonAttributes" metatype="VL_ObjectCommonAttributes" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" strictness="profile">
+						<TaggedValues>
+							<Tag name="ShortDescription_F" type="String" description="Description courte en français." unit="" values="" default=""/>
+							<Tag name="ShortDescription_E" type="String" description="Short description in english" unit="" values="" default=""/>
+							<Tag name="LongDescription_F" type="" description="Description longue en français." unit="" values="" default="&lt;memo&gt;"/>
+							<Tag name="LongDescription_E" type="" description="Long description in english." unit="" values="" default="&lt;memo&gt;"/>
+							<Tag name="ModificationStatus" type="enumeration" description="" unit="" values="Existing,New,Modified,Withdrawn,_" default="_"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="VL_Deliverable" metatype="VL_Deliverable" notes="" bgcolor="12632319" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Deliverable" baseStereotypes="ArchiMate3::ArchiMate_Deliverable VL_ObjectCommonAttributes" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Impl-Migr_UMLProfile::VL_Realization" constraint="VL_Impl-Migr_UMLProfile::VL_WorkPackage"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Gap" metatype="VL_Gap" notes="" bgcolor="12648384" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Gap" baseStereotypes="ArchiMate3::ArchiMate_Gap VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_ImplementationEvent" metatype="VL_ImplementationEvent" notes="" bgcolor="12632319" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_ImplementationEvent" baseStereotypes="ArchiMate3::ArchiMate_ImplementationEvent VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isActive" value=""/>
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Plateau" metatype="VL_Plateau" notes="" bgcolor="12648384" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Plateau" baseStereotypes="ArchiMate3::ArchiMate_Plateau VL_ObjectCommonAttributes" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Impl-Migr_UMLProfile::VL_Aggregation" constraint="VL_Impl-Migr_UMLProfile::VL_WorkPackage"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_WorkPackage" metatype="VL_WorkPackage" notes="" bgcolor="12632319" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_WorkPackage" baseStereotypes="ArchiMate3::ArchiMate_WorkPackage VL_ObjectCommonAttributes" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Impl-Migr_UMLProfile::VL_Composition" constraint="VL_Impl-Migr_UMLProfile::VL_WorkPackage"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="TotalInvestment" type="int" description="" unit="" values="" default=""/>
+							<Tag name="RealizationRisk" type="int" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+		<UMLProfile profiletype="uml2">
+			<Documentation id="16BC4C89-9" name="VL_Motivation_UMLProfile" version="02" notes="UML profile aimed to build Motivation level objects in Videotron"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="VL_BusinessRequirement" metatype="VL_BusinessRequirement" notes="" bgcolor="16761024" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="VL_Requirement" baseStereotypes="VL_Requirement" strictness="profile">
+						<AppliesTo>
+							<Apply type="Requirement">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="BA_Assigned" type="String" description="" unit="" values="" default=""/>
+							<Tag name="PartnerStatus" type="VL_PartnerStatus" description="" unit="" values="" default=""/>
+							<Tag name="PartnerLastUpdDate" type="date" description="" unit="" values="" default=""/>
+							<Tag name="PartnerNotes" type="Memo" description="" unit="" values="" default=""/>
+							<Tag name="PartnerReference" type="String" description="" unit="" values="" default=""/>
+							<Tag name="Compliance" type="VL_Compliance" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="VL_Constraint" metatype="VL_Constraint" notes="" bgcolor="16761024" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Constraint" baseStereotypes="ArchiMate3::ArchiMate_Constraint VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Requirement">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_FunctionalRequirement" metatype="VL_FunctionalRequirement" notes="" bgcolor="16761024" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="VL_Requirement" baseStereotypes="VL_Requirement" strictness="profile">
+						<AppliesTo>
+							<Apply type="Requirement">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Requirement" metatype="VL_Requirement" notes="" bgcolor="16761024" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Requirement" baseStereotypes="ArchiMate3::ArchiMate_Requirement VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Requirement">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="AS_Assigned" type="String" description="" unit="" values="" default=""/>
+							<Tag name="CustomerBase" type="VL_CustomerBase" description="" unit="" values="" default=""/>
+							<Tag name="AE_Assigned" type="String" description="" unit="" values="" default=""/>
+							<Tag name="SourcePhase" type="String" description="" unit="" values="" default=""/>
+							<Tag name="IT_Owner" type="String" description="" unit="" values="" default=""/>
+							<Tag name="Requester" type="String" description="" unit="" values="" default=""/>
+							<Tag name="RequesterBusinessSector" type="String" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="VL_Driver" metatype="VL_Driver" notes="" bgcolor="16761024" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Driver" baseStereotypes="ArchiMate3::ArchiMate_Driver VL_ObjectCommonAttributes" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Motivation_UMLProfile::VL_Influence" constraint="VL_Motivation_UMLProfile::VL_Goal;VL_Motivation_UMLProfile::VL_Value"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Meaning" metatype="VL_Meaning" notes="" bgcolor="16761024" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Meaning" baseStereotypes="ArchiMate3::ArchiMate_Meaning VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Outcome" metatype="VL_Outcome" notes="" bgcolor="16761024" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Outcome" baseStereotypes="ArchiMate3::ArchiMate_Outcome VL_ObjectCommonAttributes" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Motivation_UMLProfile::VL_Realization" constraint="VL_Motivation_UMLProfile::VL_Goal"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Value" metatype="VL_Value" notes="" bgcolor="16761024" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Value" baseStereotypes="ArchiMate3::ArchiMate_Value VL_ObjectCommonAttributes" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Motivation_UMLProfile::VL_Influence" constraint="VL_Motivation_UMLProfile::VL_Driver;VL_Motivation_UMLProfile::VL_Value"/>
+							<stereotypedrelationship stereotype="VL_Motivation_UMLProfile::VL_Composition" constraint="VL_Motivation_UMLProfile::VL_Value"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Stakeholder" metatype="VL_Stakeholder" notes="" bgcolor="16761024" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Stakeholder" baseStereotypes="ArchiMate3::ArchiMate_Stakeholder VL_ObjectCommonAttributes" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Motivation_UMLProfile::VL_Association" constraint="VL_Motivation_UMLProfile::VL_Goal;VL_Motivation_UMLProfile::VL_Value"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Assessment" metatype="VL_Assessment" notes="" bgcolor="16761024" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Assessment" baseStereotypes="ArchiMate3::ArchiMate_Assessment VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Goal" metatype="VL_Goal" notes="" bgcolor="16761024" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Goal" baseStereotypes="ArchiMate3::ArchiMate_Goal VL_ObjectCommonAttributes" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Motivation_UMLProfile::VL_Influence" constraint="VL_Motivation_UMLProfile::VL_Driver;VL_Motivation_UMLProfile::VL_Value"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Principle" metatype="VL_Principle" notes="" bgcolor="16761024" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Principle" baseStereotypes="ArchiMate3::ArchiMate_Principle VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_ObjectCommonAttributes" metatype="VL_ObjectCommonAttributes" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" strictness="profile">
+						<TaggedValues>
+							<Tag name="ShortDescription_F" type="String" description="Description courte en français." unit="" values="" default=""/>
+							<Tag name="ShortDescription_E" type="String" description="Short description in english" unit="" values="" default=""/>
+							<Tag name="LongDescription_F" type="" description="Description longue en français." unit="" values="" default="&lt;memo&gt;"/>
+							<Tag name="LongDescription_E" type="" description="Long description in english." unit="" values="" default="&lt;memo&gt;"/>
+							<Tag name="ModificationStatus" type="enumeration" description="" unit="" values="Existing,New,Modified,Withdrawn,_" default="_"/>
+						</TaggedValues>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+		<UMLProfile profiletype="uml2">
+			<Documentation id="FEB460FA-A" name="VL_Strategy_UMLProfile" version="02" notes="UML profile aimed to build Strategy level objects in Videotron"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="VL_Capability" metatype="VL_Capability" notes="" bgcolor="8438015" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::Archimate_Capability" baseStereotypes="ArchiMate3::Archimate_Capability VL_ObjectCommonAttributes" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Strategy_UMLProfile::VL_Serving" constraint="VL_Strategy_UMLProfile::VL_Capability;VL_Strategy_UMLProfile::VL_CourseOfAction"/>
+							<stereotypedrelationship stereotype="VL_Strategy_UMLProfile::VL_Flow" constraint="VL_Strategy_UMLProfile::VL_Capability"/>
+							<stereotypedrelationship stereotype="VL_Strategy_UMLProfile::VL_Composition" constraint="VL_Strategy_UMLProfile::VL_Capability"/>
+							<stereotypedrelationship stereotype="VL_MDGTechnology_V02::VL_Realization" constraint="VL_Strategy_UMLProfile::VL_CourseOfAction"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="CapabilityId" type="string" description="" unit="" values="" default=""/>
+							<Tag name="Position" type="string" description="" unit="" values="" default=""/>
+							<Tag name="CapabilityName-FR" type="string" description="" unit="" values="" default=""/>
+							<Tag name="CapabilityName-EN" type="string" description="" unit="" values="" default=""/>
+							<Tag name="StrategicImportance" type="enumeration" description="" unit="" values="0-NA,1-Low,2-Medium,3-High,4-Critical" default=""/>
+							<Tag name="RequiredTransformation" type="enumeration" description="" unit="" values="0-NA,1-Low,2-Medium,3-High,4-Critical" default=""/>
+							<Tag name="OperationalCriticality" type="enumeration" description="" unit="" values="0-NA,1-Low,2-Medium,3-High,4- Very High" default=""/>
+							<Tag name="CoreIndicator" type="enumeration" description="" unit="" values="0-NA,1-Low,2-Medium,3-High,4-Critical" default=""/>
+							<Tag name="Population" type="enumeration" description="" unit="" values="0-NA,1-Low,2-Medium,3-High,4-Critical" default=""/>
+							<Tag name="DifferentiatingDegree" type="enumeration" description="" unit="" values="0-NA,1-Commodity,2-Differentiating" default=""/>
+							<Tag name="ProcessMaturity" type="enumeration" description="" unit="" values="0-NA,1-Ad Hoc,2-Disciplined,3-Defined,4-Mature,5-Optimized" default=""/>
+							<Tag name="DerivedStrategicCapability" type="enumeration" description="" unit="" values="0-NA,1-Low,2-Medium,3-High,4-Critical" default=""/>
+							<Tag name="ITContribution" type="enumeration" description="" unit="" values="0-NA,1-Low,2-Medium,3-High,4-Critical" default=""/>
+							<Tag name="DerivedStrategicCapabilityIT" type="enumeration" description="" unit="" values="0-NA,1-Low,2-Medium,3-High,4-Critical" default=""/>
+							<Tag name="BIA" type="int" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="VL_CourseOfAction" metatype="VL_CourseOfAction" notes="" bgcolor="8438015" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_CourseOfAction" baseStereotypes="ArchiMate3::ArchiMate_CourseOfAction VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_ObjectCommonAttributes" metatype="VL_ObjectCommonAttributes" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" strictness="profile">
+						<TaggedValues>
+							<Tag name="ShortDescription_F" type="String" description="Description courte en français." unit="" values="" default=""/>
+							<Tag name="ShortDescription_E" type="String" description="Short description in english" unit="" values="" default=""/>
+							<Tag name="LongDescription_F" type="" description="Description longue en français." unit="" values="" default="&lt;memo&gt;"/>
+							<Tag name="LongDescription_E" type="" description="Long description in english." unit="" values="" default="&lt;memo&gt;"/>
+							<Tag name="ModificationStatus" type="enumeration" description="" unit="" values="Existing,New,Modified,Withdrawn,_" default="_"/>
+						</TaggedValues>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+		<UMLProfile profiletype="uml2">
+			<Documentation id="59D2DD83-C" name="VL_Technology_UMLProfile" version="02" notes="VL_Technology_UMLProfile"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="VL_ObjectCommonAttributes" metatype="VL_ObjectCommonAttributes" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="ShortDescription_F" type="String" description="Description courte en français." unit="" values="" default=""/>
+							<Tag name="ShortDescription_E" type="String" description="Short description in english" unit="" values="" default=""/>
+							<Tag name="LongDescription_F" type="" description="Description longue en français." unit="" values="" default="&lt;memo&gt;"/>
+							<Tag name="LongDescription_E" type="" description="Long description in english." unit="" values="" default="&lt;memo&gt;"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="VL_PhysicalDatastore" metatype="VL_PhysicalDatastore" notes="" bgcolor="12648384" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="VL_Artifact" baseStereotypes="VL_Artifact VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_System" metatype="VL_System" notes="" bgcolor="12648384" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_SystemSoftware" baseStereotypes="ArchiMate3::ArchiMate_SystemSoftware VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="ArchitectureScalability" type="int" description="Rating on the architecture capabilities." unit="" values="" default=""/>
+							<Tag name="Acronym" type="String" description="A surname of code that uniquely identify the system. " unit="" values="" default=""/>
+							<Tag name="AssetCommonName" type="String" description="Name generaly used. " unit="" values="" default=""/>
+							<Tag name="AssignedArchitect" type="String" description="Name of the System Architect in charge of the system." unit="" values="" default=""/>
+							<Tag name="Classification" type="enumeration" description="Main classification of the role of the system. &#xA;Values: CF,NF,BF,TOOL,MiddleWare" unit="" values="CF,NF,BF,TOOL,MiddleWare" default=""/>
+							<Tag name="FunctionalQuality" type="int" description="Rating of the functionnal qualitiy." unit="" values="" default=""/>
+							<Tag name="GlobalEvolution" type="int" description="Global Rating on the capacity of the system to evolve" unit="" values="" default=""/>
+							<Tag name="Grouping" type="String" description="Keyword to group a set of systems to a topic or top level system identifier. For example: SAP for each modules or subsystems integrated with." unit="" values="" default=""/>
+							<Tag name="HostingType" type="VL_HostingTypeChoice" description="Identify how the System is hosted:&#xA;Values: INT, EXT, SaaS, PaaS, IaaS, DaaS " unit="" values="INT,EXT,SaaS,PaaS,IaaS,DaaS" default=""/>
+							<Tag name="MainBusinessUnit" type="enumeration" description="Name of the main business  unit or top level organization entity that uses or depends on the system." unit="" values="Affaires,ING Dev App,ING Marcel Kabongo,ING Mourad,ING SGR,ING Systèmes IP&amp;_c_^ Serveurs et Stockage,ING Tel IP,ING Video,SuperClub" default=""/>
+							<Tag name="OperationCriticality" type="int" description="" unit="" values="" default=""/>
+							<Tag name="Owner_TechnicalSector" type="VL_TechnicalSectorChoice" description="Top Technical entity that owns the system or technology. It usually identifies the Vice-presidency." unit="" values="" default=""/>
+							<Tag name="Recommendation" type="VL_SystemRecommendationChoice" description="" unit="" values="" default=""/>
+							<Tag name="RecommendedAction_3years" type="String" description="" unit="" values="" default=""/>
+							<Tag name="RecommendedAction_Current" type="String" description="" unit="" values="" default=""/>
+							<Tag name="RecommendedAction_Target" type="String" description="" unit="" values="" default=""/>
+							<Tag name="Responsible_Operations" type="String" description="Name of the group or individual responsible for operating the system." unit="" values="" default=""/>
+							<Tag name="Security" type="int" description="Rating of the Security compliance." unit="" values="" default=""/>
+							<Tag name="StandardLifeCycle" type="int" description="" unit="" values="" default=""/>
+							<Tag name="Supplier" type="String" description="Name or identification of the system's supplier. (IBM, Oracle, ...) " unit="" values="" default=""/>
+							<Tag name="TechnicalOwner_Software" type="String" description="Name of the group or individual that is responsaible for the system's software." unit="" values="" default=""/>
+							<Tag name="TechnicalOwner_Software_Comments" type="" description="Comments registered by the Technical Software Owner. This is usually notes or supplemental information about the system." unit="" values="" default="&lt;memo&gt;"/>
+							<Tag name="TechnicalQuality_Infra" type="int" description="Rating of the technical infrastructure quality." unit="" values="" default=""/>
+							<Tag name="TechnicalQuality_Software" type="int" description="" unit="" values="" default=""/>
+							<Tag name="Tier" type="VL_TierChoice" description="Capacity classification." unit="" values="" default=""/>
+							<Tag name="VersionType" type="VL_VersionTypeChoice" description="" unit="" values="" default=""/>
+							<Tag name="VL_CMDB_Ref" type="String" description="GUID of  CMDB reference when available." unit="" values="" default=""/>
+							<Tag name="VL_UID" type="String" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="VL_Artifact" metatype="VL_Artifact" notes="" bgcolor="12648384" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Artifact" baseStereotypes="ArchiMate3::ArchiMate_Artifact VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_CommunicationNetwork" metatype="VL_Artifact" notes="" bgcolor="12648384" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_CommunicationNetwork" baseStereotypes="ArchiMate3::ArchiMate_CommunicationNetwork VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Device" metatype="VL_Artifact" notes="" bgcolor="12648384" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Device" baseStereotypes="ArchiMate3::ArchiMate_Device VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Node" metatype="VL_Node" notes="" bgcolor="12648384" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Node" baseStereotypes="ArchiMate3::ArchiMate_Node VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_Path" metatype="VL_PhysicalDatastore" notes="" bgcolor="12648384" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Path" baseStereotypes="ArchiMate3::ArchiMate_Path VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_TechnologyCollaboration" metatype="VL_TechnologyCollaboration" notes="" bgcolor="12648384" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_TechnologyCollaboration" baseStereotypes="ArchiMate3::ArchiMate_TechnologyCollaboration VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_TechnologyEvent" metatype="VL_TechnologyEvent" notes="" bgcolor="12648384" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_TechnologyEvent" baseStereotypes="ArchiMate3::ArchiMate_TechnologyEvent VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isActive" value=""/>
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_TechnologyFunction" metatype="VL_Function" notes="" bgcolor="12648384" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_TechnologyFunction" baseStereotypes="ArchiMate3::ArchiMate_TechnologyFunction VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isActive" value=""/>
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_TechnologyInteraction" metatype="VL_TechnologyInterface" notes="" bgcolor="12648384" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_TechnologyInteraction" baseStereotypes="ArchiMate3::ArchiMate_TechnologyInteraction VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isActive" value=""/>
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_TechnologyInterface" metatype="VL_Artifact" notes="" bgcolor="12648384" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_TechnologyInterface" baseStereotypes="ArchiMate3::ArchiMate_TechnologyInterface VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Interface">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_TechnologyObject" metatype="VL_TechnologyObject" notes="" bgcolor="12648384" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_TechnologyObject" baseStereotypes="ArchiMate3::ArchiMate_TechnologyObject VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_TechnologyProcess" metatype="VL_TechnologyProcess" notes="" bgcolor="12648384" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_TechnologyProcess" baseStereotypes="ArchiMate3::ArchiMate_TechnologyProcess VL_ObjectCommonAttributes" strictness="profile">
+						<AppliesTo>
+							<Apply type="Interface">
+								<Property name="isActive" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_TechnologyService" metatype="VL_TechnologyService" notes="" bgcolor="12648384" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_TechnologyService" baseStereotypes="ArchiMate3::ArchiMate_TechnologyService VL_ObjectCommonAttributes" strictness="profile">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="VL_Technology_UMLProfile::VL_Composition" constraint="VL_Technology_UMLProfile::VL_TechnologyService"/>
+							<stereotypedrelationship stereotype="VL_Technology_UMLProfile::VL_Aggregation" constraint="VL_Technology_UMLProfile::VL_TechnologyService"/>
+							<stereotypedrelationship stereotype="VL_Technology_UMLProfile::VL_Specialization" constraint="VL_Technology_UMLProfile::VL_TechnologyService"/>
+							<stereotypedrelationship stereotype="VL_Technology_UMLProfile::VL_Triggering" constraint="VL_Technology_UMLProfile::VL_TechnologyService"/>
+							<stereotypedrelationship stereotype="VL_Technology_UMLProfile::VL_Flow" constraint="VL_Technology_UMLProfile::VL_TechnologyService"/>
+						</stereotypedrelationships>
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isActive" value=""/>
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="VL_DataManagementService" metatype="VL_DataManagementService" notes="" bgcolor="12648384" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_TechnologyService" baseStereotypes="ArchiMate3::ArchiMate_TechnologyService VL_ObjectCommonAttributes VL_TechnologyService" strictness="profile">
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isActive" value=""/>
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+								<Property name="_HideUmlLinks" value="True"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+	</UMLProfiles><Images><RefData version="1.0" exporter="EA.25">
+			<DataSet name="Model Images" table="t_image" filter="Name='#Name#'" stoplist=";ImageID;"/></RefData></Images><DiagramProfile><UMLProfile profiletype="uml2">
+			<Documentation id="B7937673-9" name="VL_DiagramProfile" version="02" notes="VL_DiagramProfile"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Videotron" notes="Diagram type used in Videotron" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Diagram_Custom">
+								<Property name="toolbox" value="VL_ToolboxProfile"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+	</DiagramProfile><UIToolboxes><UMLProfile profiletype="uml2">
+			<Documentation id="D99D1045-A" name="VL_ToolboxProfile" version="02" notes="Overall Videotron Toolbox profile"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Application" notes="Toolbox required to build Application level Diagrams in Videotron" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+							<Tag name="VL_Application_UMLProfile::VL_ApplicationCollaboration(UML::Class)" type="" description="" unit="" values="" default="AppCollaboration"/>
+							<Tag name="VL_Application_UMLProfile::VL_ApplicationComponent(UML::Component)" type="" description="" unit="" values="" default="AppComponent"/>
+							<Tag name="VL_Application_UMLProfile::VL_ApplicationFunction(UML::Activity)" type="" description="" unit="" values="" default="AppFunction"/>
+							<Tag name="VL_Application_UMLProfile::VL_ApplicationInteraction(UML::Activity)" type="" description="" unit="" values="" default="AppInteraction"/>
+							<Tag name="VL_Application_UMLProfile::VL_ApplicationInterface(UML::Interface)" type="" description="" unit="" values="" default="AppInterface"/>
+							<Tag name="VL_Application_UMLProfile::VL_ApplicationProcess(UML::Activity)" type="" description="" unit="" values="" default="AppProcess"/>
+							<Tag name="VL_Application_UMLProfile::VL_ApplicationService(UML::Activity)" type="" description="" unit="" values="" default="AppService"/>
+							<Tag name="VL_Application_UMLProfile::VL_LogicalDatastore(UML::Class)" type="" description="" unit="" values="" default="LogicalDataStore"/>
+							<Tag name="VL_Application_UMLProfile::VL_TMF_Application(UML::Component)" type="" description="" unit="" values="" default="TMF_Application"/>
+							<Tag name="VL_Application_UMLProfile::VL_TMF_Function(UML::Activity)" type="" description="" unit="" values="" default="TMF_Function"/>
+							<Tag name="VL_Application_UMLProfile::VL_TMF_OpenApi(UML::Interface)" type="" description="" unit="" values="" default="OpenAPI"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="Business" notes="Toolbox used to create Business level Diagrams in Videotron" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+							<Tag name="VL_Business_UMLProfile::VL_BusinessActor(UML::Class)" type="" description="" unit="" values="" default="BusinessActor"/>
+							<Tag name="VL_Business_UMLProfile::VL_BusinessProcess(UML::Activity)" type="" description="" unit="" values="" default="BusinessProcess"/>
+							<Tag name="VL_Business_UMLProfile::VL_BusinessStream(UML::Activity)" type="" description="" unit="" values="" default="BusinessStream"/>
+							<Tag name="VL_Business_UMLProfile::VL_eTomProcess(UML::Activity)" type="" description="" unit="" values="" default="eTomProcess"/>
+							<Tag name="VL_Business_UMLProfile::VL_Organization(UML::Class)" type="" description="" unit="" values="" default="Organization"/>
+							<Tag name="VL_Business_UMLProfile::VL_Product(UML::Class)" type="" description="" unit="" values="" default="Product"/>
+							<Tag name="VL_Business_UMLProfile::VL_Representation(UML::Class)" type="" description="" unit="" values="" default="Representation"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="Data" notes="Toolbox used to build Data Diagrams in Videotron" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+							<Tag name="VL_Data_UMLProfile::VL_DataObject(UML::Class)" type="" description="" unit="" values="" default="DataObject"/>
+							<Tag name="VL_Data_UMLProfile::VL_LogicalDatastore(UML::Class)" type="" description="" unit="" values="" default="LogicalDataStore"/>
+							<Tag name="VL_Data_UMLProfile::VL_TMF_ABE(UML::Class)" type="" description="" unit="" values="" default="ABE"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="Impl-Migration" notes="Toolbox required to build Impl-Migration Diagrams in Videotron" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+							<Tag name="VL_Impl-Migr_UMLProfile::VL_Plateau(UML::Class)" type="" description="" unit="" values="" default="Plateau"/>
+							<Tag name="VL_Impl-Migr_UMLProfile::VL_Gap(UML::Class)" type="" description="" unit="" values="" default="Gap"/>
+							<Tag name="VL_Impl-Migr_UMLProfile::VL_Deliverable(UML::Class)" type="" description="" unit="" values="" default="Deliverable"/>
+							<Tag name="VL_Impl-Migr_UMLProfile::VL_WorkPackage(UML::Class)" type="" description="" unit="" values="" default="WorkPackage"/>
+							<Tag name="VL_Impl-Migr_UMLProfile::VL_ImplementationEvent(UML::Activity)" type="" description="" unit="" values="" default="ImplEvent"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="Motivation" notes="Motivation objects used in Videotron" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+							<Tag name="VL_Motivation_UMLProfile::VL_BusinessRequirement(UML::Requirement)" type="" description="" unit="" values="" default="BzRequirement"/>
+							<Tag name="VL_Motivation_UMLProfile::VL_Constraint(UML::Requirement)" type="" description="" unit="" values="" default="Constraint"/>
+							<Tag name="VL_Motivation_UMLProfile::VL_Driver(UML::Class)" type="" description="" unit="" values="" default="Driver"/>
+							<Tag name="VL_Motivation_UMLProfile::VL_FunctionalRequirement(UML::Requirement)" type="" description="" unit="" values="" default="FnctRequirement"/>
+							<Tag name="VL_Motivation_UMLProfile::VL_Goal(UML::Class)" type="" description="" unit="" values="" default="Goal"/>
+							<Tag name="VL_Motivation_UMLProfile::VL_Outcome(UML::Class)" type="" description="" unit="" values="" default="Outcome"/>
+							<Tag name="VL_Motivation_UMLProfile::VL_Stakeholder(UML::Class)" type="" description="" unit="" values="" default="StakeHolder"/>
+							<Tag name="VL_Motivation_UMLProfile::VL_Value(UML::Class)" type="" description="" unit="" values="" default="Value"/>
+							<Tag name="VL_Strategy_UMLProfile::VL_Capability(UML::Class)" type="" description="" unit="" values="" default="Capability"/>
+							<Tag name="VL_Strategy_UMLProfile::VL_CourseOfAction(UML::Class)" type="" description="" unit="" values="" default="CourseOfAction"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="Technology" notes="Toolbox used to build Technology level Diagrams in Videotron" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="isCollapsed" type="" description="" unit="" values="" default="true"/>
+							<Tag name="VL_Technology_UMLProfile::VL_Artifact(UML::Class)" type="" description="" unit="" values="" default="Artifact"/>
+							<Tag name="VL_Technology_UMLProfile::VL_CommunicationNetwork(UML::Class)" type="" description="" unit="" values="" default="Network"/>
+							<Tag name="VL_Technology_UMLProfile::VL_DataManagementService(UML::Activity)" type="" description="" unit="" values="" default="DataMgtSvc"/>
+							<Tag name="VL_Technology_UMLProfile::VL_Node(UML::Class)" type="" description="" unit="" values="" default="Node"/>
+							<Tag name="VL_Technology_UMLProfile::VL_System(UML::Class)" type="" description="" unit="" values="" default="System"/>
+							<Tag name="VL_Technology_UMLProfile::VL_TechnologyService(UML::Activity)" type="" description="" unit="" values="" default="TechnologySvc"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="VL_Relations" notes="Relationships used in Videotron" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="VL_Connectors_UMLProfile::VL_Access(UML::Dependency)" type="" description="" unit="" values="" default="Access"/>
+							<Tag name="VL_Connectors_UMLProfile::VL_Aggregation(UML::Aggregation)" type="" description="" unit="" values="" default="Aggregation"/>
+							<Tag name="VL_Connectors_UMLProfile::VL_Assignment(UML::Association)" type="" description="" unit="" values="" default="Assignment"/>
+							<Tag name="VL_Connectors_UMLProfile::VL_Association(UML::Association)" type="" description="" unit="" values="" default="Association"/>
+							<Tag name="VL_Connectors_UMLProfile::VL_CapabilityImpact(UML::Association)" type="" description="" unit="" values="" default="CapabilityImpact"/>
+							<Tag name="VL_Connectors_UMLProfile::VL_Composition(UML::Composition)" type="" description="" unit="" values="" default="Composition"/>
+							<Tag name="VL_Connectors_UMLProfile::VL_Flow(UML::ControlFlow)" type="" description="" unit="" values="" default="Flow"/>
+							<Tag name="VL_Connectors_UMLProfile::VL_Impact(UML::Association)" type="" description="" unit="" values="" default="Impact"/>
+							<Tag name="VL_Connectors_UMLProfile::VL_Influence(UML::ControlFlow)" type="" description="" unit="" values="" default="Influence"/>
+							<Tag name="VL_Connectors_UMLProfile::VL_InitiativeImpact(UML::Association)" type="" description="" unit="" values="" default="InitiativeImpact"/>
+							<Tag name="VL_Connectors_UMLProfile::VL_Realization(UML::Dependency)" type="" description="" unit="" values="" default="Realization"/>
+							<Tag name="VL_Connectors_UMLProfile::VL_Serving(UML::Association)" type="" description="" unit="" values="" default="Serving"/>
+							<Tag name="VL_Connectors_UMLProfile::VL_Specialization(UML::Generalization)" type="" description="" unit="" values="" default="Specialization"/>
+							<Tag name="VL_Connectors_UMLProfile::VL_Trace(UML::Dependency)" type="" description="" unit="" values="" default="Trace"/>
+							<Tag name="VL_Connectors_UMLProfile::VL_Triggering(UML::ControlFlow)" type="" description="" unit="" values="" default="Triggering"/>
+						</TaggedValues>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+	</UIToolboxes><Scripts><Script name="EnableVideotronToolboxForDiagram" type="normal" language="JScript" guid="{9111F3EC-AC53-4026-892E-34E1AF59DFD9}"><Content xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">IQBJAE4AQwAgAEwAbwBjAGEAbAAgAFMAYwByAGkAcAB0AHMALgBFAEEAQwBvAG4AcwB0AGEA
+bgB0AHMALQBKAFMAYwByAGkAcAB0AA0ACgANAAoALwAqAA0ACgAgACoAIABUAGgAaQBzACAA
+YwBvAGQAZQAgAGgAYQBzACAAYgBlAGUAbgAgAGkAbgBjAGwAdQBkAGUAZAAgAGYAcgBvAG0A
+IAB0AGgAZQAgAGQAZQBmAGEAdQBsAHQAIABQAHIAbwBqAGUAYwB0ACAAQgByAG8AdwBzAGUA
+cgAgAHQAZQBtAHAAbABhAHQAZQAuAA0ACgAgACoAIABJAGYAIAB5AG8AdQAgAHcAaQBzAGgA
+IAB0AG8AIABtAG8AZABpAGYAeQAgAHQAaABpAHMAIAB0AGUAbQBwAGwAYQB0AGUALAAgAGkA
+dAAgAGkAcwAgAGwAbwBjAGEAdABlAGQAIABpAG4AIAB0AGgAZQAgAEMAbwBuAGYAaQBnAFwA
+UwBjAHIAaQBwAHQAIABUAGUAbQBwAGwAYQB0AGUAcwANAAoAIAAqACAAZABpAHIAZQBjAHQA
+bwByAHkAIABvAGYAIAB5AG8AdQByACAARQBBACAAaQBuAHMAdABhAGwAbAAgAHAAYQB0AGgA
+LgAgACAAIAANAAoAIAAqACAADQAKACAAKgAgAFMAYwByAGkAcAB0ACAATgBhAG0AZQA6ACAA
+RQBuAGEAYgBsAGUAVgBpAGQAZQBvAHQAcgBvAG4AVABvAG8AbABiAG8AeABGAG8AcgBEAGkA
+YQBnAHIAYQBtAA0ACgAgACoAIABBAHUAdABoAG8AcgA6ACAAWQB2AGUAcwAgAEMAYQByAHIA
+aQBlAHIADQAKACAAKgAgAFAAdQByAHAAbwBzAGUAOgAgAFQAbwAgAGMAaABhAG4AZwBlACAA
+dABoAGUAIAB0AHkAcABlACAAbwBmACAAYQAgAEQAaQBhAGcAcgBhAG0AIABpAG4AIABvAHIA
+ZABlAHIAIAB0AG8AIABjAGgAYQBuAGcAZQAgAHQAaABlACAAVABvAG8AbABiAG8AeAAgAGEA
+cwBzAG8AYwBpAGEAdABlAGQAIAB0AG8AIABpAHQALgANAAoAIAAqACAARABhAHQAZQA6AA0A
+CgAgACoALwANAAoADQAKAC8AKgANAAoAIAAqACAAUAByAG8AagBlAGMAdAAgAEIAcgBvAHcA
+cwBlAHIAIABTAGMAcgBpAHAAdAAgAG0AYQBpAG4AIABmAHUAbgBjAHQAaQBvAG4ADQAKACAA
+KgAvAA0ACgBmAHUAbgBjAHQAaQBvAG4AIABPAG4AUAByAG8AagBlAGMAdABCAHIAbwB3AHMA
+ZQByAFMAYwByAGkAcAB0ACgAKQANAAoAewANAAoACQAvAC8AIABHAGUAdAAgAHQAaABlACAA
+dAB5AHAAZQAgAG8AZgAgAGUAbABlAG0AZQBuAHQAIABzAGUAbABlAGMAdABlAGQAIABpAG4A
+IAB0AGgAZQAgAFAAcgBvAGoAZQBjAHQAIABCAHIAbwB3AHMAZQByAA0ACgAJAHYAYQByACAA
+dAByAGUAZQBTAGUAbABlAGMAdABlAGQAVAB5AHAAZQAgAD0AIABSAGUAcABvAHMAaQB0AG8A
+cgB5AC4ARwBlAHQAVAByAGUAZQBTAGUAbABlAGMAdABlAGQASQB0AGUAbQBUAHkAcABlACgA
+KQA7AA0ACgAJAA0ACgAJAC8ALwAgAEgAYQBuAGQAbABpAG4AZwAgAEMAbwBkAGUAOgAgAFUA
+bgBjAG8AbQBtAGUAbgB0ACAAYQBuAHkAIAB0AHkAcABlAHMAIAB5AG8AdQAgAHcAaQBzAGgA
+IAB0AGgAaQBzACAAcwBjAHIAaQBwAHQAIAB0AG8AIABzAHUAcABwAG8AcgB0AA0ACgAJAC8A
+LwAgAE4ATwBUAEUAOgAgAFkAbwB1ACAAYwBhAG4AIAB0AG8AZwBnAGwAZQAgAGMAbwBtAG0A
+ZQBuAHQAcwAgAG8AbgAgAG0AdQBsAHQAaQBwAGwAZQAgAGwAaQBuAGUAcwAgAHQAaABhAHQA
+IABhAHIAZQAgAGMAdQByAHIAZQBuAHQAbAB5AA0ACgAJAC8ALwAgAHMAZQBsAGUAYwB0AGUA
+ZAAgAHcAaQB0AGgAIABbAEMAVABSAEwAXQArAFsAUwBIAEkARgBUAF0AKwBbAEMAXQAuAA0A
+CgAJAHMAdwBpAHQAYwBoACAAKAAgAHQAcgBlAGUAUwBlAGwAZQBjAHQAZQBkAFQAeQBwAGUA
+IAApAA0ACgAJAHsADQAKAC8ALwAJAAkAYwBhAHMAZQAgAG8AdABFAGwAZQBtAGUAbgB0ACAA
+OgANAAoALwAvAAkACQB7AA0ACgAvAC8ACQAJAAkALwAvACAAQwBvAGQAZQAgAGYAbwByACAA
+dwBoAGUAbgAgAGEAbgAgAGUAbABlAG0AZQBuAHQAIABpAHMAIABzAGUAbABlAGMAdABlAGQA
+DQAKAC8ALwAJAAkACQB2AGEAcgAgAHQAaABlAEUAbABlAG0AZQBuAHQAIABhAHMAIABFAEEA
+LgBFAGwAZQBtAGUAbgB0ADsADQAKAC8ALwAJAAkACQB0AGgAZQBFAGwAZQBtAGUAbgB0ACAA
+PQAgAFIAZQBwAG8AcwBpAHQAbwByAHkALgBHAGUAdABUAHIAZQBlAFMAZQBsAGUAYwB0AGUA
+ZABPAGIAagBlAGMAdAAoACkAOwANAAoALwAvAAkACQAJAAkACQAJAA0ACgAvAC8ACQAJAAkA
+YgByAGUAYQBrADsADQAKAC8ALwAJAAkAfQANAAoALwAvAAkACQBjAGEAcwBlACAAbwB0AFAA
+YQBjAGsAYQBnAGUAIAA6AA0ACgAvAC8ACQAJAHsADQAKAC8ALwAJAAkACQAvAC8AIABDAG8A
+ZABlACAAZgBvAHIAIAB3AGgAZQBuACAAYQAgAHAAYQBjAGsAYQBnAGUAIABpAHMAIABzAGUA
+bABlAGMAdABlAGQADQAKAC8ALwAJAAkACQB2AGEAcgAgAHQAaABlAFAAYQBjAGsAYQBnAGUA
+IABhAHMAIABFAEEALgBQAGEAYwBrAGEAZwBlADsADQAKAC8ALwAJAAkACQB0AGgAZQBQAGEA
+YwBrAGEAZwBlACAAPQAgAFIAZQBwAG8AcwBpAHQAbwByAHkALgBHAGUAdABUAHIAZQBlAFMA
+ZQBsAGUAYwB0AGUAZABPAGIAagBlAGMAdAAoACkAOwANAAoALwAvAAkACQAJAA0ACgAvAC8A
+CQAJAAkAYgByAGUAYQBrADsADQAKAC8ALwAJAAkAfQANAAoACQAJAGMAYQBzAGUAIABvAHQA
+RABpAGEAZwByAGEAbQAgADoADQAKAAkACQB7AA0ACgAJAAkACQAvAC8AIABDAG8AZABlACAA
+ZgBvAHIAIAB3AGgAZQBuACAAYQAgAGQAaQBhAGcAcgBhAG0AIABpAHMAIABzAGUAbABlAGMA
+dABlAGQADQAKAAkACQAJAHYAYQByACAAVABoAGkAcwBEAGkAYQBnAHIAYQBtACAAYQBzACAA
+RQBBAC4ARABpAGEAZwByAGEAbQA7AA0ACgAJAAkACQAJAAkADQAKAAkACQAJAHYAYQByACAA
+UgBlAGYAUwB0AHkAbABlAEUAeAAgAD0AIABSAGUAZgBEAGkAYQBnAHIAYQBtAC4AUwB0AHkA
+bABlAEUAeAA7AA0ACgAJAAkACQB2AGEAcgAgAFIAZQBmAEUAeAB0AGUAbgBkAGUAZABTAHQA
+eQBsAGUAIAA9ACAAUgBlAGYARABpAGEAZwByAGEAbQAuAEUAeAB0AGUAbgBkAGUAZABTAHQA
+eQBsAGUAOwANAAoACQAJAAkAdgBhAHIAIABSAGUAZgBNAGUAdABhAHQAeQBwAGUAIAA9ACAA
+UgBlAGYARABpAGEAZwByAGEAbQAuAE0AZQB0AGEAVAB5AHAAZQA7AA0ACgAJAAkACQB2AGEA
+cgAgAEMAdQByAHIAZQBuAHQAUABhAGMAawBhAGcAZQAgAGEAcwAgAEUAQQAuAFAAYQBjAGsA
+YQBnAGUAOwANAAoACQAJAAkADQAKAAkACQAJAFQAaABpAHMARABpAGEAZwByAGEAbQAgAD0A
+IABSAGUAcABvAHMAaQB0AG8AcgB5AC4ARwBlAHQAVAByAGUAZQBTAGUAbABlAGMAdABlAGQA
+TwBiAGoAZQBjAHQAKAApADsADQAKAAkACQAJAFMAZQBzAHMAaQBvAG4ALgBPAHUAdABwAHUA
+dAAoACIAVABoAGkAcwBEAGkAYQBnAHIAYQBtAC4ARQB4AHQAZQBuAGQAZQBkAFMAdAB5AGwA
+ZQA6ACAAIgAgACsAIABUAGgAaQBzAEQAaQBhAGcAcgBhAG0ALgBFAHgAdABlAG4AZABlAGQA
+UwB0AHkAbABlACkAOwANAAoACQAJAAkAUwBlAHMAcwBpAG8AbgAuAE8AdQB0AHAAdQB0ACgA
+IgBUAGgAaQBzAEQAaQBhAGcAcgBhAG0ALgBNAGUAdABhAFQAeQBwAGUAOgAgACIAIAArACAA
+VABoAGkAcwBEAGkAYQBnAHIAYQBtAC4ATQBlAHQAYQBUAHkAcABlACkAOwANAAoACQAJAAkA
+UwBlAHMAcwBpAG8AbgAuAE8AdQB0AHAAdQB0ACgAIgBUAGgAaQBzAEQAaQBhAGcAcgBhAG0A
+LgBPAGIAagBlAGMAdABUAHkAcABlADoAIAAiACAAKwAgAFQAaABpAHMARABpAGEAZwByAGEA
+bQAuAE8AYgBqAGUAYwB0AFQAeQBwAGUAKQA7AA0ACgAJAAkACQBTAGUAcwBzAGkAbwBuAC4A
+TwB1AHQAcAB1AHQAKAAiAFQAaABpAHMARABpAGEAZwByAGEAbQAuAFMAdABlAHIAZQBvAHQA
+eQBwAGUAOgAgACIAIAArACAAVABoAGkAcwBEAGkAYQBnAHIAYQBtAC4AUwB0AGUAcgBlAG8A
+dAB5AHAAZQApADsADQAKAAkACQAJAFMAZQBzAHMAaQBvAG4ALgBPAHUAdABwAHUAdAAoACIA
+VABoAGkAcwBEAGkAYQBnAHIAYQBtAC4AUwB0AHkAbABlAEUAeAA6ACAAIgAgACsAIABUAGgA
+aQBzAEQAaQBhAGcAcgBhAG0ALgBTAHQAeQBsAGUARQB4ACkAOwANAAoACQAJAAkAUwBlAHMA
+cwBpAG8AbgAuAE8AdQB0AHAAdQB0ACgAIgBUAGgAaQBzAEQAaQBhAGcAcgBhAG0ALgBUAHkA
+cABlADoAIAAiACAAKwAgAFQAaABpAHMARABpAGEAZwByAGEAbQAuAFQAeQBwAGUAKQA7AA0A
+CgAJAAkACQANAAoACQAJAAkAVABoAGkAcwBEAGkAYQBnAHIAYQBtAC4ATQBlAHQAYQBUAHkA
+cABlACAAPQAgAFIAZQBmAEQAaQBhAGcAcgBhAG0ALgBNAGUAdABhAFQAeQBwAGUAOwANAAoA
+CQAJAAkAVABoAGkAcwBEAGkAYQBnAHIAYQBtAC4AUwB0AHkAbABlAEUAeAAgAD0AIABSAGUA
+ZgBEAGkAYQBnAHIAYQBtAC4AUwB0AHkAbABlAEUAeAA7AA0ACgAJAAkACQBUAGgAaQBzAEQA
+aQBhAGcAcgBhAG0ALgBFAHgAdABlAG4AZABlAGQAUwB0AHkAbABlACAAPQAgAFIAZQBmAEQA
+aQBhAGcAcgBhAG0ALgBFAHgAdABlAG4AZABlAGQAUwB0AHkAbABlADsADQAKAAkACQAJAA0A
+CgAJAAkACQBUAGgAaQBzAEQAaQBhAGcAcgBhAG0ALgBVAHAAZABhAHQAZQAoACkAOwANAAoA
+CQAJAAkAUgBlAHAAbwBzAGkAdABvAHIAeQAuAFIAZQBsAG8AYQBkAEQAaQBhAGcAcgBhAG0A
+KABUAGgAaQBzAEQAaQBhAGcAcgBhAG0ALgBEAGkAYQBnAHIAYQBtAEkARAApADsADQAKAAkA
+CQAJAFIAZQBwAG8AcwBpAHQAbwByAHkALgBSAGUAbABvAGEAZABQAGEAYwBrAGEAZwBlACgA
+VABoAGkAcwBEAGkAYQBnAHIAYQBtAC4AUABhAGMAawBhAGcAZQBJAEQAKQA7AA0ACgAJAAkA
+CQANAAoACQAJAAkAUwBlAHMAcwBpAG8AbgAuAE8AdQB0AHAAdQB0ACgAIgBUAGgAaQBzAEQA
+aQBhAGcAcgBhAG0ALgBNAGUAdABhAFQAeQBwAGUAIABtAG8AZABpAGYAaQBlAGQAOgAgACIA
+IAArACAAVABoAGkAcwBEAGkAYQBnAHIAYQBtAC4ATQBlAHQAYQBUAHkAcABlACkAOwANAAoA
+CQAJAAkAUwBlAHMAcwBpAG8AbgAuAE8AdQB0AHAAdQB0ACgAIgBUAGgAaQBzAEQAaQBhAGcA
+cgBhAG0ALgBTAHQAeQBsAGUARQB4ACAAbQBvAGQAaQBmAGkAZQBkADoAIAAiACAAKwAgAFQA
+aABpAHMARABpAGEAZwByAGEAbQAuAFMAdAB5AGwAZQBFAHgAKQA7AA0ACgANAAoACQAJAAkA
+YgByAGUAYQBrADsADQAKAAkACQB9AA0ACgAvAC8ACQAJAGMAYQBzAGUAIABvAHQAQQB0AHQA
+cgBpAGIAdQB0AGUAIAA6AA0ACgAvAC8ACQAJAHsADQAKAC8ALwAJAAkACQAvAC8AIABDAG8A
+ZABlACAAZgBvAHIAIAB3AGgAZQBuACAAYQBuACAAYQB0AHQAcgBpAGIAdQB0AGUAIABpAHMA
+IABzAGUAbABlAGMAdABlAGQADQAKAC8ALwAJAAkACQB2AGEAcgAgAHQAaABlAEEAdAB0AHIA
+aQBiAHUAdABlACAAYQBzACAARQBBAC4AQQB0AHQAcgBpAGIAdQB0AGUAOwANAAoALwAvAAkA
+CQAJAHQAaABlAEEAdAB0AHIAaQBiAHUAdABlACAAPQAgAFIAZQBwAG8AcwBpAHQAbwByAHkA
+LgBHAGUAdABUAHIAZQBlAFMAZQBsAGUAYwB0AGUAZABPAGIAagBlAGMAdAAoACkAOwANAAoA
+LwAvAAkACQAJAA0ACgAvAC8ACQAJAAkAYgByAGUAYQBrADsADQAKAC8ALwAJAAkAfQANAAoA
+LwAvAAkACQBjAGEAcwBlACAAbwB0AE0AZQB0AGgAbwBkACAAOgANAAoALwAvAAkACQB7AA0A
+CgAvAC8ACQAJAAkALwAvACAAQwBvAGQAZQAgAGYAbwByACAAdwBoAGUAbgAgAGEAIABtAGUA
+dABoAG8AZAAgAGkAcwAgAHMAZQBsAGUAYwB0AGUAZAANAAoALwAvAAkACQAJAHYAYQByACAA
+dABoAGUATQBlAHQAaABvAGQAIABhAHMAIABFAEEALgBNAGUAdABoAG8AZAA7AA0ACgAvAC8A
+CQAJAAkAdABoAGUATQBlAHQAaABvAGQAIAA9ACAAUgBlAHAAbwBzAGkAdABvAHIAeQAuAEcA
+ZQB0AFQAcgBlAGUAUwBlAGwAZQBjAHQAZQBkAE8AYgBqAGUAYwB0ACgAKQA7AA0ACgAvAC8A
+CQAJAAkADQAKAC8ALwAJAAkACQBiAHIAZQBhAGsAOwANAAoALwAvAAkACQB9AA0ACgAJAAkA
+ZABlAGYAYQB1AGwAdAA6AA0ACgAJAAkAewANAAoACQAJAAkALwAvACAARQByAHIAbwByACAA
+bQBlAHMAcwBhAGcAZQANAAoACQAJAAkAUwBlAHMAcwBpAG8AbgAuAFAAcgBvAG0AcAB0ACgA
+IAAiAFQAaABpAHMAIABzAGMAcgBpAHAAdAAgAGQAbwBlAHMAIABuAG8AdAAgAHMAdQBwAHAA
+bwByAHQAIABpAHQAZQBtAHMAIABvAGYAIAB0AGgAaQBzACAAdAB5AHAAZQAuACIALAAgAHAA
+cgBvAG0AcAB0AE8ASwAgACkAOwANAAoACQAJAH0ADQAKAAkAfQANAAoAfQANAAoADQAKAA0A
+CgB2AGEAcgAgAFIAZQBmAEQAaQBhAGcAcgBhAG0AIABhAHMAIABFAEEALgBEAGkAYQBnAHIA
+YQBtADsADQAKAC8ALwBQAGEAdABoADoAIABWAGkAZABlAG8AdAByAG8AbgAuAEMAbwBtAG0A
+bwBuAC4AUgBlAGYARABpAGEAZwByAGEAbQBUAHkAcABlAC4AUgBlAGYARABpAGEAZwByAGEA
+bQBUAHkAcABlAA0ACgBSAGUAZgBEAGkAYQBnAHIAYQBtACAAPQAgAFIAZQBwAG8AcwBpAHQA
+bwByAHkALgBHAGUAdABEAGkAYQBnAHIAYQBtAEIAeQBHAHUAaQBkACgAIgB7ADkANQBEADYA
+QgA5ADUANQAtADUAQQA2AEUALQA0AGEAMQBkAC0AOAAxADYAOQAtADMAOABEAEUAMwA3AEIA
+NgAyADAAMgAzAH0AIgApADsAIAAvAC8AVABoAGkAcwAgAGwAaQBuAGUAIABtAHUAcwB0ACAA
+YgBlACAAYwBoAGEAbgBnAGUAZAAgAGYAbwByACAAYQAgAGQAaQBmAGYAZQByAGUAbgB0ACAA
+dABhAHIAZwBlAHQAIABkAGkAYQBnAHIAYQBtACAAdAB5AHAAZQANAAoATwBuAFAAcgBvAGoA
+ZQBjAHQAQgByAG8AdwBzAGUAcgBTAGMAcgBpAHAAdAAoACkAOwANAAoA</Content></Script></Scripts></MDG.Technology>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-16"?>
+<RefData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0" exporter="EA.25">
+  <DataSet name="Tagged Value Types" table="t_propertytypes" filter="Property='#Property#'">
+    <DataRow>
+      <Column name="Property" value="No Report Config Query" />
+      <Column name="Description" value="" />
+      <Column name="Notes" value="Type=ProlEaQuery; Default={&quot;ProfileId&quot;:&quot;f9acf508-a534-45ca-b914-e9ad4ec9122e&quot;,&quot;Query&quot;:&quot;&quot;}" />
+    </DataRow>
+  </DataSet>
+</RefData>

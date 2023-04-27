@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<MDG.Technology version="1.0"><Documentation id="TMF_AM3" name="TM Forum ArchiMate 3.0" version="1.5" notes="Extension of ArchiMate 3.0 for usage with TM Forum reference models.&#xA;- Release Date: 3 Jul 2019" infoURI="www.sparxsystems.us" supportURI="www.sparxsystems.us/support"/><Logo><Image type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02MAAAAAAAADYAAAAoAAAAQAAAAEAAAAABABgAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAA
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////7ezt7Ozs7ezt7ezs7ezs7Ovs7ezs7uzt7ezr7ezt7Ovs7uzt7uzt7evs
+7evs7evs7evs7uzt7uzt7uzt7evs7evs7uzt7uzt7evs7evs7uzt7evs7uzt7u3t7uzt7uvt
+7ezs7evs7u3t7ezs7ezt7Ovs7u3t7uzt7evs7evs7evs7ezt7uzt7uzt7ezs7evr7ezs7ezs
+7ezt7evt7ezs7ezs7ezt7uzt7ezs7ezs7ezs7ezs7uzt7Ozs7u3t////7ezs7ezs7evs7evs
+7Ovr7evs7ezs7evs7evs7Ovr7+3u7uvt7Orr7uzt7evs7Orr7evs7+3t7Orr7ezt7evs7evs
+7uzt7uzt7evs7evs7evs7uvt7evs7uzs7ezs7ers7ezs7uzt7ezs7uzt7Ovr7evs7u3t7evs
+7evs7Orr7uzt8vDx7Ovr6+rq8e/v8O7v7evs7evs7ezs7ezs7Ovr8O7u7Onr7evs7+7u7Ovr
+7evs8O7u6+nq7Ovs7ezs////7ezs7ezsmJaX2djY7+3u7uzt6OfnlpSW3t3e8fDw4N7flpWX
+m5mbxsXG8vDx7evs8/HysK6vube4qaep0c/P9fP0p6WmtLK09/T1x8bHp6Wn+Pb2oqCil5WX
+lpSWm5mb8fDw4uDhkY+Ry8rL8e/w8/HyqaepoqCi8fDw7uzt6unqrKusk5GTkpCSnJqd2dfY
+9PPzz83OnZue8e/v8/Hyvr2+oZ+hm5mb1NPT8e/w8/LytLK0pqSm8O/v7ezt////7uzt7ezt
+lZOV2NfY8O7v7e3t6Ofok5GT4N7f9vT1oqGivbu8ycfJn52f9vT08vDx7+3uko+S3t7eo6Gj
+0dDQ6efolJKUm5mb8vDxycfHpKKl+ff4m5mbysjJ6+rr5uXl8fDxy8nKk5GTsK6w9PPz7Ovr
+mJaYkpCS6ejo9fPzqKaooqCh6efn7+7uw8HCj42P6ejo0M7Qm5mb9PPz5+bmj4yP3t7ezs3N
+l5WX9fT0397fjouO4uHh7u3t7ezt////7ezt7uztl5WW2tnZ8vDx8O7v6efolZOV4eDg0M7P
+m5ib8fDw6unolZOVnZudm5mbnJqcnJqb9/b2o6Gi1dPTx8XHs7Gyrqyu1NPUzMrLpaOl+ff4
+m5mb0tDR+Pf39PHz9PHyrayuuri6l5WX9fT01tXWpaOlpKKk0tDR7OvrjIqM4N7f8e/w7uzt
+9PPznpudx8XH1NLTnJqd9fT0qaiqubi59PLz8/Lyp6Smvry9o6GjwsDB8/Hy7ers7uzt////
+7uzt7uztmpialpSWlpSWk5GT6+nrmpialpSWjYuOp6Sm7e3t9vT1qaepuLa46unpqqiqu7q7
++vn5oqCh2dbWoqCi19XX0tHRraqsz83OpaOl+ff4n52fp6Wnsa+xrKms9fT0lpOW3NzcoJ2f
+393eu7m7v76/u7m7uLa34d/gkY+R6+np7uzt6+vr9fLzq6mrubi619XWkpCSlZOWjIqMw8HC
+8/Hx7u7u6OfokY+SpKKj8/Lz7evs7err7ezs////7u3t7uztl5WW1NPT6efo5uXm6ejolZOV
+393e8fDvrKusrqyt9fT00M/QnZud9fT0lJKU4+Hh9vX1o6GjyMjImZeZ7+7u7ezrmpiaxsXF
+pqSm+ff4nZudtrS1y8nKzMrM4uHhk5GT8fDxt7W2wcDBnpye3t3d1tXWnJqc4+Ljj4yP6Ojn
+7uzt7ers9fP0paSlvry91dPUnJqd8/Hx5uTlk5GT0c/Q9PLz2tnZlJKVmpia7Ovr7uzt7Orr
+7ezt////7uzt7uztlpSV3t3d9/X29fP06unplJKU5OPj+/n6xMPEn5yf8vDw7ezsmJaYx8XG
+npye9PLz9fL0pqSlp6WntbO08/Hy8/Hysa+xqaeoqaep+ff4m5mb09HS+/r6+/j6xcTFpKKk
+9fT009HSnJqcnZud8O/v6efnk5GT5+Xmk5CTyMbG9/X29PLz6unpkY+R1tTU0tHSnZud+ff3
++ff3oJ6gw8LC9fPzmZeZzczNt7a3r62u8/Ly7Ovr7ezs////7+zu7uztlZOUrKqstbS1srCy
+397flJKUrq2usbCxkI2QxcTF8e/v9PHzuLa3jImMx8XG8fDw8/PypaOkjImM2djY8O7v7+7v
+2tnZi4mMpqSm+ff4mpiap6WntbS1uLW3paOlvbu88/Hy7OvrjYuOq6mr9PPz9PPzl5aYzs3O
+0M7PjYuNtLKzvry9l5WXqqip9fT0z83OkY+Rt7W2p6WnkpCS5eTlt7a3oJ6g9vX17OzskI2Q
+0NDQ8O/v7ezs////7ezs7evsx8bHw8HDwsDCwL/A5ePjx8bHw8HCxcLE3Nvb8e/w7Ovs7u3t
+4eDhvry96unp7uzt8O7vzcvNw8HD8O/v7Ovr7Ovs7uzsxcTFzszN8vHyysjKw8HDw8HCx8XG
+yMbI4N/g7u3t8O7vycfJ2djZ7+3u8O7v0M7P1dPU9PLz397eu7q7uLa3zs3O8fDw7u3u4N7f
+w8HDwsHCyMfI6Obn7u3twsDC4ODg7+7u8O7v19XWycfJ7u3t7ezs////7uzt7ezs8e/v8fDw
+8fDw8e/w7ezt8e/v8fDw8O/w7u3u7evs8O7v8/Hy8fDw9/b27uzt7err7Ovr9vT19PLy7Ovr
+7evs8O7v8e/w+vjw//7w8vDs8e/v+vnx//7x/frx/v3x8O7t8vHs/Pzt+fjw7+7u7evs8vDs
+/fzw/Pvv9/bs/fzv///x8/Lx8O/v+fft/Pvs8vDt8fDw+/nx///w8/Ht7ezs8O/v7+zu6+vr
+7Ovr7+3u7+7v7evs7ezs////7ezs7Orr7Ovr6+vr7Ovr6+rr7evs7Ovr7evs7Ovs7evs8fDw
+zMvMqqiq1tTUtbK16+nq7evs8O/vtrS21dPU7+7u8O7vy8rL0c/JqKTrWFDixsLp///tr6vo
+RDzgMSjggHrk+/rswsDoWVHjop3m9fPs8/Hs2NbpXFXiPzXgpKDneHLkY1zj6unq+vjsg33l
+WVLi2tfr+PjsnJbmWFHixsHp8fDr7err6+rr7Ovr7Ovr7evs7Ovr7Ovr7ezs////7ezt7evr
+7Ovr7ers7Ovr7evs7Ovr7Orr7Ovr7Ovr7u3u2NbXlZKUycjJ4N/gj4yO6Ofo7uzt8/LylJKU
+xsTF8e/v8vHxtrS2wb+yenXqAADctLDnrKjnAADcLiXfYFHjAADcXVXir6nnAADccmvh/Pvt
+9PPrIhjfBwDdS0LhMCffCwHdCgDe6Obr///tOzLgAADcy8fq///sZV7jAADcrKjn9fTs7ers
+7Ozr7evs7ers7ers7evs7Orr7ezs////7ezs7evr7Orr7Ovs7Ovr7Ovr7evs7ers7Ovr7Ors
+8e/wyMfIrqyu+Pf47OvrkI6Q6ujp7uzt8/Lzl5WXyMbH8e/w8vDxt7e3wsG1f3vrAADdvrzo
+OC/gDAHe2tnq///uPjfgCQDdi4XmBgDdeHHi//7t2tfpDAHdLiTf///t5OLrFAreFAne6ejr
+///tQzrhAgDdz8vr///tamPjAADdr6rn9fPs7Ovr7Ovs7evs7evs7evs7Ovs7evs7ezs////
+7uzt7Ovr7Ovr7Orr7evs7Ors7Ovr7Ovr7evr7evs8e/wycjJrqyt8/Lz6+vrkY+R6ujp7ezs
+8/Lyl5WYyMfH8fDw8vDxubi5wsC1gHvrAQDdsa3nJRvfEgje+/rs//7tZl7jCQDdZV3jCQDd
+eXHj///t19XpDQLdNy7g//7t7evrHRPeEgje6unr///tQjrhAwDdzsrq///ta2TjAADdr6vn
+9fTs7Ors7Orr7Ovr7evs7evr7Orr7Ovr7evs////7ezs7evr7Orr7Ovr7Ovr7Ovr7evs7Ovr
+7Ovr7evs8vDwycnJrqyu9vP16+rqjoyP6Ofn8O7v9fPzmJWYxcTE9PLz9fP0t7W3x8a2hYDr
+AADdxMHpMingDwTe8O7q///uVlDiBwDdeHDjDAHeUkni///t4N/pDQLdOTHg//7s7OrrHRPe
+Egfe7evs///uRDzhAwDdycXo///ubGXjAADdr6rl9fTs7Ors7Ovs7Orr7ers6+vr7evs7Ovs
+7Ovs////7Ozs7Ovr7evs7evs7Orr7ers7Ovr7evs7ers7Ozs7evsxcTFrKqs7evs7OvrkI6Q
+srCx7Ovrz83OkI6RnJqc5eTl5eTkm5mWvLnGS0PlDALecmrhb2fjAQDdcWrkurTlDwXeKyLf
+qaXnCwDdEAbeLyXfc23lFgvdNy7g//3s6+nrHBHeDQPddG3jtbHoHBLfCQDdUkrhwb3oJx7f
+AQDdzMjq8fDr7evs6+rr7ezs7Ovr7evs7Ovr7Orr7ezt////7uzs7Ovr7evs7Ovr7Ovr6+vr
+7Ovr7Orr7evs8e/wurm5lpSWmJaYmpmb5OPjl5aXvby9l5WXk5GTx8bHzczNlpSVlpSVs7Gw
+QTnkEAbeGQ/eEQbeQzrhZF7iDAHdAgDbLyfg2NfprajnBwDdg33kKB/fUkriHxTeOzPg+/vs
+6ejrIBbeJhzfU0vhAQDdDgPdj4rmeHLkAADdDgPecGri+Pbr7ezr6+rr7ers6+vr7Ovr7evr
+7Ovr7evr7uzt////7ezs7Ovr7evr7Ovr7Orr7evs7ezs7Ovr6+rr7evs7+3ux8bGraus7+/v
+7uzt6unp8vDx6+rq7Orq8PDw8fDw7ezs6enp7e3w8vDsd3HjAgDdtbHo+Pfs9vXs6OXr2dfq
++Pfs9PLs7evs6Ofr8/Ls9vbr7Ors6+nr6ujr7+3s7u3s6ejr6+rr+/rs4d7r5ePr+vjs+fjs
+5uTr5OLr+vns7uzs7ers7evs6+vr7ers7evs7Ovr7Orr7Ovr7Ozr////7ezs7evr7Ovr7Ovr
+7evs6+rr7Ovr7Ovr7evs7Ovr8e/wz87OuLa38vHy7evr7ezs7evs7ezs7uzt7Ovs7evs7ezs
+7uzt7ezs+/rtiYLlAADdPzbhnJfm9/bs7+3s8O/s7uzs7evs7Ozr7u3r7ezr7uzs7u3r7u3r
+7u3r7Orr7ezs7u3r7u3r7ezr7+7r7u7r7Ozr7evs7u7r8O7s7Ovr7ers7Ovr7Ovr7evs7Ovr
+7ers7Orr7ezs7Ovr7uzt////7ers7Orr7Onr7Ons7Onr7ens7Ovr7Orr7Ovr7Ovs7Onr7evs
+7+3u6+vr7evs7Orr6+nr7Orr7Onr7Orr7ens6+rq6+nr7Onr7uzr5eTseXPabWzjiYjl9/Ts
+7ers7evs7evs7ens7ers7ens7Orr7Ors7Onr7evs7Orr7Ovr7ers7Orr7Onr7Onr6+nr7Ors
+7Onr7Ors7ers7Orr7Orr7Orr7Ovs6+nr7Onr7Ovr7Ovr7ers7Onr7Onr7evs////7uzt7Ovr
+7Ovr6+vr7evs7Ovr7Ovr7evs7Orr7Ovr7evs7evs7Ovr7Ovs7Ovs7Ovr7ezs7Ovr7Ovs6+rr
+7evs7Ovr7evs7Orr7ezs7+7r+fjt+/nt9/Xs7evs7ezt7+3w7u3v7ezt7evs7evs7evs7Orr
+7ers7Ovr7Ovr7evs6+vr7Ors7Ovr7evs7Ovr7Orr6+vr7evs6+vs7evs7Orr7Orr7Ovr7Ovs
+7Ovr7Ovr7ers7evs7Ovr7Ovr7ezt////7Ozs7Ovr7evs7evs7Ovr7Ovr7evs6+rr7evs7Ovr
+7evs7ers7err7Ovr7Orr7Ovr7ers7ers7Orr7evs7ers7Ovr7Ovs7Ovr7evs7Orr7evs7evs
+8PDy9PX87+3x497Z5uLd8fH19PX67+3w7ezs7ers7Ovr7evs7Ovs7Orr7Ovs7Orr7evs7Ovr
+7evs7Ovr7evs6+rr7ers7Ovr7evs7evs7Orr7evs7evs6+vr7Ovr6+vr7err7Ovr7uzt////
+7uzt6+rr7Ovr7Ovr7evs7Orr6+vr7evs7evs7Ovr6+vr6+vr7Ovs6+vr7Ovr7Ovr7evs7Ozr
+7Ovs7Ovs7Ovr7Ovr7Ovs7Ovr6+vr7evs7ezt9ff829XMoYZUhl8YgFgMgFgNiGIerpZt5OLf
+9PT67evs7Ovr7Ovr7evs7ers7Ovr7Ovr7Ovr7Ovr6+vr7Orr7evs7evs6+vr7evs7evs7evs
+7Orr7evs6+rr7ers7Ovr7evs7evs6+vr7uzt////7uzt6+vr7evs7Orr7evs7evs7ers7evs
+7Ovr7Ovr7evs7Ovr7Ors7evs7Orr7evs7evs7Ovr7Ovr7ers7Ovs7Ovr7evs7Ovr7evs7uzt
+9ff9rZdufFEDgFcLg1sShFwUhFwUg1sSflUIf1UKxLWb9fb97ezs7Orr7Ovs7Orr6+vr7Orr
+7Ovr7evs6+rr7evs6+rr6+rr7evs6+vr7Ovr6+vr7ers6+vr6+rr7evs7evs7evr7Ovr7Orr
+7ezs////7Ozs7Ors7evs7ers7ers7Ovr7Ovs7Ors7Ovs7Ovs6+vr7evs7Ovr6+vr7Ovr7Ovr
+7evs7Ovr7Ovr7Ovr7Ovr7Ovr7Orr7evs7ezs8PH1ooZVe1EChF0UhV4WhF0Vg1sRgloRhF0V
+hF0Vg1wTek8Av62O8vL37evs7Ovs7Orr7evs7Ovr7evs7evs6+vr7evs7Ovr7evs7Ovr7evs
+7Ovs7evs7Ovr7ers7Ovr7Ovr7Ovr7Ozr7evs7Ovr7Ozs////7Ozs7Orr7Ovs7Orr7evs7Ozr
+7Orr7Ovs7Ovr7ers7evs7Ovr7ers7evs7Ovr7ers7Ovr7ers7Ovs7Ovr7ers7Ovr7Ors7Orr
+7uzt8/LpnHw/e1ACgloRgVkPflQHj2krkm8xflQIgVkOg1sSek8Al3U49vHy7u3t7Orr7evs
+7Ovr7Orr7Orr7evs7ers7Ovs7Ovr7Orr7evs7evs7Ovr7Ovr7evs7ers7ers7Ovr7evs7Orr
+7Ovs7ers7evs////7ezs6+rs7Ovr7evs7Ovs7Ors7Ovs7Orr7evs7evs7Ovr7evs7Ovr7Ovr
+7Orr7ers7Ovr7evs7Orr7Ors7Ovr7evs7Ovr7evs9PPskYvn9/n/18qqiGIbkG0t5tvZ8/b3
++vf/6d3ZkW4vhFsR0L6j+Pb7sdry8Ozq7evs7Ovr7evs7evs7Ovs7Ovr7Orr7Ovr7ers7ers
+7evs7Ovr7evs7evs7Orr7Orr7Ovr7Ovs7Ovr7ers7Ovr7Ovr7ezt////7ezs7Ovr7Ovr7ers
+7Ovr7evs7Ovr7Ovr7Ovs7Orr7Ovr7evs7evs7Orr7Ovs7Ovr7Ovr7Ovr7Ovs7Ovs7Orr7evs
+7Ovr8vDs1dLqAADdIhfgq6nz8e/q9uzvp9W5Qa9iP61joNO09ezy7ebix+P5Wr/8P7f/3+Xr
+8Ozr7Ovr7Ovr7Ovr7evs6+vr7Ovr7Orr7Ovr7Ovs7Orr7Ovr7evs7evs7Ovr7Ovr7evs7Ovr
+7ers7Orr7Ovs7Ovr7ezs////7ezs7Ovr7Ors7Ovs7Ovr6+rr7evs7Orr7Ovr7Ovr7evs7evs
+7Ovr7evs7Ovr7Orr7evs7evs7Orr7ers7evs7Ovr7evs9/bsnJbkCwHeGA7eAADdmpLtyebJ
+L6lWQ7BmQ7BmL6lWxd7IwN34Obb/Trz9Rbn+sdjw9O3r7Ovr7Ovr7Ovr7ers7evs7Orr7evs
+7Orr7Orr7Ovs7evs7evs7Ovr7evs7evs6+rr7Ovr6+vr7evs7Ovr7Orr7ezs////7ezs7Orr
+7Ovr7Orr7Ovr7evs7Ovr7Orr7Ovr7err6+vr7Ovr7Ovr7evs7Orr7Orr7evs6+vr7evr7Ovr
+6+vr7evs7Orr+fnse3bkDwXeHBLfCwDexLrwj8+cPK1gRrFoRrFoPa1ghseW2+X2Rrn9Ubz9
+Sbr+kM/19+7q7Ovr7Ovr7Orr7Ovr7Ovr7Ovr7ezs7Orr7Ovr7ers6+rr7Ovr7Ovr7Ovr7Ovr
+6+vr7evs6+vr7evs6+vr7evs7Ozs////7uzt7Ovr7Ovr6+vr7evs6+vr7evs7evs7Orr7Ovr
+7evs7Ovr7Orr7evs7ers7Orr7evs7evs7evs7Ovr7Ovr7evs7Ovr+vjsgXvlDwTeHBLfDQLe
+sabuodipOKxdRbBnRbBnOKxdnM+nzeH2Rrn+Ubz9Sbr+ldH19+7q7evs7Ovr7Orr7evs7Ovr
+7Ovr7ers7evs7Orr7Ovs7evs7Ovr7Orr7Ozr7Ovr7Orr6+vr7ers7evs7evr6+rr7uzt////
+7Ozs7Orr7Orr7evs6+vr7Ovr7Orr7Ovs7Ovr7Ovr6+vr6+vr7Ovr6+vr7Ovr7err7evs6+vr
+6+vr7Ovr7Orr7evs6+rr9PTsr6vnCQDdHBLfEwneVUvj///oRLBlOaxdOKxdRK9m9Ozkh8v4
+Srv9Ubz9Rbn+ttrw8+3q7Orr7Ovr7Ovr7Ovr7Ovr7Ovs6+rr7Ovr7ers7Ovs6+vr6+vr7Ovr
+7Orr7Ovr7evs7Orr7evs6+vr7err7Ovs7ezs////7uvt6+vr7Ovr7Ovr7evs7Ovs7Ovr7evs
+7Ovr7evs7Ovr7ers7Orr7evs7Ors7Ovr7Ovr7Ovr7Ovr7Ors7Ovr7ezs7ers7+7s6efrEgje
+GQ/eHBLeDQLemZHp///plNCjnM2n+OzjutryRrn+Ubz9ULz9Sbr94ufs7+zr7evs7Ovr7evs
+7Ovr7evs7Ovr7evs7ers7Ovr7evs7Ovr7evs7Orr7ezs7Ors7Ovr7evs7evs7Ovr7evs6+vr
+7ezt////7ezs7Ovs7Orr7Ovs7Ovs7Ovs7Ovr7evs7Orr7evs7Ovr7evs7err7Ovr7evs7Orr
+7evr7Ovr7Ovr7ers7Orr7Ovs7Ovr7Ovr/f3sZFziDwTeHBLfGhDeDwTdVUvlybnu1Oj3gsr5
+R7n+ULz9Ur39SLr+gcr39+/q7Ovr7Ovr7Ovr7evs7Ovr7Ovs7Orr7Ovr7evs7Orr7evs7Ovr
+7evs7Orr7evr7Ovr7Orr7Ovr7Ovr7evs7Ovr7Orr7ezt////7ezt7Orr7evr6+vq7Ovr6+vr
+7Ovr7Ovr7evs7Ovr7Ors7Orr7Ovr7evs7Ovr7Ovr6+vr7Ovr7Ovr7Ovr7ers7Ovr7evs7evs
+7+/s7+3rJBreEwneHBLfGxHeDALeVT3fiNf4Rbn+Ubz9Ubz9TLv9Ur387urq7uzr7Orr7Orr
+7ers7Ovr6+vr7Ovr7Ovr7evs7Ovr7evs7Ovr7Orr7Ovr7Ovr7ers7Ovr7evs7Ovr7evs6+vr
+7evs7Ovr7ezs////7uzt7Orr7evr7evs7evs7Ovr7Ovr7Ovr7ers7Ovr7evs7Ovr7Orr7evs
+7Ovr7Orr7evs7evs7Ovr7Orr7Ovr7evs6+vr6+vr7Ovr9fPs2NfpHxTeDgTeGhDeEwneYUzf
+j9r3S7v9ULz9SLr+Ub382eXt8+zr7Ovr7ers7Orr7evs7Orr7evs7Ovr7Ovr7ezs7Ovr7ers
+7Ovs7evs7Ovr7Ovr7Ovr7Orr7evs7Orr7Ovr7evs7evs7Ovs7ezs////7Ozr6+vr7err7evs
+7evs7evs7Ovr7Ovs7Ovr7Orr7Ovs7Ovr7evs6+rq7Ovr7Orr7ers7evs7err7Ors7Ovr7evs
+7evs7evs7Orr7evs9PTs7ezrYlviEQbeAwDdWEHff9T5P7f/S7r9gcv38Ozq8uzr7evs7evs
+7Ovr7Ovr7Orr7Ovr7Ovr7Ovr7evs6+rr7Ovr7evs7Ors7Ovr7Orr7evs6+vr7ers6+vr7ezs
+7Orr7Orr6+vr6+vr7Ozs////7uzt7Orr7ers7Ovr7evs7evs6+vr7evs7evs7Orr7Ovr6+rr
+6+vr7evr7Ovr7evs7Ovr7evr7Ovr6+rr7Ovr7evs7evs6+rr7Ovr7evs7evr7+7r+/rt4d7q
+oZ3moJLkv+Pxt9vx5ejr9u7q7+vr7ers7ers7evs7Ovs7Ovs7Ors7Ovr7Ovr6+rr7ers7Ors
+7Ovs7evs7Orr7Ovr6+vr6+vr7ers7ers7Ovr7evs7Ovr7evs7Ovr6+vr7uzt////7ezs7Orr
+7Ovr7Ovs7ers6+rr7evs7Orr6+vr7Ovs7ers7Ovr7evr7err7Orr7Ovr7Ovs7ers6+rr7evr
+7Ovs6+rq6+rq7Ozr7Orr7ers6+rr7Ovr7evs7+/r9vTs9PTs8u3q8+3r7+vr7evs6+vr7evs
+7Ovr7Ovr7Ovr7Ovr7ers6+rr7evs7Ovr7Ovr7Ovr7ers6+rr7Ovr7Orr7Orr7evs7Ovr6+rr
+7Orr7Ovr7Ovr7err7Ovr7evr7ezs////7uzt7ezs7Ovs7ezs7ezs7evs7ezt7evs7evs7ezs
+7Ozs7Ovs7ezt7ezs7evs7Ozs7evs7ezs7ezs7evt7Ozr7evs7evs7ezs7evs7Ovr7evs7Ozr
+7Ovr7evs7ezs7Ors7ezs7Ovr7ezs7Ozr7ezs7evs7Ovr7evs7evs7evs7Ozr7ezs7evs7Ovr
+7ezs7evs7Ozr7evs7evs7ezs7Ovs7ezt7ezs7evs7Ovr7ezs7Ovr7ezs7evs7Ovr7uzt////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////</Image></Logo><Icon><Image type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA
+7Ozs7evs7ezs7evs7evs7/Dx9PX79vj/9vn/9fb88PDz7evs7ezs7evs7ezs7evs7Ovr7Ovr
+7evs7e3t9vn/3tnRrZVrlXQ4k3Ezpoxd1Mu79vn/7+3v7Ozr7ezr7ezs7Ovs7Ovs7u3u9Pf+
+o4dVek8Af1UJgVkPglkPgFcLeU8AlXM36+vt8O/y7Ovr7evs7evs7ezt7+/zj20sfVMFhF0V
+hF0VgVkOgFcMg1wShF0Vf1YKhF0V6OXi7u3v7evs7Ovr7+7t+vnpp4xSeU0AgFcMe1EDoX9N
+sZRph18YflQIfFIEhVwS4dG/8/Dx7ezs7e3s9vXsRz/j19f+7efFlXM08OHi1uzivuHQ/Pn/
+polau6F2/fb5jtL7zODu8e3r8/HsysboAADdCADeW1Xq//7/lc6pMapYM6tZTrNv/vf7wuL9
+Ub3+Prf/jM31+O7q9/bsmpXmDAHeGQ/eFQng8vLtOq5eRLBmRrFoNatbsdWzm9P7Rrn+Trv9
+Y8L6+O7p+Pfsko3mDQPeGQ/eIBXg9vbqOq5eRLBmRrFoN6xcrNSupdb6Sbr+Trv9XsH7+O7q
+9PPsu7foBwDdHBLfBwDd3ND0gs2QMapXOKxdPa1g/fDnZ8H8Trz9TLv9dsf4+e/q7u7r8/Ls
+EQbeGQ/eGA7eJRvg/fL2uuS4nc+n/u3jndL2Rrn+Ubz9RLn+rdfy9O7r7Ovr/fztenTjCgDe
+HBLfFgzeEgfffWzo0ej3Y8L9Rrn+Ubz9Trz9T7r89O7q7uzr7evs7e3r/fztNi3gDALeHBLf
+Fw3eJQ/do9r0Rbr+Ubz9Trz9QLf+0+Pv8+3q7Ovr7Ovs7Ovs8O7s+frsUkniBADdDgPeKBPd
+pNz1Q7n+RLj+T7v80uPu9u7q7Ovr7ezs7Ovs7Ovs7ezs7+3r///twr/oYlzjRDHeqdrzc8j5
+r9jy9O7q8+3q7evs7ezs7evr7Ovr7ers7evs7evs7evr8/Ls/Pvt+vrs9O7r+e/q9e3r7uvr
+7evs7Ovs7Ovs7ezs</Image></Icon><UMLProfiles><UMLProfile profiletype="uml2">
+			<Documentation id="19AAF653-C" name="TMF_ArchiMate3" version="1.5" alias="TMF ArchiMate" notes="TMF_ArchiMate3"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="TMF_ABE" metatype="TMF ABE" notes="" cx="0" cy="0" bgcolor="55295" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAwMDAwMDAwMDAwMDAwMDA
+Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/wMDAwMDAwMDAwMDAwMDAwMDAAAAADsn/Dsn/
+Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/AAAAwMDAwMDAwMDAwMDAwMDAwMDADsn/Dsn/Dsn/Dsn/
+Dsn/Dsn/Dsn/Dsn/Dsn/wMDAwMDAwMDAwMDAwMDAwMDAAAAADsn/Dsn/Dsn/Dsn/Dsn/Dsn/
+Dsn/Dsn/Dsn/AAAAwMDAwMDAwMDAwMDAwMDAwMDADsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/
+Dsn/wMDAwMDAwMDAwMDAwMDAwMDAAAAADsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/AAAA
+wMDAwMDAwMDAwMDAwMDAwMDADsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/wMDAwMDAwMDA
+wMDAwMDAwMDAAAAADsn/AAAADsn/AAAADsn/AAAADsn/AAAADsn/AAAAwMDAwMDAwMDAwMDA
+wMDAwMDADsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/wMDAwMDAwMDAwMDAwMDAwMDAAAAA
+Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/AAAAwMDAwMDAwMDAwMDAwMDAwMDADsn/Dsn/
+Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/wMDAwMDAwMDAwMDAwMDAwMDAAAAAwMDAAAAAwMDAAAAA
+wMDAAAAAwMDAAAAAwMDAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACp1Y06YGFsBsAEAACYFAAAHABEAc3RyLmRhdFVUDQAHged7XIHne1yB53tc
+nVNNS8NAEH3XCv6Hkl5aENSq7UF6KKJ4UcT2XtImNoGmKUksiPjffTPb7WabIliWbGY3783H
+m0mJBCE2iNFGRivFGt84x5k+Lax494Ucn6gwpWWQIz4B5rwvEPGm4Ol+xzD7JVfJLxXeuK/R
+JeMKFwd7H709z6BXmkHMU8VoK1pd+o6YRclMgxq+4LcFUSHxyx3S937Nd91y3JAeI0xY1Zy7
+VUD4AT3mPAXKC/DqxfyLt+Yp48kyH/BI9pT7u+fDVut0NxHNvdG+xbXRCj9UXbEiPHNPWWtC
+hulBH4O931N6ZbM5pV//75iLljGbrbJzosX3kKuOtF4NwnbSR/3ou6mn7US7pqZ9bzHDWL0v
+ibPq2J67+MlR3EK1qRoqSndSncW5KvDEU0wr2jPddDTVkE5LtaKlKB+gw8kZ44Wz0/EUNBW7
+uqWfC+1sSHZKS3KVm4xec6oiWcWKtVoIWrKTeI41YpwJ47n8Us5eV1UtNUNRSOqWLkuOKe+b
+kWT6Rc+CUyinHpfx53ohyoiyG50g0//b2j7w/tUmXr5brJ2MQ44/YTeKuTvA+DM2PIKxev8C
+UEsBAhcLFAAAAAgAKnVjTpgYWwGwAQAAJgUAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRV
+VAUAB4Hne1xQSwUGAAAAAAEAAQA+AAAA5gEAAAAA</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="TMF_API_Resource" metatype="TMF API Resource" notes="" cx="0" cy="0" bgcolor="13749760" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAwMDAwMDAwMDAwMDAwMDA
+/78A/78A/78A/78A/78A/78A/78A/78A/78AwMDAwMDAwMDAwMDAwMDAwMDAAAAA/78A/78A
+/78A/78A/78A/78A/78A/78A/78AAAAAwMDAwMDAwMDAwMDAwMDAwMDA/78A/78A/78A/78A
+/78A/78A/78A/78A/78AwMDAwMDAwMDAwMDAwMDAwMDAAAAA/78A/78A/78A/78A/78A/78A
+/78A/78A/78AAAAAwMDAwMDAwMDAwMDAwMDAwMDA/78A/78A/78A/78A/78A/78A/78A/78A
+/78AwMDAwMDAwMDAwMDAwMDAwMDAAAAA/78A/78A/78A/78A/78A/78A/78A/78A/78AAAAA
+wMDAwMDAwMDAwMDAwMDAwMDA/78A/78A/78A/78A/78A/78A/78A/78A/78AwMDAwMDAwMDA
+wMDAwMDAwMDAAAAA/78AAAAA/78AAAAA/78AAAAA/78AAAAA/78AAAAAwMDAwMDAwMDAwMDA
+wMDAwMDA/78A/78A/78A/78A/78A/78A/78A/78A/78AwMDAwMDAwMDAwMDAwMDAwMDAAAAA
+/78A/78A/78A/78A/78A/78A/78A/78A/78AAAAAwMDAwMDAwMDAwMDAwMDAwMDA/78A/78A
+/78A/78A/78A/78A/78A/78A/78AwMDAwMDAwMDAwMDAwMDAwMDAAAAAwMDAAAAAwMDAAAAA
+wMDAAAAAwMDAAAAAwMDAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAOily06YGFsBsAEAACYFAAAHABEAc3RyLmRhdFVUDQAHeBMAXXgTAF14EwBd
+nVNNS8NAEH3XCv6Hkl5aENSq7UF6KKJ4UcT2XtImNoGmKUksiPjffTPb7WabIliWbGY3783H
+m0mJBCE2iNFGRivFGt84x5k+Lax494Ucn6gwpWWQIz4B5rwvEPGm4Ol+xzD7JVfJLxXeuK/R
+JeMKFwd7H709z6BXmkHMU8VoK1pd+o6YRclMgxq+4LcFUSHxyx3S937Nd91y3JAeI0xY1Zy7
+VUD4AT3mPAXKC/DqxfyLt+Yp48kyH/BI9pT7u+fDVut0NxHNvdG+xbXRCj9UXbEiPHNPWWtC
+hulBH4O931N6ZbM5pV//75iLljGbrbJzosX3kKuOtF4NwnbSR/3ou6mn7US7pqZ9bzHDWL0v
+ibPq2J67+MlR3EK1qRoqSndSncW5KvDEU0wr2jPddDTVkE5LtaKlKB+gw8kZ44Wz0/EUNBW7
+uqWfC+1sSHZKS3KVm4xec6oiWcWKtVoIWrKTeI41YpwJ47n8Us5eV1UtNUNRSOqWLkuOKe+b
+kWT6Rc+CUyinHpfx53ohyoiyG50g0//b2j7w/tUmXr5brJ2MQ44/YTeKuTvA+DM2PIKxev8C
+UEsBAhcLFAAAAAgA6KXLTpgYWwGwAQAAJgUAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRV
+VAUAB3gTAF1QSwUGAAAAAAEAAQA+AAAA5gEAAAAA</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="TMF_API_Spec" metatype="TMF API Spec" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="REST API 2.0::REST Application" baseStereotypes="REST API 2.0::REST Application">
+						<TaggedValues>
+							<Tag name="API Spec URL" type="" description="" unit="" values="" default=""/>
+							<Tag name="Conform URL" type="" description="" unit="" values="" default=""/>
+							<Tag name="CTK URL" type="" description="" unit="" values="" default=""/>
+							<Tag name="Doc ID" type="" description="" unit="" values="" default=""/>
+							<Tag name="Flavor" type="" description="" unit="" values="" default=""/>
+							<Tag name="Lifecycle Status" type="" description="" unit="" values="" default=""/>
+							<Tag name="Postman URL" type="" description="" unit="" values="" default=""/>
+							<Tag name="Ref Impl URL" type="" description="" unit="" values="" default=""/>
+							<Tag name="Release" type="" description="" unit="" values="" default=""/>
+							<Tag name="Swagger URL" type="" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="TMF_Application" metatype="TMF Application" notes="" cx="0" cy="0" bgcolor="13749760" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAwMDAwMDAwMDAwMDAwMDA
+/78A/78A/78A/78A/78A/78A/78A/78A/78AwMDAwMDAwMDAwMDAwMDAwMDAAAAA/78A/78A
+/78A/78A/78A/78A/78A/78A/78AAAAAwMDAwMDAwMDAwMDAwMDAwMDA/78A/78A/78A/78A
+/78A/78A/78A/78A/78AwMDAwMDAwMDAwMDAwMDAAAAAAAAAAAAAAAAAAAAAAAAA/78A/78A
+/78A/78A/78AAAAAwMDAwMDAwMDAwMDAAAAA/78A/78A/78A/78AAAAA/78A/78A/78A/78A
+/78AwMDAwMDAwMDAwMDAwMDAAAAAAAAAAAAAAAAAAAAAAAAA/78A/78A/78A/78A/78AAAAA
+wMDAwMDAwMDAwMDAwMDAwMDA/78A/78A/78A/78A/78A/78A/78A/78A/78AwMDAwMDAwMDA
+wMDAwMDAAAAAAAAAAAAAAAAAAAAAAAAA/78A/78A/78A/78A/78AAAAAwMDAwMDAwMDAwMDA
+AAAA/78A/78A/78A/78AAAAA/78A/78A/78A/78A/78AwMDAwMDAwMDAwMDAwMDAAAAAAAAA
+AAAAAAAAAAAAAAAA/78A/78A/78A/78A/78AAAAAwMDAwMDAwMDAwMDAwMDAwMDA/78A/78A
+/78A/78A/78A/78A/78A/78A/78AwMDAwMDAwMDAwMDAwMDAwMDAAAAAwMDAAAAAwMDAAAAA
+wMDAAAAAwMDAAAAAwMDAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAIKdj038xiZimAIAAJoJAAAHABEAc3RyLmRhdFVUDQAHsVkVXLFZFVyxWRVc
+nVZNb9NAEJ1rkPgPkXtxpUpAoEWAeggofByIEEXiiJw6NBaJazmmUkH8d97bycTrje0YFHm9
+a7/5fjPOVlaSSCFLGcsGu0xy+S0P5YG7RrLGs3u5lZ9SyRfsFHmJK5LXeF5KiiclTq92Ero+
+wm+LN5V8wppLDInHchasEzndyyl67TxY4lTB2hq7GLpTeLGFp5GHL51XOd6VQF0DH9p4gnu4
+O9+tpkd1JdCSyhX0LbBaRqgvwolRZvIL9xxWEnhV7CTo6w0w1BnJ14Z/fTpznDY4meQbmckc
++Z3J58E6MsRMj7bYsQYLvGUdVOOsoccyXNe6XVorP9pL/E/9R8CwIt/dc+5SZIZWKthX2Qkq
+UOPtPiRai2/eiK9f9s55Ujkd3dW7amj805m543yos3g8E2TmcZv9EfTZe481A2YFabX43Mt9
+t0Vj6LiFE3fyTaauU2+AMzZUyEfR4MGqFXctnAeV89FH09vM5XPh+v4tTkvs0r1k3TWH3OG8
+yRB57GLg9EhglbNjCq8K5wVzxxyybmP5IGQuPaEcbdGfU/x8nXX0PGmGmXVOKk61SE7QF1N5
+Jy//ydJJwF9qt2rUUbVZm8POR/R3U0N3Ja1zDus4hC0Tj5+15AYayUnWPHaYM3nqTVVibJL7
+GPZ9N4bMHIZ5AW3dGLU1BENtPqYtrotefxTzLMAo/9ix7FR2e9x4b1+sRNi/+pXjJKAmzSXX
+8yCCbin6aFJ+TCZJ9qUdvtBXfkt/ANWGUGbpyotcJqPKBsf5ZAP5W/dFYXcTa5zTiak9UEtd
+uqnLL5XZ8juY7ORE0cl379if4fmhJU5wzp8S05+nuofNPjOwdpUrhP8zYi/Xul4EuQ7xfG9Y
++zcRyjTZ017DkM2HGMv3X1BLAQIXCxQAAAAIAIKdj038xiZimAIAAJoJAAAHAAkAAAAAAAAA
+AAAAgAAAAABzdHIuZGF0VVQFAAexWRVcUEsFBgAAAAABAAEAPgAAAM4CAAAAAA==</Image>
+						<AppliesTo>
+							<Apply type="Component">
+								<Property name="isIndirectlyInstantiated" value="true"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="TMF_BusinessCapability" metatype="TMF Business Capability" notes="" cx="0" cy="0" bgcolor="11198197" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwMDAwMDAwMDAAAAAqt71qt71
+qt71AAAAqt71qt71qt71AAAAqt71qt71qt71AAAAwMDAwMDAwMDAAAAAqt71qt71qt71AAAA
+qt71qt71qt71AAAAqt71qt71qt71AAAAwMDAwMDAwMDAAAAAqt71qt71qt71AAAAqt71qt71
+qt71AAAAqt71qt71qt71AAAAwMDAwMDAwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAAqt71qt71qt71AAAAqt71qt71
+qt71AAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAAqt71qt71qt71AAAAqt71qt71qt71AAAA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAAqt71qt71qt71AAAAqt71qt71qt71AAAAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAAqt71qt71qt71AAAAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAAAAAqt71qt71qt71AAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAAAAAqt71qt71qt71AAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAAAAAAAAAAAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALBl4U4OgZ2YVwIAAEAJAAAHABEAc3RyLmRhdFVUDQAHdAAaXXQAGl10ABpd
+nVZNb9NAFJxrkPgPVnJxJQ5QKEWgHgqEj0N7oJU4oqQJxFLjRo6pVCr+OzP7sv7Y2BuLgze7
+63nzPnbeOlusMMMGSyRYc5YhxyOe4ol7Rrjl3gPu8Bslrjkz5BmfMd5zv8CCOwVX73YWNhbO
+Jufbgu9vaJ3S5jmeVeML/oaz48bv0Y7R+GZkWuCKnHOOPmZxjrlSHBn+8Denpxmj3uwslM8v
+YsQ6xnc+njfOmXO15spbfsAUl6zAFN8Gc2TMWxFtOVOV5nyrShnjtMVj47ZxGt3WdjajyuJ/
+TmhEjE7lp9vXbMHKyEtJ/2Z7jJMG3v8Oydbnd9nKL2577yIpHUf/6V21GP/2Vu6wHuoqHq6E
+1HnYZzyDmL8vHDNiVrQ2j6eN2vd79ApNOjRxjx84ZxTizSs1lKzHpqWDVSfuhqyqW6gaRZu5
+es5ps8QnrpacLSrLumv2tZMx69TFv6VOZ/SYQn2lfMSYuThKKjjBV3ysTl1nflSxPHLPz62a
+qnBJ29zxTai7c1ywuyaB/nwllcctY1i2ojvMe03ez3gbiXjCt8mACPrP1PdQfaLNGIdoRzfn
+fu3XZJVCpYAUb9wtq7EZnXLJA0zzHt7HvB6MGeIrxMSwr6J8ejsME/rs8hViYlhl289nX7ch
+mNBnl682xjRlox7d+dJSQW3pVpKqErezpo7u3FdFHS6sV5vdmtb7tdWZu3n1tfK+mp0sTepW
+sdvvwfVKxv19T+pn3UEFvwBa1V3t/VtnKteN68+0Okc/hrUL8aY2w/p/FaFNuxdeOsxJtN6n
+HRhf739QSwECFwsUAAAACACwZeFODoGdmFcCAABACQAABwAJAAAAAAAAAAAAAIAAAAAAc3Ry
+LmRhdFVUBQAHdAAaXVBLBQYAAAAAAQABAD4AAACNAgAAAAA=</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="Capability ID" type="" description="" unit="" values="" default=""/>
+							<Tag name="Level" type="" description="" unit="" values="" default=""/>
+							<Tag name="Tier" type="" description="" unit="" values="" default=""/>
+							<Tag name="Current Maturity" type="enumeration" description="" unit="" values="1,2,3,4,5" default=""/>
+							<Tag name="Future Maturity" type="enumeration" description="" unit="" values="1,2,3,4,5" default=""/>
+							<Tag name="Category" type="enumeration" description="" unit="" values="Core,Supporting,Enabling" default=""/>
+							<Tag name="Cost" type="number" description="" unit="" values="" default=""/>
+							<Tag name="Criticality" type="number" description="" unit="" values="" default=""/>
+							<Tag name="Owner" type="text" description="" unit="" values="" default=""/>
+							<Tag name="Risk" type="number" description="" unit="" values="" default=""/>
+							<Tag name="Type" type="enumeration" description="" unit="" values="Competitive,Differentiating,Commodity" default=""/>
+							<Tag name="Business Value" type="number" description="" unit="" values="" default=""/>
+							<Tag name="Importance" type="enumeration" description="" unit="" values="1,2,3,4,5" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="TMF_BusinessProcess" metatype="TMF Business Process" notes="" cx="0" cy="0" bgcolor="55295" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDADsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/wMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAADsn/Dsn/
+Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/AAAAwMDAwMDAwMDAwMDAwMDAwMDADsn/Dsn/Dsn/Dsn/
+AAAADsn/Dsn/Dsn/Dsn/wMDAwMDAwMDAwMDAwMDAwMDAAAAADsn/Dsn/Dsn/Dsn/AAAAAAAA
+Dsn/Dsn/Dsn/AAAAwMDAwMDAwMDAwMDAwMDAwMDADsn/AAAAAAAAAAAAAAAADsn/AAAADsn/
+Dsn/wMDAwMDAwMDAwMDAwMDAwMDAAAAADsn/AAAADsn/Dsn/Dsn/Dsn/Dsn/AAAADsn/AAAA
+wMDAwMDAwMDAwMDAwMDAwMDADsn/AAAAAAAAAAAAAAAADsn/AAAADsn/Dsn/wMDAwMDAwMDA
+wMDAwMDAwMDAAAAADsn/Dsn/Dsn/Dsn/AAAAAAAADsn/Dsn/Dsn/AAAAwMDAwMDAwMDAwMDA
+wMDAwMDADsn/Dsn/Dsn/Dsn/AAAADsn/Dsn/Dsn/Dsn/wMDAwMDAwMDAwMDAwMDAwMDAAAAA
+Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/AAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDADsn/
+Dsn/Dsn/Dsn/Dsn/Dsn/Dsn/wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAAwMDAAAAA
+wMDAAAAAwMDAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALqlj03P1DhQXwIAAMQIAAAHABEAc3RyLmRhdFVUDQAH2WcVXNlnFVzZZxVc
+nVVNb9NAEJ1rkPgPkXtxpUpAoC0C9VBQChwaIYrUI0rq0FhK3MgxlQriv/PeTNa7/oyFIq93
+12++30x2spK5bGUpY9lgl0omf+S5PNNnJGvcPcmD/JJCvmNnyAs8kXzAfS4JbnKc3u8lbH2B
+3w5fCvmKNZMYEi/lpLZO5LiUM/RaPVjiVMDaGrsYuhN4sYOnUYDP1asM33Kg7oCv23iFd303
+Cd5Ol+mbQ1MiN9C5wOqyQp0RTow0ld94Z7A0h2fbvQT9vQeGWiO5rfjYpzPDaYOTk/woU5kh
+x1P5NlhHirjp0Q471mGBr6yFaZxW9Lgs+3q3S1v1R6XE/3BgBAyr8lPvuUuQGVopYN9kJ3Ia
+4N17SLQuvlklvn7ZR/WkUB3d1bupaPzbmbnDfPBZPJwJsvOwzf4I+ux9xpoCs4K0WTwPct9t
+0TF03MKJR/khl9qt98A5NhTIx7bCg1Ur7k44Ewr1MUTT21TzudDev8JpiV1SSvquaXKHMydF
+5LHGwAkyh1XOjyudFJwRqVZsLF+EnKUPlKAVenKMX6jNx82T5Zb55pziTIvkCB1xKZ/k3UAb
+RzXOUq+rgI+kzc4Mdq7R01UN3dVz3dKs3RCGcD42M7yBRvKQdY73s/RNMEmJcRPcMGeDMeFE
+bmLeKua0F2N6iDyE4dqNsbiGYKpxWS1s5cPqswY5auJZwZsNavCgc5c9QKyrks0VY42XutDZ
+xHnubIU8Zz3ZdzYfnpQvKe6bljjn2KU5uMqT57tnCfuNsW71Hzku43RrPS91vK/4Sfm/W5ep
+8ui1Yvpre96Ccfn+B1BLAQIXCxQAAAAIALqlj03P1DhQXwIAAMQIAAAHAAkAAAAAAAAAAAAA
+gAAAAABzdHIuZGF0VVQFAAfZZxVcUEsFBgAAAAABAAEAPgAAAJUCAAAAAA==</Image>
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="TMF_Category" metatype="TMF Category" notes="" cx="0" cy="0" bgcolor="15921906" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAwMDAwMDAwMDAwMDAwMDA
+8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLywMDAwMDAwMDAwMDAwMDAwMDAAAAA8vLy8vLy
+8vLy8vLy8vLy8vLy8vLy8vLy8vLyAAAAwMDAwMDAwMDAwMDAwMDAwMDA8vLy8vLy8vLy8vLy
+8vLy8vLy8vLy8vLy8vLywMDAwMDAwMDAwMDAwMDAwMDAAAAA8vLyAAAA8vLyAAAAAAAAAAAA
+AAAAAAAA8vLyAAAAwMDAwMDAwMDAwMDAwMDAwMDA8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy
+8vLywMDAwMDAwMDAwMDAwMDAwMDAAAAA8vLyAAAA8vLyAAAAAAAAAAAAAAAAAAAA8vLyAAAA
+wMDAwMDAwMDAwMDAwMDAwMDA8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLywMDAwMDAwMDA
+wMDAwMDAwMDAAAAA8vLyAAAA8vLyAAAAAAAAAAAAAAAAAAAA8vLyAAAAwMDAwMDAwMDAwMDA
+wMDAwMDA8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLywMDAwMDAwMDAwMDAwMDAwMDAAAAA
+8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyAAAAwMDAwMDAwMDAwMDAwMDAwMDA8vLy8vLy
+8vLy8vLy8vLy8vLy8vLy8vLy8vLywMDAwMDAwMDAwMDAwMDAwMDAAAAAwMDAAAAAwMDAAAAA
+wMDAAAAAwMDAAAAAwMDAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALSQnk4bE+UEiwIAAAoJAAAHABEAc3RyLmRhdFVUDQAHVo7IXFaOyFxWjshc
+nVZNb9NAEJ1rkPgPkXtxpUjQlCYVqIeCUuDQCFEkjsipQ2PJcSPHVCqI/857M9ms13ESC0Ve
+79oz8+bjzThrWUgiK5lLX5bYZVLIH3kpL/TqSY5nz/Iov6SSb9iZ5BWuSN7jeSkpnpQ4vdto
+2PoKvzXeVPIFayExNF7LoLEO5XSrZ9K5ejDHqQJajl0M2ym8WMPTqCZfqlcF3pWQuod8E+MM
+9+buYrM6O2YrgZVU7mBvhtVlhPYinBhlJr9xL4CSwKvVRoO+PkCGNiP5Hvh3yGaB0xInp/lB
+JjJFfifytbONDDHTozV2rMEMb1kHszgJ7LgM+1q3a1vle1uN/6l/DzKsyE99zl2KzBClAr7p
+DlEBL+/uXaJ18U2D+A7rPqknldrYX727wOLfvZk7zgefxeOZIDOPYx6O4BDeJ6wZZBbQNsRx
+Lff7ER1D+y2ceJIfcq2d+gA5x4YK+VgFPFi0yt0L50GlPtal6W2m+Zxp39/gNMcu3Wr6rtnl
+DudNhshjjYHTIwEqZ8eNTgnOh0wr1pfPQs7SB2oQhZ6c4le35uPmyXLLfHNGcZ5FcoKOuJaP
+8rYjxkmDs7TrKuAjacOZAucWPR1a2F891y27tevCkGGNk17T5jNjyfGj/Vw7IdbJalc9Ol9X
+ymdApoVY3kDyHCwcKPcHOJ8Hem6aJ0Ju2xeAHjmt0UbrLNBqQ7mooYw6o5iWoYw6oIxrKJed
+UUzLUC4DFKuqrbzII2a7hBXPLz5Zwo9HneDsJsq6etuEMv55rSudcvwyOKx6x5AZ7GCbNM/K
+vAzPd5E4MdnvJVjPk+8cz7dmpqxmfmXkhzLrqszVfb2bOkv4xMnIyRMj81a9UMb9nzCZcYuM
+y/c/UEsBAhcLFAAAAAgAtJCeThsT5QSLAgAACgkAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5k
+YXRVVAUAB1aOyFxQSwUGAAAAAAEAAQA+AAAAwQIAAAAA</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="TMF_CategoryHyperlink" metatype="TMF Category Hyperlink" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAB6rj02yMuXeNgEAAGQDAAAHABEAc3RyLmRhdFVUDQAH/3AVXP9wFVz/cBVc
+pVFNS8NAEH3XCP0Ppb2kUNAiilB68OAf8AOPUrtpDaTbskmUKv3vvpnNZttoDyLLzM7uvHnz
+VeINc2yRoY81rRwWPZzhS3WCgn87bFCj4tkpcoYB7Q1tQ/3BiAGmDd7y50E5vc9jHeOzA5Th
+a4mS2T5ppZjgEhcY44Z61KKc5rVEO6IW5EkVJTKhPryvVGLsOY/UYJilxit16DNlHdvGJ92u
++B5T7ij/iX8+ij8da2mvdRo/u/ASWDxTjO538np/2FRCr8xpSXFqGc4/p67IMMN1W9v+F+ZQ
+VZfzHS/0FORZERM3H3eZkKWLWZDJEimVBGRA56ww1cwlEXPGyFRqvjLcKot4/EwfcY+nZjOj
+liFW53uWaVTs1Wk30o9RzmFTlfANj7YTZ5AQXWjuv7OHmZ3i9vce31BLAQIXCxQAAAAIAB6r
+j02yMuXeNgEAAGQDAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAf/cBVcUEsFBgAA
+AAABAAEAPgAAAGwBAAAAAA==</Image>
+						<AppliesTo>
+							<Apply type="Text"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="TMF_DMM_Attribute" metatype="TMF DMM Attribute" notes="" cx="0" cy="0" bgcolor="2366701" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAJBzt
+JBztJBztAAAAJBztJBztJBztJBztJBztJBztJBztJBztJBztwMDAwMDAwMDAJBztJBztJBzt
+AAAAJBztJBztJBztJBztJBztJBztJBztJBztJBztwMDAwMDAwMDAJBztJBztJBztAAAAJBzt
+JBztJBztJBztJBztJBztJBztJBztJBztwMDAwMDAwMDAJBztJBztJBztAAAAJBztJBztJBzt
+JBztJBztJBztJBztJBztJBztwMDAwMDAwMDAJBztJBztJBztAAAAJBztJBztJBztJBztJBzt
+JBztJBztJBztJBztwMDAwMDAwMDAJBztJBztJBztAAAAJBztJBztJBztJBztJBztJBztJBzt
+JBztJBztwMDAwMDAwMDAJBztJBztJBztAAAAJBztJBztJBztJBztJBztJBztJBztJBztJBzt
+wMDAwMDAwMDAJBztJBztJBztAAAAAAAAAAAAJBztJBztJBztJBztJBztJBztJBztwMDAwMDA
+wMDAJBztJBztJBztAAAAAAAAAAAAAAAAAAAAJBztJBztJBztJBztJBztwMDAwMDAwMDAJBzt
+JBztJBztAAAAAAAAAAAAAAAAAAAAAAAAAAAAJBztJBztJBztwMDAwMDAwMDAJBztJBztJBzt
+AAAAAAAAAAAAAAAAAAAAJBztJBztJBztJBztJBztwMDAwMDAwMDAJBztJBztJBztAAAAAAAA
+AAAAJBztJBztJBztJBztJBztJBztJBztwMDAwMDAwMDAJBztJBztJBztAAAAJBztJBztJBzt
+JBztJBztJBztJBztJBztJBztwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAy1yk4vS09xswIAAGQJAAAHABEAc3RyLmRhdFVUDQAHVtz+XFbc/lxW3P5c
+nVbLbtpQEJ0tlfoPCDaOFKmvpKlSZUEpbbNoFAWqqqsKCgGrYJDtRCJV/73nzHDta2MbVCHf
+l8+8z1yTyELGspGZtGWFVSiR/JHn8kyflixxtpW1PEgqI6wMeYWnIx9wHssUJzF273cSNsY4
+/QWZMfTNoWUmAWReymk2vsLsr052Gkx+DL1TGcLuBKPzkTo62NFuKE+YI7WxxFuToP9zYKi3
+I9/xOL3NOiPsVtg5yb4M5AYRD+TuaB0hIqZHCVbMygRvmRnTOCjosTHxsl8tbbVoZRL/U5EW
+MKzHvZ5zNUVmaCWFfZN9Lece3s3HROviuynE1yz7qJ6kqqO+esOCxr+1mTvMhzyLhzNBNh62
+2RxBk70vGENgFpA2ixde7ustOoa2KzjxKD+lBy+oN8rYkCIfmwIPFpU4duc90D6Snoaay4m+
+/4TdDKtpJpV3zD5vXuAXQmeg/ieqZ45dB3oeIMmbIdRqteVayFfWjRK0Qu6e4Odry2PmzvLK
+XKfwKVLNXXRDTz7L5ZE2uiW+Uq/Lfh5Jk50eTlN9P9FuZG2u5SMQl1h10RE9+Yq+L1qqr7Dr
+qDzWsieHmFTdxQlwqdpgBG1IcP9Nz2Nky7qmj3mpnRTAW7uX/fz49Rxl9ewjcvPHcrSF3B12
+7Al2JP10/fwDu6RUWz/WofpFpi3x8/05zmff27ySxj726i1m9jmxOXIFeXbzCDMtne2+Su+8
+bxJxjCeqwL05gLvY4Yhvwjl95yXcAKhpje/kMnPVU8xQ2biW39Bahbec2MiHPUHGxYp1vcKT
+Fdiy1i8RWU2sq5PdtFbtXOpKeFvzC+ds+Wwhc3kT2Y25Vd6EON+3RKbw3orBKu5ypuQ84S3E
+3G2UC4FmzXJn49tS/sp4vndY9x+kLOM4wRs00Aqf7tXF1c8wVuUixuX7H1BLAQIXCxQAAAAI
+AAy1yk4vS09xswIAAGQJAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAdW3P5cUEsF
+BgAAAAABAAEAPgAAAOkCAAAAAA==</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="Attribute ID" type="text" description="" unit="" values="" default=""/>
+							<Tag name="Currently Realized" type="enumeration" description="" unit="" values="Yes,No" default="No"/>
+							<Tag name="Target Realization Date" type="date" description="" unit="" values="" default=""/>
+							<Tag name="Level" type="number" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="TMF_DMM_Criteria" metatype="TMF DMM Criteria" notes="" cx="0" cy="0" bgcolor="2366701" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAJBzt
+JBztJBztJBztJBztAAAAJBztJBztJBztJBztJBztJBztJBztwMDAwMDAwMDAJBztJBztJBzt
+JBztAAAAJBztAAAAJBztJBztJBztJBztJBztJBztwMDAwMDAwMDAJBztJBztJBztAAAAJBzt
+JBztAAAAJBztJBztJBztJBztJBztJBztwMDAwMDAwMDAJBztJBztAAAAJBztJBztJBztJBzt
+AAAAJBztJBztJBztJBztJBztwMDAwMDAwMDAJBztJBztJBztJBztJBztJBztJBztAAAAJBzt
+JBztJBztJBztJBztwMDAwMDAwMDAJBztJBztJBztJBztJBztJBztJBztJBztAAAAJBztJBzt
+JBztJBztwMDAwMDAwMDAJBztJBztJBztJBztJBztJBztJBztJBztAAAAJBztJBztJBztJBzt
+wMDAwMDAwMDAJBztJBztJBztJBztJBztJBztJBztJBztJBztAAAAJBztJBztJBztwMDAwMDA
+wMDAJBztJBztJBztJBztJBztJBztJBztJBztJBztAAAAJBztJBztJBztwMDAwMDAwMDAJBzt
+JBztJBztJBztJBztJBztJBztJBztJBztJBztAAAAJBztJBztwMDAwMDAwMDAJBztJBztJBzt
+JBztJBztJBztJBztJBztJBztJBztAAAAJBztJBztwMDAwMDAwMDAJBztJBztJBztJBztJBzt
+JBztJBztJBztJBztJBztJBztAAAAJBztwMDAwMDAwMDAJBztJBztJBztJBztJBztJBztJBzt
+JBztJBztJBztJBztAAAAJBztwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAJyxyk6bwQxROwIAAGIHAAAHABEAc3RyLmRhdFVUDQAHztX+XM7V/lzO1f5c
+nVVNb9NQEJxrkPgPVnJxpR5KIVRq1UNow8eBHmgRR5SQllhKnMg2lQrivzOz65fYruNEKPL7
+nN23OzvvJcccE6xxjwhLjhKk+IOXeGFfDwuuPWGFXyhwx5EjL/n18Y7rGWZcyTi7KC28zcwm
+5W7G/R+0jmlzguNN+4p9c3Ra6Y9Kj+5vQk8z3NLnlG2IWT77nCmOBL/ZpzxpwqjXpYXy+UmM
+vPbxjV/w2+0z5WzJWbC8whg3ZGCMLwf7SJi3Iso5EktT7oop9ziu+fE2r1Sj3dpr09tY/E+F
+esSoKg+2rtGMzOiUgue77SmGFXzoD8k25HdTy6/b9tEiKczH7urd1jz+3cncfj1sWdzPhNS5
+/8zuDLrO+8g2IWZOaz/xrML97hODQqMWTTziO0aMQn7TjRoK8rGu6WDeiltYhEUNqUgT43Jq
+++85u+dotrHa3pjnulHWYqKgRcqa9zGgVkf4gHPeLO0VxkhCHxE+4Zr75xwNqKIRPvOuDA6s
+fVDhlpNmHPvYb1d+TlxhZyj+iJFr/tXWM7LhSrtivzD1xYzWX7L6O9YjRytTyx17eTor37zX
+lTdPOFUlreCGJU74LtybEjfkT7iQg3PmrT69CuIqI3fSrTKIbGXJPFf27qgqwgY2/V6JAykh
+WF3a3dR7FqJKyHFsVcmNc+nO78eTVT/h+vOTdM+l0oxvhGZH/Lm/bTWlOWW8NuZjy9Uz9vZt
+g50mXvsBG/53mjahQrovsdXl2NhvY90xXsM6JvD9D1BLAQIXCxQAAAAIAJyxyk6bwQxROwIA
+AGIHAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAfO1f5cUEsFBgAAAAABAAEAPgAA
+AHECAAAAAA==</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="Lite" type="enumeration" description="" unit="" values="Yes,No" default=""/>
+							<Tag name="Criteria ID" type="text" description="" unit="" values="" default=""/>
+							<Tag name="Current Maturity" type="enumeration" description="" unit="" values="1,2,3,4,5" default=""/>
+							<Tag name="Future Maturity" type="enumeration" description="" unit="" values="1,2,3,4,5" default=""/>
+							<Tag name="Importance" type="enumeration" description="" unit="" values="1,2,3,4,5" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="TMF_DMM_Dimension" metatype="TMF DMM Dimension" notes="" cx="0" cy="0" bgcolor="2366701" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAJBzt
+JBztJBztJBztJBztJBztJBztJBztJBztJBztJBztJBztJBztwMDAwMDAwMDAJBztAAAAAAAA
+AAAAAAAAJBztJBztJBztJBztJBztJBztJBztJBztwMDAwMDAwMDAJBztAAAAAAAAJBztJBzt
+JBztJBztJBztJBztJBztJBztJBztJBztwMDAwMDAwMDAJBztAAAAJBztAAAAJBztJBztJBzt
+JBztJBztJBztAAAAJBztJBztwMDAwMDAwMDAJBztAAAAJBztJBztAAAAJBztJBztJBztJBzt
+JBztJBztAAAAJBztwMDAwMDAwMDAJBztJBztJBztJBztJBztAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAwMDAwMDAwMDAJBztJBztJBztJBztJBztAAAAJBztJBztJBztJBztJBztAAAAJBzt
+wMDAwMDAwMDAJBztJBztJBztJBztJBztAAAAJBztJBztJBztJBztAAAAJBztJBztwMDAwMDA
+wMDAJBztJBztJBztJBztJBztAAAAJBztJBztJBztJBztJBztJBztJBztwMDAwMDAwMDAJBzt
+JBztJBztJBztJBztAAAAJBztJBztJBztJBztJBztJBztJBztwMDAwMDAwMDAJBztJBztJBzt
+AAAAJBztAAAAJBztAAAAJBztJBztJBztJBztJBztwMDAwMDAwMDAJBztJBztJBztJBztAAAA
+AAAAAAAAJBztJBztJBztJBztJBztJBztwMDAwMDAwMDAJBztJBztJBztJBztJBztAAAAJBzt
+JBztJBztJBztJBztJBztJBztwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIALqxyk5Y5tEGTwIAAAAJAAAHABEAc3RyLmRhdFVUDQAH+dX+XPnV/lz51f5c
+nVZNTxpRFD1bmvQ/ENhg4qIqKq1xoS1tXZRFNemygaJlEhjJMDWxpv+957w7D2fefDAhZt7n
+uee++4kbLDDFGvfoYsVVhBgveIs37utgybNnPOIPUtxxZchLfj1c8zzBnCcJdxeZhI2Jk4l5
+m/D+F6UHlHmHw+14xDlcHefmg4zR+KZkmuOWnDOO/s3i7HGnd0T4yzmmpilfvc4kZM9vYsTa
+ww9+nreZM+ZuxZ2X/IgxJvTAGN9bc0S0Wy/acCUvzXgrTxnjuMBj4yYXjWppi01nK7FPhDrE
+KCoP7lyrOT0jLSn1m+wxTnN4P7ex1ts3KdjXLPvkXpI6jvro3RYY/9V6bnc+vHpxtyeUnbt1
+NlvQpO8rx4iYBaVN43nO9/UafYZ2K3LiCT9xxVeIN95mQ0p/rAt5sKjELd0L0wJSL42cL2fu
+/jN391zNt1KvFVPOG1ktT6SUiBnzHvrM1St8wQd84o3kLNMVsS5ueNrnXZfjhLhvrJZ+y+j7
+PCx7pY3vq/N+RUZF+I6zMvY061NnuT4lnDwZV+BOAlzIN6Rew4324ivjRpV8dfrb2jOqwYV8
+5xlOvPvwhTjPp7n4u1DW3daWE7IJN2KFN9nicWd4vxdfiBuSp4yzfLZRn3q28jhhXqurWF3o
+ZMU8fnS1khIj7EvGYV1PlaQ69VKXrnPq18brilgDA1cxG1cT6grWvZ6h2ox4XtakLqwekrCD
+a3fAP+Pz+tUlls7eNaXU2xWJYW4MYxLide+x/r+CUMbHR91s4CrhsDbPDGPZU8R4f/8HUEsB
+AhcLFAAAAAgAurHKTljm0QZPAgAAAAkAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUA
+B/nV/lxQSwUGAAAAAAEAAQA+AAAAhQIAAAAA</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="Current Maturity" type="enumeration" description="" unit="" values="1,2,3,4,5" default=""/>
+							<Tag name="Future Maturity" type="enumeration" description="" unit="" values="1,2,3,4,5" default=""/>
+							<Tag name="Dimension ID" type="text" description="" unit="" values="" default=""/>
+							<Tag name="Category" type="enumeration" description="" unit="" values="Core,Supporting,Enabling" default=""/>
+							<Tag name="Cost" type="number" description="" unit="" values="" default=""/>
+							<Tag name="Criticality" type="number" description="" unit="" values="" default=""/>
+							<Tag name="Owner" type="text" description="" unit="" values="" default=""/>
+							<Tag name="Risk" type="number" description="" unit="" values="" default=""/>
+							<Tag name="Type" type="enumeration" description="" unit="" values="Competitive,Differentiating,Commodity" default=""/>
+							<Tag name="Business Value" type="number" description="" unit="" values="" default=""/>
+							<Tag name="Importance" type="enumeration" description="" unit="" values="1,2,3,4,5" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="TMF_Domain" metatype="TMF Domain" notes="" cx="0" cy="0" bgcolor="15921906" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAAAAAAAAAAAAAwMDAAAAAwMDAAAAAwMDAAAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAAAAA
+AAAAAAAA8vLy8vLy8vLy8vLy8vLyAAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAAAAAAAAAAAAA
+8vLy8vLy8vLy8vLy8vLyAAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDA8vLy8vLy8vLy8vLy
+8vLy8vLy8vLy8vLy8vLywMDAwMDAwMDAwMDAwMDAwMDAAAAA8vLy8vLy8vLy8vLy8vLy8vLy
+8vLy8vLy8vLyAAAAwMDAwMDAwMDAwMDAwMDAwMDA8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy
+8vLywMDAwMDAwMDAwMDAwMDAwMDAAAAA8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyAAAA
+wMDAwMDAwMDAwMDAwMDAwMDA8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLywMDAwMDAwMDA
+wMDAwMDAwMDAAAAA8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyAAAAwMDAwMDAwMDAwMDA
+wMDAwMDA8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLywMDAwMDAwMDAwMDAwMDAwMDAAAAA
+AAAAAAAA8vLy8vLy8vLy8vLy8vLyAAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAAAAAAAAAAAAA
+8vLy8vLy8vLy8vLy8vLyAAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAAAAAAAAAAAAAwMDAAAAA
+wMDAAAAAwMDAAAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAJqQnk4u3CSPkwIAAHQJAAAHABEAc3RyLmRhdFVUDQAHHY7IXB2OyFwdjshc
+nVZNb9NAEJ1rkPgPkXtxpUpAoC0C9VBQChyIEK3EESV1aCw5bmSbSgXx33lvJhuvN7ZjUOT9
+8ny+eTtOKSuZy0aWMpY1Vqnk8lueyhN9RpLh7FHu5adUcoOVSV7gieQdzgtJcFJg93arYeMz
+/Eq8qeQLxlxiaDyXk2CcyPFOz6QzjWCJXQVvGVYxbCeIokSkkSdfaFQ53hWQuoV86OMF5nB1
+uh2dHbM1h5VErmFvgdEhQnsRdswylV+Yc3iZI6rNVoOx3kGGNiP51oivz2aO3Ro7p/lepjID
+vlP5OthGipwZUYkVa7DAW9bBLE4bdhzCda3bta3yo53G/9R/BBlW5Ieec5UAGXqp4N90J6hA
+Le/mIdm6/GaN/Pp1HzSSSm10V++6YfFPJ3KH+VCjeBgJMvOwz/4M+vx9xJhCZgVt83juYd/t
+0TF03MKJB/kul3pT7yDn2FABj02DB6tWuVthP6g0Rl+a0aaK50Lv/RV2S6ySnWZ9a/a5w36T
+IvNYc2D3mMMre8eVdgn2h1QrNpZPQs4yBmrQCyM5xs+3VufNnWFLvNmj2M8iOcKNuJQP8mag
+j6OAs7TrKlBn0uZnBj+fcaebFrqr527Lfu2GMGSy46TT6u7NrEsCX1WQm+vJcyFDTZZct65v
+89l2fo3Z1216JXoZfswo07sXB18SX7c/0lJt8AY2o/2XqN38MvDcp3se6IYZt+medqA1xK/T
+dX7bkTb+2MiHjCXKBWzVTObJGry5128F7y1lHbOsFxrTa60LYT/lN8j58u8mOcheYT3tUTme
+4nzfE3szO0uB+8VdfUdrZrNHsKYbrb1x45U3Mncfr1DesDFZ9z8h1FkjJvZg9rhYK3CiGPsy
+jnMmY8g3ZRzefwFQSwECFwsUAAAACACakJ5OLtwkj5MCAAB0CQAABwAJAAAAAAAAAAAAAIAA
+AAAAc3RyLmRhdFVUBQAHHY7IXFBLBQYAAAAAAQABAD4AAADJAgAAAAA=</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="TMF_DomainHyperlink" metatype="TMF Domain Hyperlink" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAFarj02yMuXeNgEAAGQDAAAHABEAc3RyLmRhdFVUDQAHc3EVXHNxFVxzcRVc
+pVFNS8NAEH3XCP0Ppb2kUNAiilB68OAf8AOPUrtpDaTbskmUKv3vvpnNZttoDyLLzM7uvHnz
+VeINc2yRoY81rRwWPZzhS3WCgn87bFCj4tkpcoYB7Q1tQ/3BiAGmDd7y50E5vc9jHeOzA5Th
+a4mS2T5ppZjgEhcY44Z61KKc5rVEO6IW5EkVJTKhPryvVGLsOY/UYJilxit16DNlHdvGJ92u
++B5T7ij/iX8+ij8da2mvdRo/u/ASWDxTjO538np/2FRCr8xpSXFqGc4/p67IMMN1W9v+F+ZQ
+VZfzHS/0FORZERM3H3eZkKWLWZDJEimVBGRA56ww1cwlEXPGyFRqvjLcKot4/EwfcY+nZjOj
+liFW53uWaVTs1Wk30o9RzmFTlfANj7YTZ5AQXWjuv7OHmZ3i9vce31BLAQIXCxQAAAAIAFar
+j02yMuXeNgEAAGQDAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAdzcRVcUEsFBgAA
+AAABAAEAPgAAAGwBAAAAAA==</Image>
+						<AppliesTo>
+							<Apply type="Text"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="TMF_Function" metatype="TMF Function" notes="" cx="0" cy="0" bgcolor="13749760" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDA/78A/78A/78A/78A/78A/78A/78AwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAA/78A/78A
+/78A/78A/78A/78A/78A/78A/78AAAAAwMDAwMDAwMDAwMDAwMDAwMDA/78AAAAAAAAA/78A
+/78A/78AAAAAAAAA/78AwMDAwMDAwMDAwMDAwMDAwMDAAAAA/78AAAAA/78AAAAA/78AAAAA
+/78AAAAA/78AAAAAwMDAwMDAwMDAwMDAwMDAwMDA/78AAAAA/78A/78AAAAA/78A/78AAAAA
+/78AwMDAwMDAwMDAwMDAwMDAwMDAAAAA/78AAAAA/78A/78A/78A/78A/78AAAAA/78AAAAA
+wMDAwMDAwMDAwMDAwMDAwMDA/78AAAAA/78A/78A/78A/78A/78AAAAA/78AwMDAwMDAwMDA
+wMDAwMDAwMDAAAAA/78A/78AAAAA/78A/78A/78AAAAA/78A/78AAAAAwMDAwMDAwMDAwMDA
+wMDAwMDA/78A/78A/78AAAAA/78AAAAA/78A/78A/78AwMDAwMDAwMDAwMDAwMDAwMDAAAAA
+/78A/78A/78A/78AAAAA/78A/78A/78A/78AAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDA/78A
+/78A/78A/78A/78A/78A/78AwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAAwMDAAAAA
+wMDAAAAAwMDAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIADifj00PhpYyYQIAAKwIAAAHABEAc3RyLmRhdFVUDQAHmFwVXJhcFVyYXBVc
+nVXbitNQFF2vFfyH0nnJgKBWx0FlHqrUy4NFHMFHaSd1GmgzIY0Do/jvrrX3nObSJK1ScnLO
+ydq3tS/dYoU5MiwxxIa7BCl+4yEe2DPAmnd3uMFPFPjKnSMv+Izwhvc5Yt7kPL2+l/D1MX9b
+finwmWuKiBJP8KixjnG6k3P02jxY8lTQ2pq7iLpjerGlp6MKPjevUn7LiboivmnjKd/N3bjy
+Drpc35yaYlxS54JrYEU6Rzwp0gS/+E5paU7PsnsJ+XtNjLSO8K3mY5/OlKcNT0HyLaaYkeMp
+vhytI2Hc8mjLnfKw4FflwjVOa3oCy2W+26U9+4OdxP/UwIAYZeWH3WsXkxlZKWjfZcc4q+DD
++5hoQ3yzWnz9srfmSWE6urN3WdP4p5O5w/VQsniYCVXnYZv9EfTZ+8A1IWZFabd4XuG+22Ko
+0GFLTdziOybWrdfEhWooyEdWq4NVK+4KmgmF+VhFy9vE+FxY77/jacldvJMsu2a/djRzEkYe
+WQyaIHNa1fyY0KvMvBB34lB5G+IjVLnyRHKyJX9O+avqLKPXyRkW65pWmmwjnLAvJniPV/9k
+6aRRv9IeslFG1WZtRjuf2N91Dd2ZDJ2zn8djqkWzcp/tDTWqJpXzCM9srj6vTFVhwjR3zJlh
+1PfdGFXmIT2OedmLcVtCdmPc5349bXE5z77qUWbFb17LuG425PfG5qtqXdiQAZ8fXhGl1IXN
+IM3tYKtaz8qV+svnwJ3VQsL7fUuaZ+rGnLNQp7KiywpQXynWzP55o12cYX3R4KWJ1/eADf+v
+TZm2GlFmuvk+b8EEvv8CUEsBAhcLFAAAAAgAOJ+PTQ+GljJhAgAArAgAAAcACQAAAAAAAAAA
+AACAAAAAAHN0ci5kYXRVVAUAB5hcFVxQSwUGAAAAAAEAAQA+AAAAlwIAAAAA</Image>
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="TMF_Guide" metatype="TMF Guide" notes="" cx="0" cy="0" bgcolor="15921906" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+AAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAwMDAAAAA8vLy8vLy
+8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyAAAAwMDAwMDA8vLy8vLy8vLy8vLy
+8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLywMDAwMDAAAAA8vLy8vLy8vLy8vLyAAAAAAAA
+AAAAAAAAAAAA8vLy8vLy8vLy8vLyAAAAwMDAwMDA8vLy8vLyAAAAAAAA8vLy8vLy8vLy8vLy
+8vLyAAAAAAAA8vLy8vLywMDAwMDAAAAA8vLyAAAA8vLy8vLy8vLy8vLyAAAA8vLy8vLy8vLy
+8vLyAAAA8vLyAAAAwMDAwMDAAAAA8vLy8vLy8vLy8vLyAAAAAAAAAAAA8vLy8vLy8vLy8vLy
+AAAAwMDAwMDAAAAA8vLyAAAA8vLy8vLy8vLy8vLyAAAA8vLy8vLy8vLy8vLyAAAA8vLyAAAA
+wMDAwMDA8vLy8vLyAAAAAAAA8vLy8vLy8vLy8vLy8vLyAAAAAAAA8vLy8vLywMDAwMDAAAAA
+8vLy8vLy8vLy8vLyAAAAAAAAAAAAAAAAAAAA8vLy8vLy8vLy8vLyAAAAwMDAwMDA8vLy8vLy
+8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLywMDAwMDAAAAA8vLy8vLy8vLy8vLy
+8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyAAAAwMDAwMDAAAAAwMDAAAAAwMDAAAAAwMDA
+AAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAChRpE6txp+45QIAAFALAAAHABEAc3RyLmRhdFVUDQAH4GTNXOBkzVzgZM1c
+nVZNbxNBDPU1SPyHKL1sJSJo2tIC6qGgFDgQIYrEEeWLZqUkjZKlUkH8d96z48zsJLsJaLWz
+82E/P3s8nl3JRPqykLE0ZYZeLnP5LU/lib4NmWLuUe7lpxTyFT2TvMLbkreYX8oIM0uM3qw1
+rH2OZ4WVQj6jnUsGjRfyLGk7crzRM+mpMhhjVMDaFL0M2COwWIFpK5JfKqs51paQGkI+tXGC
+b9rrRF/HMrw+kEZyC8wBWo8KMVsY0dNcfuE7h6U+mC3WGuR7BxmituRbiWMd5hyjGUau+U66
+0kOMu/LlYIwcfpPRCj3uwwCr3AtD7JZwPMphv3dr2+43Nhr/kwMNyHBXfug8eyNEhlYK2Dfd
+jpxH8v49xFv3r1fyr173QZkUilG9e7clxD+VkdufDyGK+yPB7Nxvs96DOnsf0OaQmUDbLF5E
+sa+26Bna3JETD/JdrvW03kHOs6FAPBalPJjslBsKa0KhHGNpss01ngM9+zcYjdEbbTTDqdnO
+HdacHJ5n6gMrSB9WWT9utFKwRuS6Y035KMxZcqAGrZDJMZ4YLfjNkcWW8WadYk1ryRFOxLW8
+l9cH2jhKcpa4vgPBk112erDzCWe6jFC9e35atvfukAxhfTQbMVPWhyH4sIaeanu51dq891Jf
+6xHS2TqENnI4lT/Z0t7PpA4nna/H8bvFNMr3j6+Fnku15Sya2Y/eBsZ5gs/zXF4zn5ryKhpX
+Y8cM+DVvy7zdVuD98iDejh24OXpgfZqw9pWUdZw9/8rWsVO2ZcxqljZyn301Zehf+5vhqZ/i
+4Umc6p1hduyN9VjlWCUXqpnBk0vInKltY07LsYZj8x7gXZLpqjOwumAtX1YisliqtFcozsyA
+cK//AKzHlPWKYXecVbCgdaX3JP8tnEtcc1lbeAfYXfWotSvH/LYl3rm8MZaomxyF2hsqVhoV
+xsHyydo0Jqm87ZbJek6kOjNw4t3Kuytb50u6q/5XajIXO2Q83n8BUEsBAhcLFAAAAAgAKFGk
+Tq3Gn7jlAgAAUAsAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB+BkzVxQSwUGAAAA
+AAEAAQA+AAAAGwMAAAAA</Image>
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="TMF_InformationFlow" metatype="TMF Information Flow" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAAAAAwMDAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAAAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAAAAAAAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAA
+AAAAAAAAAAAAAAAA</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIABRO406GWspJMgEAAOYCAAAHABEAc3RyLmRhdFVUDQAH6nkcXep5HF3qeRxd
+hZFBS8NAEIXfNYL/QdKLhQr14EXxUAW9VBDUk3iIJDXFtJVtVET8734zmy2tFmXZZZJ5b96b
+maVqFXpRpT3NiKaaa1c7+vQ342uhG8eURO+gTrmtgl7hnHSoJXGrsbMr8K0+1BDtg81hFiBq
+ov6K0XTYW6oa6lBDzoBo6KjMcV/+2jV+8nkFt+SYwhn8lrPA/RjEI/8aMMl/fKeaoGIVligW
+euqcmdOCWxGbdu4e+yt21M+8pvUYv1I2w0/wPlryc2rmulcPhZEudbxWvaeHje5j3e3dGSfg
+0CZquaQWZ3yBXsM5p+OGG7yTiL5zTPCZBOZj8TrOOksOUs2o1urandaOSpgZvLfVjmw7cTcx
+u7lB299AR//kD/5A/KxfkSu3+pp0Mxg5wqYcqPAM4zc6zvgbUEsBAhcLFAAAAAgAFE7jToZa
+ykkyAQAA5gIAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB+p5HF1QSwUGAAAAAAEA
+AQA+AAAAaAEAAAAA</Image>
+						<AppliesTo>
+							<Apply type="InformationFlow">
+								<Property name="direction" value="Source -&gt; Destination"/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="State" type="" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="TMF_Metric" metatype="TMF Metric" notes="" cx="0" cy="0" bgcolor="16761024" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Outcome" baseStereotypes="ArchiMate3::ArchiMate_Outcome"/>
+					<Stereotype name="TMF_ODA_FunctionalBlock" metatype="TMF ODA Functional Block" notes="" cx="0" cy="0" bgcolor="8036607" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwMDAwMDAwMDAAAAAeqD/eqD/
+eqD/eqD/eqD/eqD/eqD/eqD/eqD/eqD/eqD/AAAAwMDAwMDAwMDAAAAAeqD/eqD/eqD/eqD/
+eqD/eqD/eqD/eqD/eqD/eqD/eqD/AAAAwMDAwMDAwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAwMDAwMDAwMDAAAAAeqD/eqD/eqD/AAAAeqD/eqD/eqD/AAAA
+eqD/eqD/eqD/AAAAwMDAwMDAwMDAAAAAeqD/eqD/eqD/AAAAeqD/eqD/eqD/AAAAeqD/eqD/
+eqD/AAAAwMDAwMDAwMDAAAAAeqD/eqD/eqD/AAAAeqD/eqD/eqD/AAAAeqD/eqD/eqD/AAAA
+wMDAwMDAwMDAAAAAeqD/eqD/eqD/AAAAeqD/eqD/eqD/AAAAeqD/eqD/eqD/AAAAwMDAwMDA
+wMDAAAAAeqD/eqD/eqD/AAAAeqD/eqD/eqD/AAAAeqD/eqD/eqD/AAAAwMDAwMDAwMDAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwMDAwMDAwMDAAAAAeqD/eqD/
+eqD/eqD/eqD/eqD/eqD/eqD/eqD/eqD/eqD/AAAAwMDAwMDAwMDAAAAAeqD/eqD/eqD/eqD/
+eqD/eqD/eqD/eqD/eqD/eqD/eqD/AAAAwMDAwMDAwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAOp8pk6ZYo9ImAIAACQJAAAHABEAc3RyLmRhdFVUDQAHOVXQXDlV0Fw5VdBc
+nVbbbtNAEJ3XIPEPkfviSpGA0LQI1IdQhcsDEaJFPCKnDo2lxLUcU6kg/p1zZrLx+hLHoCib
+3fWcuZy5OFtZSSSZLGUoG+wSSeW3PJUn+h3IGnePci8/pZAb7EzyEt9A3uI+lxg3OU5vdghb
+n+GzxZNCPmNNJQTiuYxq61hO9ziTXqsHS5wKWFtjF0J3DC+28DTw5HP1KsWzHFK3kK/beIHf
++m6yW50e0xVBSyzX0LfA6hihvgAnRpnIL/ymsBLBq2yHoK93kKHOQL5V/OvSmeK0wckhr2Qm
+c/A7ky+9dSSImR5tsWMOFnjKPJjGWUWPY7jMdTvaMj/YI/4n/wPIMCM/9J67GMzQSgH7hh0j
+A6W8++0TrYtvXomvG/ugnhSq43D2risa/xxk7ng9lCweZ4KVedxmdwRd9j5gTSCzAtosXnjc
+H7boKnTYUhMP8l2m2ql3kHPVUICPrFIHq1a5W+E8KNRHX5reJsrnQvv+HU5L7OI9suyaZu1w
+3iSIPNQYOD0iWOXsmMKrTL0gd+SQeRvKR2Hl0hPiaIv+nOLj6yyj58kYJuucVJxqgZygL6by
+Xl7/k6WTWv1Su8tGGVWbtTnsfEJ/VzUczqTrnGYe+1TL2KvPEmmzmvpT1b7WngjBAu+/6vMc
+GbQOufIkyG9Tn5vgkbCeberT8kgnxQg1O8Z6Vnlf9EFPdH2paNa9j25DnXmoSW/UuYcyT+uo
+LrR5+gpeOrS9rZp4y7Gt/LKqyH5eqTbebJCbe53t7DPKuuzb7LJqLFGXOv/4znA2/V5inbC3
+bQY9ah0muG9a4izlJMgxh3kqu6msPvY0eyTTKgk1euPdVrLpx16XN7ZN1r3X65gNfOLM5EwK
+wazLjy/j/mmYzEWLjOP7L1BLAQIXCxQAAAAIAOp8pk6ZYo9ImAIAACQJAAAHAAkAAAAAAAAA
+AAAAgAAAAABzdHIuZGF0VVQFAAc5VdBcUEsFBgAAAAABAAEAPgAAAM4CAAAAAA==</Image>
+						<AppliesTo>
+							<Apply type="Component">
+								<Property name="isIndirectlyInstantiated" value="true"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="TMF_ODA_Functionality" metatype="TMF ODA Functionality" notes="" cx="0" cy="0" bgcolor="8036607" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwMDAwMDAAAAAeqD/eqD/eqD/eqD/
+eqD/eqD/eqD/eqD/eqD/eqD/eqD/AAAAwMDAwMDAwMDAAAAAeqD/eqD/eqD/eqD/eqD/eqD/
+eqD/eqD/eqD/eqD/eqD/AAAAwMDAwMDAwMDAwMDAAAAAeqD/eqD/eqD/eqD/eqD/eqD/eqD/
+eqD/eqD/AAAAwMDAwMDAwMDAwMDAwMDAAAAAeqD/eqD/eqD/eqD/eqD/eqD/eqD/eqD/eqD/
+AAAAwMDAwMDAwMDAwMDAwMDAwMDAAAAAeqD/eqD/eqD/eqD/eqD/eqD/eqD/AAAAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAAAAAeqD/eqD/eqD/eqD/eqD/AAAAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAAAAAeqD/eqD/eqD/eqD/eqD/AAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAAAAAeqD/eqD/eqD/AAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAAAAAeqD/eqD/eqD/AAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+AAAAeqD/AAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAAeqD/
+AAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAKZ0pk5xSbEEcgIAAKoIAAAHABEAc3RyLmRhdFVUDQAHn0bQXJ9G0FyfRtBc
+nVXfS9tQGD2vHfg/lPgSYbCt6hwTH9yo2x5WRIU9SmuqDWtjSTPBjf3vO+dev+YmTdowQu6v
+nO/3uV9WmGGMJaboY8FVigx/sIdX7u1hzrNnPOIXCtxw5ZFnfCN84nmOhCc5d6cvEn58w2fF
+LwUuOWaIKfEWr2vjAAdrOY+eOw+m3BW0Nucqpu6EXqzoaRTgc+dVxm85UXfE122841xfDYLZ
+dHl9Y2pKcE2dE46WFemMuFOkKX5zzmhpTM+WLxLy94EYaY3wo+LjNp0ZdwvuTPIzhhgxx0Nc
+ddaRMm55tOJKdZjwq2rhNQ4reizLZb2bpX31e2uJ/+FAjxhV5d6da5UwM7JS0L6XHeA4wNvc
+JVqLb1SJb7vsk/OkcDraq3dd0fi3NXO7+VBmcXcmxM7dNrdHsM3eV44pMTNKe4snQe7bLRpD
++w2ceMItzt1tfSDO2FAwH8sKD2aNuDuoJxTOxxAtb1OXz4m7+xfcTblK1pLlrdnkjnpOyshj
+F4M6yJhW1T8uXKdQj0hdxfr4BnFWPkhCVuTJAZ9QWxm3dj63yrf6lHpahH3eiHN8wceONvZr
+nJVeq0AZSZOdEe18552uamivnt2Wzdp1YcghPjRk2OdULLzkLAbHlWhsXtCy+HrDuezK74Oe
+K5T1ekOddMQdkr31Ht6E29RmSFUlaYlBMerf8pOoJoTPuB/1qsbKdO6wVnudLJjpR9ddxXRh
+rRa+e3hulFJnrgOpa5utkM2qmm6X7wLPjhUpzzctqZvpLuZkpHYlq0su6FYpX0vovxu7XB0F
+Y70Gdby+G9b+rnUZY4G6QsyqCXPcUjOP8QyoYizf/wBQSwECFwsUAAAACACmdKZOcUmxBHIC
+AACqCAAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHn0bQXFBLBQYAAAAAAQABAD4A
+AACoAgAAAAA=</Image>
+						<AppliesTo>
+							<Apply type="Activity">
+								<Property name="isReadOnly" value="false"/>
+								<Property name="isSingleExecution" value=""/>
+								<Property name="parameterName" value=""/>
+								<Property name="postcondition" value=""/>
+								<Property name="precondition" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="TMF_ODA_Principle" metatype="TMF ODA Principle" notes="" cx="0" cy="0" bgcolor="8036607" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="ArchiMate3::ArchiMate_Principle" baseStereotypes="ArchiMate3::ArchiMate_Principle">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAwMDAwMDAwMDAwMDAwMDA
+wKAAwKAAwKAAwKAAwKAAwKAAwKAAwKAAwKAAwMDAwMDAwMDAwMDAwMDAwMDAAAAAwKAAwKAA
+wKAAwKAAAAAAwKAAwKAAwKAAwKAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwKAAwKAAwKAAAAAA
+AAAAAAAAwKAAwKAAwKAAwMDAwMDAwMDAwMDAwMDAwMDAAAAAwKAAwKAAwKAAwKAAAAAAwKAA
+wKAAwKAAwKAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwKAAwKAAwKAAwKAAwKAAwKAAwKAAwKAA
+wKAAwMDAwMDAwMDAwMDAwMDAwMDAAAAAwKAAwKAAwKAAwKAAAAAAwKAAwKAAwKAAwKAAAAAA
+wMDAwMDAwMDAwMDAwMDAwMDAwKAAwKAAwKAAwKAAAAAAwKAAwKAAwKAAwKAAwMDAwMDAwMDA
+wMDAwMDAwMDAAAAAwKAAwKAAwKAAwKAAAAAAwKAAwKAAwKAAwKAAAAAAwMDAwMDAwMDAwMDA
+wMDAwMDAwKAAwKAAwKAAwKAAAAAAwKAAwKAAwKAAwKAAwMDAwMDAwMDAwMDAwMDAwMDAAAAA
+wKAAwKAAwKAAwKAAAAAAwKAAwKAAwKAAwKAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwKAAwKAA
+wKAAwKAAwKAAwKAAwKAAwKAAwKAAwMDAwMDAwMDAwMDAwMDAwMDAAAAAwMDAAAAAwMDAAAAA
+wMDAAAAAwMDAAAAAwMDAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA</Icon>
+						<TaggedValues>
+							<Tag name="Implications" type="" description="" unit="" values="" default=""/>
+							<Tag name="Rationale" type="" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="TMF_OpenAPI" metatype="TMF OpenAPI" notes="" cx="0" cy="0" bgcolor="13749760" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<Icon type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAAAAAwMDAwMDAwMDAwMDAwMDAwMDA
+/78A/78A/78A/78A/78A/78A/78A/78A/78AwMDAwMDAwMDAwMDAwMDAwMDAAAAA/78A/78A
+/78A/78A/78A/78A/78A/78A/78AAAAAwMDAwMDAwMDAwMDAwMDAwMDA/78A/78A/78A/78A
+/78A/78A/78A/78A/78AwMDAwMDAwMDAwMDAwMDAwMDAAAAA/78A/78A/78A/78AAAAAAAAA
+AAAA/78A/78AAAAAwMDAwMDAwMDAwMDAwMDAwMDA/78A/78A/78AAAAA/78A/78A/78AAAAA
+/78AwMDAwMDAwMDAwMDAwMDAwMDAAAAA/78AAAAAAAAAAAAA/78A/78A/78AAAAA/78AAAAA
+wMDAwMDAwMDAwMDAwMDAwMDA/78A/78A/78AAAAA/78A/78A/78AAAAA/78AwMDAwMDAwMDA
+wMDAwMDAwMDAAAAA/78A/78A/78A/78AAAAAAAAAAAAA/78A/78AAAAAwMDAwMDAwMDAwMDA
+wMDAwMDA/78A/78A/78A/78A/78A/78A/78A/78A/78AwMDAwMDAwMDAwMDAwMDAwMDAAAAA
+/78A/78A/78A/78A/78A/78A/78A/78A/78AAAAAwMDAwMDAwMDAwMDAwMDAwMDA/78A/78A
+/78A/78A/78A/78A/78A/78A/78AwMDAwMDAwMDAwMDAwMDAwMDAAAAAwMDAAAAAwMDAAAAA
+wMDAAAAAwMDAAAAAwMDAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+wMDAwMDAwMDAwMDA</Icon>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAG6tkE4aDUu7ZgIAAEoIAAAHABEAc3RyLmRhdFVUDQAHm0y2XJtMtlybTLZc
+nVVbj9JAGD2vmPgfSPelm5Co6O4azT6gwcuDxLgm+2hgi0sjdEmpm6zG/+453zBMO0BBQzqd
+mZ7vdr4LK8wwxhJTdLHgLkeB33iMR/Z0MOfdA+7wExW+cueQl3wSvOF9iYw3JU+v1xJufcLf
+il8qfOZaIKXEU/SitY/TjZxDz82DKU8Vrc25S6k7oxcreprU8KV5VfBbSdQN8bGNZ3zHu7P1
+6vU4XWNqyXBFfROunhHpS3hSlDl+8V3QypheLdcS8vWWGOlMcN3wr01nwdOCJy/5FkOMyO8Q
+X47WkTNmebTiTjmY8Kvy4DQOG3o8wyHXu6Vd5jsbif/Jf4cYZeS73WuXkRlZqWjfyfaZgYD3
+72Oi9fGNGvG1y96bJ5Xp2J+9q4bGP3uZO1wPgcXDTKgyD9tsj6DN3geuOTEzSjuLFzXu91v0
+FdrdURP3+IaBdeotcb4aKvKxbNTBbCfuBpoHlflYR8vb3PicWN+/42nKXbaRDF2zXTuaNzkj
+Ty0GTY8xrWp2DOjV0rwQd+JQeeviI1S58kRysiV/Tvmr6wzR6+QYFuuaVJpqCU7YFwO8x6t/
+snQS1a+0+2yEqHZZG9HOJ/Z3U8P+TPrO2c7jMdXSr9VnkFReFOfSpnaKFzZdhe3hpa0XXOvx
+LeiDqlhVklrV90yqjvGz32GczhijzGry/yBOXaBOSg3RbTDhVj3iXgyUjZzoZkENdzYBVY3C
+eo5ch7ucBalLmxKarN6fesWJTXWA69QHy1bO+21Lmjjql5LTSqdQcyFHMcOeC7+eR7zEeH33
+WP/vF8s0c/LcMGetOVFWY4zn+y9QSwECFwsUAAAACABurZBOGg1Lu2YCAABKCAAABwAJAAAA
+AAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHm0y2XFBLBQYAAAAAAQABAD4AAACcAgAAAAA=</Image>
+						<AppliesTo>
+							<Apply type="Interface"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="API Spec URL" type="" description="" unit="" values="" default=""/>
+							<Tag name="Conform URL" type="" description="" unit="" values="" default=""/>
+							<Tag name="CTK URL" type="" description="" unit="" values="" default=""/>
+							<Tag name="Current Release" type="" description="" unit="" values="" default=""/>
+							<Tag name="Doc ID" type="" description="" unit="" values="" default=""/>
+							<Tag name="Lifecycle Status" type="" description="" unit="" values="" default=""/>
+							<Tag name="Postman URL" type="" description="" unit="" values="" default=""/>
+							<Tag name="Ref Impl URL" type="" description="" unit="" values="" default=""/>
+							<Tag name="Swagger URL" type="" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="TMF_SID_ABE" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Package">
+								<Property name="URI" value=""/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="SID Lifecycle Status" type="" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="TMF_SID_BusinessEntity" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="SID Lifecycle Status" type="" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="TMF_SID_DataType" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="DataType"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="SID Lifecycle Status" type="" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="TMF_SID_Enumeration" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Enumeration"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="SID Lifecycle Status" type="" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+<!--<Stereotype name="TMF_ValueStream" metatype="TMF Value Stream" notes="" cx="0" cy="0" bgcolor="7707903" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0" generalizes="BIZBOK::Value Stream" baseStereotypes="BIZBOK::Value Stream">
+						<TaggedValues>
+							<Tag name="Assumptions" type="" description="" unit="" values="" default=""/>
+							<Tag name="Critical Issues" type="" description="" unit="" values="" default=""/>
+							<Tag name="Inputs" type="" description="" unit="" values="" default=""/>
+							<Tag name="Outputs" type="" description="" unit="" values="" default=""/>
+							<Tag name="Tasks" type="" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>-->
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+	</UMLProfiles><TaggedValueTypes><RefData version="1.0" exporter="EA.25">
+			<DataSet name="Property Types" table="t_propertytypes" filter="Property='#Property#'"><DataRow><Column name="Property" value="API Spec URL"/><Column name="Description" value="TMF_ArchiMate3"/><Column name="Notes" value="Type=URL;"/></DataRow><DataRow><Column name="Property" value="Conform URL"/><Column name="Description" value="TMF_ArchiMate3"/><Column name="Notes" value="Type=URL;"/></DataRow><DataRow><Column name="Property" value="CTK URL"/><Column name="Description" value="TMF_ArchiMate3"/><Column name="Notes" value="Type=URL;"/></DataRow><DataRow><Column name="Property" value="Implications"/><Column name="Description" value="TMF_ArchiMate3"/><Column name="Notes" value="Type=Memo;"/></DataRow><DataRow><Column name="Property" value="Postman URL"/><Column name="Description" value="TMF_ArchiMate3"/><Column name="Notes" value="Type=URL;"/></DataRow><DataRow><Column name="Property" value="Rationale"/><Column name="Description" value="TMF_ArchiMate3"/><Column name="Notes" value="Type=Memo;"/></DataRow><DataRow><Column name="Property" value="Ref Impl URL"/><Column name="Description" value="TMF_ArchiMate3"/><Column name="Notes" value="Type=URL;"/></DataRow><DataRow><Column name="Property" value="Swagger URL"/><Column name="Description" value="TMF_ArchiMate3"/><Column name="Notes" value="Type=URL;"/></DataRow><DataRow><Column name="Property" value="Assumptions"/><Column name="Description" value="TMF_ArchiMate3"/><Column name="Notes" value="Type=Memo;"/></DataRow><DataRow><Column name="Property" value="Tasks"/><Column name="Description" value="TMF_ArchiMate3"/><Column name="Notes" value="Type=Memo;"/></DataRow><DataRow><Column name="Property" value="Inputs"/><Column name="Description" value="TMF_ArchiMate3"/><Column name="Notes" value="Type=Memo;"/></DataRow><DataRow><Column name="Property" value="Outputs"/><Column name="Description" value="TMF_ArchiMate3"/><Column name="Notes" value="Type=Memo;"/></DataRow><DataRow><Column name="Property" value="Critical Issues"/><Column name="Description" value="TMF_ArchiMate3"/><Column name="Notes" value="Type=Memo;"/></DataRow></DataSet></RefData></TaggedValueTypes><DiagramProfile><UMLProfile profiletype="uml2">
+			<Documentation id="4543774A-3" name="TM Forum Diagrams" version="1.0" notes="TM Forum Diagrams"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="TM Forum Diagram" notes="General purpose diagram that exposes all TMF ArchiMate3 stereotypes." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Diagram_Custom">
+								<Property name="alias" value="TM Forum"/>
+								<Property name="toolbox" value="TM Forum Toolbox"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+	</DiagramProfile><UIToolboxes><UMLProfile profiletype="uml2">
+			<Documentation id="CE48E660-8" name="TM Forum Toolbox" version="1.2" notes="TM Forum Toolbox"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Business Architecture" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="TMF_ArchiMate3::TMF_BusinessCapability(UML::Class)" type="" description="" unit="" values="" default="Business Capability"/>
+							<Tag name="TMF_ArchiMate3::TMF_ValueStream(UML::UseCase)" type="" description="" unit="" values="" default="Value Stream"/>
+							<Tag name="TMF_ArchiMate3::TMF_InformationFlow(UML::InformationFlow)" type="" description="" unit="" values="" default="Information Flow"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="DMM" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="TMF_ArchiMate3::TMF_DMM_Attribute(UML::Class)" type="" description="" unit="" values="" default="Attribute"/>
+							<Tag name="TMF_ArchiMate3::TMF_DMM_Criteria(UML::Class)" type="" description="" unit="" values="" default="Criteria"/>
+							<Tag name="TMF_ArchiMate3::TMF_DMM_Dimension(UML::Class)" type="" description="" unit="" values="" default="Dimension"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="Frameworx" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="TMF_ArchiMate3::TMF_Category(UML::Class)" type="" description="" unit="" values="" default="Category"/>
+							<Tag name="TMF_ArchiMate3::TMF_Domain(UML::Class)" type="" description="" unit="" values="" default="Domain"/>
+							<Tag name="TMF_ArchiMate3::TMF_BusinessProcess(UML::Activity)" type="" description="" unit="" values="" default="eTOM Business Process"/>
+							<Tag name="TMF_ArchiMate3::TMF_Guide(UML::Class)" type="" description="" unit="" values="" default="Guide"/>
+							<Tag name="TMF_ArchiMate3::TMF_Metric(UML::Class)" type="" description="" unit="" values="" default="Metric"/>
+							<Tag name="TMF_ArchiMate3::TMF_ABE(UML::Class)" type="" description="" unit="" values="" default="SID ABE"/>
+							<Tag name="TMF_ArchiMate3::TMF_Application(UML::Component)" type="" description="" unit="" values="" default="TAM Application"/>
+							<Tag name="TMF_ArchiMate3::TMF_Function(UML::Activity)" type="" description="" unit="" values="" default="TAM Function"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="ODA" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="TMF_ArchiMate3::TMF_ODA_FunctionalBlock(UML::Component)" type="" description="" unit="" values="" default="Functional Block"/>
+							<Tag name="TMF_ArchiMate3::TMF_ODA_Functionality(UML::Activity)" type="" description="" unit="" values="" default="Functionality"/>
+							<Tag name="TMF_ArchiMate3::TMF_ODA_Principle(UML::Class)" type="" description="" unit="" values="" default="Principle"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="Open APIs" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="TMF_ArchiMate3::TMF_API_Resource(UML::Class)" type="" description="" unit="" values="" default="API Resource"/>
+							<Tag name="TMF_ArchiMate3::TMF_OpenAPI(UML::Interface)" type="" description="" unit="" values="" default="Open API"/>
+							<Tag name="TMF_ArchiMate3::TMF_API_Spec(UML::PackagingComponent)" type="" description="" unit="" values="" default="API Spec"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="SID UML" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="TMF_ArchiMate3::TMF_SID_ABE(UML::Package)" type="" description="" unit="" values="" default="SID ABE (Package)"/>
+							<Tag name="TMF_ArchiMate3::TMF_SID_BusinessEntity(UML::Class)" type="" description="" unit="" values="" default="SID Business Entity (Class)"/>
+							<Tag name="TMF_ArchiMate3::TMF_SID_DataType(UML::DataType)" type="" description="" unit="" values="" default="SID Data Type"/>
+							<Tag name="TMF_ArchiMate3::TMF_SID_Enumeration(UML::Enumeration)" type="" description="" unit="" values="" default="SID Enumeration"/>
+						</TaggedValues>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+	</UIToolboxes></MDG.Technology>

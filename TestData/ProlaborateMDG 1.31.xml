@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<MDG.Technology version="1.0"><Documentation id="6FS01" name="Prolaborate Technology" version="1.31" notes="V1.30&#xA;- version number added (V4.2.1,V4.4.0,V4.4.1)&#xA;V 1.29&#xA;- Anwar, V4.2 Milestone value Added,Nabil,Nizam&#xA;V 1.28&#xA;- Sivakrishnan,muthupandi,sulaiman name added.&#xA;&#xA;V 1.27&#xA;- Component type- Default Group added&#xA;&#xA;V 1.26&#xA;- Web app Version Value Added&#xA;- Regression Property Added&#xA;- Released Version Added upto 4.2.0&#xA;- Menus,Users,Access control Profile Component types added. &#xA;- Prol Status-Partially completed value added.&#xA;- In Module element Prol Status ,Prol Priority were added.&#xA;V1.25&#xA;- Component type Filter profile,&#xA;- Release Version added v4.0.0,v4.1.0&#xA;- Prol Status - Feature removed values added&#xA;&#xA;V1.24&#xA;- Defect and Bug fill color removed Border color added shape    script removed from defect and bug&#xA;- Nizam,Sathiya names added in Identified by Property&#xA;&#xA;V1.23&#xA;- Identified By Tagged property Added in Bugs,Defects Items&#xA;- My Profile, OIDC values added in Component type tagged value&#xA;- Prol Status Implemented value added&#xA;- Interation Values Increased Upto Milestone 30&#xA;- Component type Widgets,Integration&#xA;- Component type EA,Reports,General added &#xA;- Iteration values extended upto milestone 25&#xA;- Affected Versions values added for V3.4,V3.4.1,V3.5,V3.6&#xA;- Fixed version values added for V3.4,V3.4.1,V3.5,V3.6&#xA;- Released version values added for V3.4,V3.4.1,V3.5,V3.6&#xA;-Component type EA Query,Forms,Overall application added&#xA;- Sorted Assigned to, Assignee and  names&#xA;- Added additional milestone upto Milestone 20&#xA;- On Hold,Need to Discuss values Added in Prol Status&#xA;- Added additional Milestone in Iteration tagged Property&#xA;- Added names additonally in Assigned to,Assignee,Module         Owner,Reported by, Requested by Tagged property. &#xA;&#xA;V1.22&#xA;- Added additional iteration and Version values&#xA;- Added new users Yuvaraj and Venkat&#xA;&#xA;V1.21&#xA;Added additional iteration values&#xA;&#xA;V1.20&#xA;Added new status and iteration&#xA;&#xA;V1.19&#xA;Added new defect type - Text Defect&#xA;&#xA;V1.18&#xA;Added new users Durai and Vignesh&#xA;&#xA;V1.17&#xA;Added few components&#xA;&#xA;V1.16&#xA;Added an existing tag Activity Type to Defect stereotype to differentiate&#xA;&#xA;V1.15&#xA;Added new stereotype 'Defect' to capture the inhouse bugs in testing.&#xA;&#xA;V1.14&#xA;Added Iterations&#xA;&#xA;V1.13&#xA;Added Siva&#xA;&#xA;V1.12&#xA;Added Iteration tag to Modules stereotype&#xA;&#xA;V1.11&#xA;Added Iteration 5&#xA;&#xA;V1.10&#xA;Removed unnecessary space in Iteration tag&#xA;&#xA;V1.9&#xA;1. Update - Assignee and Assigned to - Aravindhan,Ari,Arshad,Divakar,Gnanasekar,Kabeer,Madhav,Muthu,Nisar,Praveen,Rajasekar,Ram,Ravee,Ravi,Rizan,Shanooj&#xA;2. Add new - Iteration - Milestone 1, Milestone 2, Milestone 3, Milestone 4, Milestone 5&#xA;3. Add New - Prol Status - Review Failed&#xA;&#xA;V1.8&#xA;- Added new tagged value Activity Type and added it to ProlRequirement.&#xA;&#xA;V1.7&#xA;-Added new item Prol Task&#xA;&#xA;V1.6&#xA;-Added Dev Completed Value in Prol Status Tag&#xA;&#xA;V1.5&#xA;-Update Versions in Fix , Release and Affected &#xA;&#xA;V1.4&#xA;- Added Components tag for CR,CustomerCr,Bug and Requirement&#xA;&#xA;V1.3&#xA;- Added New Tagged values ( Iteration and Estimate ) and also added new stereotype ( Change Request )&#xA;&#xA;V1.2&#xA;- Update Tool Box based on new meta model&#xA;&#xA;v1.1&#xA;-Added Author list to Assignee , Assigned to , Reported By , Module Owner &#xA;&#xA;V1.0&#xA;-Added new tags Fix versions, Release versions , Affected Versions , Prol Status , Prol Priority &#xA;&#xA;V11&#xA;-Added Front End Components"/><UMLProfiles><UMLProfile profiletype="uml2">
+			<Documentation id="EB2B4DB3-D" name="Prolaborate" version="1.29" notes="Prolaborate"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Actor" metatype="Actor" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Actor"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Bug" metatype="Bug" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="9145343" borderwidth="1" hideicon="0">
+						<metarelationships>
+							<metarelationship metaclass="Dependency" constraint="Prolaborate::ProlRequirement"/>
+						</metarelationships>
+						<AppliesTo>
+							<Apply type="Defect"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="Affected Versions" type="" description="" unit="" values="" default=""/>
+							<Tag name="Assigned To" type="" description="" unit="" values="" default=""/>
+							<Tag name="Web App Version" type="" description="" unit="" values="" default=""/>
+							<Tag name="Started Date" type="" description="" unit="" values="" default=""/>
+							<Tag name="End Date" type="" description="" unit="" values="" default=""/>
+							<Tag name="Iteration" type="" description="" unit="" values="" default=""/>
+							<Tag name="Component" type="" description="" unit="" values="" default=""/>
+							<Tag name="Estimate" type="" description="" unit="" values="" default=""/>
+							<Tag name="Fix Version" type="" description="" unit="" values="" default=""/>
+							<Tag name="Identified By" type="" description="" unit="" values="" default=""/>
+							<Tag name="Prol Priority" type="" description="" unit="" values="" default=""/>
+							<Tag name="Prol Status" type="" description="" unit="" values="" default=""/>
+							<Tag name="Release Versions" type="" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="ChangeRequest" metatype="Change Request" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAAReB0+p1wWvYwAAAIwAAAAHABEAc3RyLmRhdFVUDQAHkrpKXZK6Sl2Sukpd
+PY3LCkBgFIS/LeUdLCkLt50lWdp4AgtFuYVYyLsbf9LUnHOmmTkbHQ0LLS6jtp6JCwcbi1rq
+TiltEHJm8cyKR0xKSKCZmBmZ2ydTy5t1PxRyN5xU4l09hxrr/6NnEq//NvwAUEsBAhcLFAAA
+AAgABF4HT6nXBa9jAAAAjAAAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB5K6Sl1Q
+SwUGAAAAAAEAAQA+AAAAmQAAAAAA</Image>
+						<AppliesTo>
+							<Apply type="Change"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="Affected Versions" type="" description="" unit="" values="" default=""/>
+							<Tag name="Assigned To" type="" description="" unit="" values="" default=""/>
+							<Tag name="Component" type="" description="" unit="" values="" default=""/>
+							<Tag name="Started Date" type="" description="" unit="" values="" default=""/>
+							<Tag name="End Date" type="" description="" unit="" values="" default=""/>
+							<Tag name="Iteration" type="" description="" unit="" values="" default=""/>
+							<Tag name="Estimate" type="" description="" unit="" values="" default=""/>
+							<Tag name="Fix Version" type="" description="" unit="" values="" default=""/>
+							<Tag name="Prol Priority" type="" description="" unit="" values="" default=""/>
+							<Tag name="Prol Status" type="" description="" unit="" values="" default=""/>
+							<Tag name="Release Versions" type="" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="CustomerCR" metatype="CustomerCR" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<metarelationships>
+							<metarelationship metaclass="Dependency" constraint="Prolaborate::ProlRequirement"/>
+						</metarelationships>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAApeB0+p1wWvYwAAAIwAAAAHABEAc3RyLmRhdFVUDQAHpbpKXaW6Sl2lukpd
+PY3LCkBgFIS/LeUdLCkLt50lWdp4AgtFuYVYyLsbf9LUnHOmmTkbHQ0LLS6jtp6JCwcbi1rq
+TiltEHJm8cyKR0xKSKCZmBmZ2ydTy5t1PxRyN5xU4l09hxrr/6NnEq//NvwAUEsBAhcLFAAA
+AAgACl4HT6nXBa9jAAAAjAAAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB6W6Sl1Q
+SwUGAAAAAAEAAQA+AAAAmQAAAAAA</Image>
+						<AppliesTo>
+							<Apply type="Change"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="Affected Versions" type="" description="" unit="" values="" default=""/>
+							<Tag name="Assigned To" type="" description="" unit="" values="" default=""/>
+							<Tag name="Component" type="" description="" unit="" values="" default=""/>
+							<Tag name="Started Date" type="" description="" unit="" values="" default=""/>
+							<Tag name="End Date" type="" description="" unit="" values="" default=""/>
+							<Tag name="Iteration" type="" description="" unit="" values="" default=""/>
+							<Tag name="Estimate" type="" description="" unit="" values="" default=""/>
+							<Tag name="Fix Version" type="" description="" unit="" values="" default=""/>
+							<Tag name="Prol Priority" type="" description="" unit="" values="" default=""/>
+							<Tag name="Prol Status" type="" description="" unit="" values="" default=""/>
+							<Tag name="Release Versions" type="" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="Defect" metatype="Defect" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="11507960" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Defect"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="Activity Type" type="" description="" unit="" values="" default=""/>
+							<Tag name="Affected Versions" type="" description="" unit="" values="" default=""/>
+							<Tag name="Assigned To" type="" description="" unit="" values="" default=""/>
+							<Tag name="Zone" type="" description="" unit="" values="" default=""/>
+							<Tag name="Assignee" type="" description="" unit="" values="" default=""/>
+							<Tag name="Started Date" type="" description="" unit="" values="" default=""/>
+							<Tag name="End Date" type="" description="" unit="" values="" default=""/>
+							<Tag name="Iteration" type="" description="" unit="" values="" default=""/>
+							<Tag name="Component" type="" description="" unit="" values="" default=""/>
+							<Tag name="Estimate" type="" description="" unit="" values="" default=""/>
+							<Tag name="Fix Version" type="" description="" unit="" values="" default=""/>
+							<Tag name="Identified By" type="" description="" unit="" values="" default=""/>
+							<Tag name="Issue Type" type="" description="" unit="" values="" default=""/>
+							<Tag name="Prol Priority" type="" description="" unit="" values="" default=""/>
+							<Tag name="Prol Status" type="" description="" unit="" values="" default=""/>
+							<Tag name="Prolaborate DB" type="" description="" unit="" values="" default=""/>
+							<Tag name="Web App Version" type="" description="" unit="" values="" default=""/>
+							<Tag name="Regression" type="" description="" unit="" values="" default=""/>
+							<Tag name="Release Versions" type="" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="Dependency" metatype="Dependency" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Dependency">
+								<Property name="direction" value="Source -&gt; Destination"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Extend" metatype="Extend" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Extend">
+								<Property name="direction" value="Source -&gt; Destination"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Feature" metatype="Feature" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIACpeB0/AFmmvYgAAAIgAAAAHABEAc3RyLmRhdFVUDQAHwbpKXcG6Sl3Bukpd
+PY3NCkBQFIS/LeUdLCkbSpIlWdrcJ7BQlL8QC3l3Q9LUzGmambPSUjPT4DLo6hg5cbCxMHI3
+Snm9kDOJJxY8ElICQmksTYnwybTw9NwPhZI1B5V408auNfN/897Gk79evgFQSwECFwsUAAAA
+CAAqXgdPwBZpr2IAAACIAAAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRhdFVUBQAHwbpKXVBL
+BQYAAAAAAQABAD4AAACYAAAAAAA=</Image>
+						<AppliesTo>
+							<Apply type="Feature">
+								<Property name="isStatic" value="false"/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="Affected Versions" type="" description="" unit="" values="" default=""/>
+							<Tag name="Aprrox Time" type="" description="" unit="" values="" default=""/>
+							<Tag name="Assigned To" type="" description="" unit="" values="" default=""/>
+							<Tag name="Assignee" type="" description="" unit="" values="" default=""/>
+							<Tag name="End Date" type="" description="" unit="" values="" default=""/>
+							<Tag name="Fix Version" type="" description="" unit="" values="" default=""/>
+							<Tag name="Prol Priority" type="" description="" unit="" values="" default=""/>
+							<Tag name="Prol Status" type="" description="" unit="" values="" default=""/>
+							<Tag name="Release Versions" type="" description="" unit="" values="" default=""/>
+							<Tag name="Requested By" type="" description="" unit="" values="" default=""/>
+							<Tag name="Started Date" type="" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="Generalization" metatype="Generalization" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Generalization">
+								<Property name="direction" value="Source -&gt; Destination"/>
+								<Property name="isSubstitutable" value="true"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Include" metatype="Include" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Include">
+								<Property name="direction" value="Source -&gt; Destination"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Module" metatype="Module" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ArchiMate3::ArchiMate_ApplicationComponent" baseStereotypes="ArchiMate3::ArchiMate_ApplicationComponent">
+						<stereotypedrelationships>
+							<stereotypedrelationship stereotype="ArchiMate3::ArchiMate_Aggregation" constraint="Prolaborate::SubModule"/>
+						</stereotypedrelationships>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAKhlBk/kkHmmKQIAAEYIAAAHABEAc3RyLmRhdFVUDQAHgHZJXYB2SV2Adkld
+tVVdT4NAENxXTfwPjX3BpCa1fsWYPhn9A/4A05ZqiS1tgGrU+N+d2bvj4KBFHwzhOGB2bnZ3
+DnJZyEQ2MpeerDBLJJUjOZQvHQ9kiWcfspatFDg+FDmWY5niWSYx7jLc3Vp0iqe5MsaYvQNZ
+4P0WKId4xLyQB6yzxHEH1FKZIhnKQM7kRka4juQSx0kZxXWewZzIJ2YRUERfY/SYDG9m4J5A
+xQtYiSPK8A4rVx9DnTF4t8jH6GZ+ETLa2HesxwvuBzhTnD42gaJIY3KgM2TB2EyrRIamHlaH
+9wVi18pG1qGynlhWV/f92lixwsa/11R9d2aWYr7C3ETPVFdh++h5zOgje+WqoU7mzu6QgbMY
+ihKMBWLH6OSw5CTfDHz01FQrMkYc73PxDmnv5Kn2blBezVjt5f646khNzYq151x1QXfmC4wJ
+kAuoqOfuVmmu4foRsi/kSWtDvlT3XL1XPm/qoMJC+9svGfstzjAjT+6pmfbUO7KnT1ba69Su
+RqxTRXRin/soaiPaaerZw2X73zulXuG59VOIWoHpTfj1WWNV74eqg1htZlLF7EOY71A3Ivzu
+hCivphtV/+q153X5C57zAJNrxdkVup67N+rcXX5PXbRy7oqhPhcT5sPuxzs0UCP98wpUG+Kv
+HucfhfuJWOeU3R5/lPvKvutydaJfu3Al42T3V2z3Mx3Mjm3Ux6ZiplZmvGpUrI7ne4c1nmrG
+1F3DvnW5hn0KMa7eP1BLAQIXCxQAAAAIAKhlBk/kkHmmKQIAAEYIAAAHAAkAAAAAAAAAAAAA
+gAAAAABzdHIuZGF0VVQFAAeAdkldUEsFBgAAAAABAAEAPgAAAF8CAAAAAA==</Image>
+						<AppliesTo>
+							<Apply type="Component">
+								<Property name="isIndirectlyInstantiated" value="true"/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="Iteration" type="" description="" unit="" values="" default=""/>
+							<Tag name="Prol Priority" type="" description="" unit="" values="" default=""/>
+							<Tag name="Prol Status" type="" description="" unit="" values="" default=""/>
+							<Tag name="Release Versions" type="" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="PL-Screen" metatype="PLScreen" notes="" cx="0" cy="0" bgcolor="9145088" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Component">
+								<Property name="isIndirectlyInstantiated" value="true"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="PL-Screen-Component" metatype="PLScreenComponent" notes="" cx="0" cy="0" bgcolor="11193702" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<metarelationships>
+							<metarelationship metaclass="Dependency" constraint="Prolaborate::PL-Screen;Prolaborate::PL-UI-Control"/>
+						</metarelationships>
+						<AppliesTo>
+							<Apply type="Component">
+								<Property name="isIndirectlyInstantiated" value="true"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="PL-UI-Control" metatype="PLUIControl" notes="" cx="0" cy="0" bgcolor="6053069" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="ProlRequirement" metatype="ProlRequirement" notes="" cx="0" cy="0" bgcolor="16777184" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<metarelationships>
+							<metarelationship metaclass="Dependency" constraint="Prolaborate::PL-Screen-Component"/>
+						</metarelationships>
+						<AppliesTo>
+							<Apply type="Requirement"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="Assigned To" type="" description="" unit="" values="" default=""/>
+							<Tag name="Assignee" type="" description="" unit="" values="" default=""/>
+							<Tag name="Component" type="" description="" unit="" values="" default=""/>
+							<Tag name="Size" type="" description="" unit="" values="" default=""/>
+							<Tag name="Started Date" type="" description="" unit="" values="" default=""/>
+							<Tag name="End Date" type="" description="" unit="" values="" default=""/>
+							<Tag name="Iteration" type="" description="" unit="" values="" default=""/>
+							<Tag name="Estimate" type="" description="" unit="" values="" default=""/>
+							<Tag name="Fix Version" type="" description="" unit="" values="" default=""/>
+							<Tag name="Prol Priority" type="" description="" unit="" values="" default=""/>
+							<Tag name="Prol Status" type="" description="" unit="" values="" default=""/>
+							<Tag name="Release Versions" type="" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="ProlTask" metatype="ProlTask" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Requirement"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="Activity Type" type="" description="" unit="" values="" default=""/>
+							<Tag name="Assigned To" type="" description="" unit="" values="" default=""/>
+							<Tag name="Assignee" type="" description="" unit="" values="" default=""/>
+							<Tag name="Component" type="" description="" unit="" values="" default=""/>
+							<Tag name="Started Date" type="" description="" unit="" values="" default=""/>
+							<Tag name="End Date" type="" description="" unit="" values="" default=""/>
+							<Tag name="Iteration" type="" description="" unit="" values="" default=""/>
+							<Tag name="Estimate" type="" description="" unit="" values="" default=""/>
+							<Tag name="Prol Priority" type="" description="" unit="" values="" default=""/>
+							<Tag name="Prol Status" type="" description="" unit="" values="" default=""/>
+							<Tag name="Release Versions" type="" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="SubModule" metatype="SubModule" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="ArchiMate3::ArchiMate_ApplicationComponent" baseStereotypes="ArchiMate3::ArchiMate_ApplicationComponent">
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMJlBk8K7wjrLQIAADgIAAAHABEAc3RyLmRhdFVUDQAHmXZJXZl2SV2Zdkld
+tVXLTsMwENwrSPxDBZdUKlKBUoRQTwh+gA9AkJQmok2rJKUCxL8zs47jxEkbcUBVNrYzO559
+2M0llhfZyFwGssIokVRO5Fi+1R7JEmufspatFPh9KnImp/KKtUwizDLM7kp0itVcGSOMdkAW
++L4FyiKeMC7kEfss8bsHaqlMgUxkKiO5kGsZ432J+USGlR93egN3Il8YBXKrqBtYh8nwJQT7
+C3QswEscUXwuYN3b+VBpBN4tIjLKGWGAmDblN2ZkgfkIT4rH+RqbQFegnjl8MkRDhkyzRZ62
+KmaJ8wK+a+Uk91i5hyWrzf9hhcxcUfrvGtp+euNLMV5hbLxD1VWU9XQ8zmdQ7ecrZNSsDn05
+iqAlgS3gO0MlxxUb+ULwsateNRcz+HGei+uR7kqea+1G1dvYei0P+9UtNbVzZSvajLneBf2R
+x7AJkDFUNGO3u7T3sJXw2WN51tyQL9VT16ySi5s6qLDQyp5VjGcdPWEsH56pUGvqenGgKyut
+dVruRqxVRXRSrjsvaiPaaTL2f8+Gzei87B8/fyswfAjvmzV2c/WvdwyzS+V1zCGEuXf6Ef49
+46Ocmn5U85brjou3Zh/PlYfJNdOsBrucpzXoPU3uDE06Off5mFvd+PjxsOrRHg3UyL55B6oL
+8dee5j8Izw+xtlP29/STPNR6uq+bE73d/J1MB9v/wa4+Nh3Mim20j03GTK6MnbYy1sTzu8Wa
+nmr7NLuGdevrGtbJx9h8/wJQSwECFwsUAAAACADCZQZPCu8I6y0CAAA4CAAABwAJAAAAAAAA
+AAAAAIAAAAAAc3RyLmRhdFVUBQAHmXZJXVBLBQYAAAAAAQABAD4AAABjAgAAAAA=</Image>
+						<AppliesTo>
+							<Apply type="Component">
+								<Property name="isIndirectlyInstantiated" value="true"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="testcase" metatype="testcase" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+						<metarelationships>
+							<metarelationship metaclass="Dependency" constraint="Prolaborate::ProlRequirement"/>
+						</metarelationships>
+						<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAFpeB09Ph/HYYwAAAJYAAAAHABEAc3RyLmRhdFVUDQAHBbtKXQW7Sl0Fu0pd
+PY3PCkBgEMR/V8o7OFIuvtxcnV08gUSUfyEO8u7GJ9p2Z5rdmV1pKZmp8RnEOkZOPFzbDqs2
+G430XlUxaU4sBBhiEiL5jPBjjxaSir9+31YmR8lBrrkpa1dq8X8OrOO9vyzeUEsBAhcLFAAA
+AAgAWl4HT0+H8dhjAAAAlgAAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUABwW7Sl1Q
+SwUGAAAAAAEAAQA+AAAAmQAAAAAA</Image>
+						<AppliesTo>
+							<Apply type="UseCase">
+								<Property name="_UCRect" value="1"/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="Browsers" type="" description="" unit="" values="" default=""/>
+							<Tag name="EA DB" type="" description="" unit="" values="" default=""/>
+							<Tag name="Prolaborate DB" type="" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="Usecase" metatype="Usecase" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<metarelationships>
+							<metarelationship metaclass="Dependency" constraint="Prolaborate::ChangeRequest;Prolaborate::CustomerCR;Prolaborate::Feature"/>
+						</metarelationships>
+						<AppliesTo>
+							<Apply type="UseCase">
+								<Property name="_UCRect" value="1"/>
+							</Apply>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="Affected Versions" type="" description="" unit="" values="" default=""/>
+							<Tag name="Aprrox Time" type="" description="" unit="" values="" default=""/>
+							<Tag name="Assigned To" type="" description="" unit="" values="" default=""/>
+							<Tag name="Assignee" type="" description="" unit="" values="" default=""/>
+							<Tag name="End Date" type="" description="" unit="" values="" default=""/>
+							<Tag name="Fix Version" type="" description="" unit="" values="" default=""/>
+							<Tag name="Prol Priority" type="" description="" unit="" values="" default=""/>
+							<Tag name="Prol Status" type="" description="" unit="" values="" default=""/>
+							<Tag name="Release Versions" type="" description="" unit="" values="" default=""/>
+							<Tag name="Started Date" type="" description="" unit="" values="" default=""/>
+						</TaggedValues>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+				<QuickLink data="//Source Element Type,Source ST filter,Target Element Type,Target ST Filter,Diagram Filter,New Element Type,New Element ST,New Link Type,New Link ST,New Link Direction,New Link Caption,New Link &amp;amp; Element Caption,Create Link,Create Element,Disallow Self connector,Exclusive to ST Filter + No inherit from metatype,Menu Group,Complexity Level,Target Must Be Parent,Embed element,Preceeds Separator LEAF,Preceeds Separator GROUP,DUMMZ COLUMN&#xA;Component,SubModule,Component,Module,,Component,Module,Aggregation,Aggregation,to,Pro_Aggregation,Pro_Module,TRUE,TRUE,,TRUE,,0,,,,,&#xA;Component,Module,Component,SubModule,,Component,SubModule,Aggregation,Aggregation,From,Pro_Aggregation,Pro_SubModule,TRUE,TRUE,,TRUE,,0,,,,,&#xA;Change,ChangeRequest,Component,SubModule,,Component,SubModule,Dependency,,to,Pro_Dependency,Pro_SubModule,TRUE,TRUE,,TRUE,,0,,,,,&#xA;Component,SubModule,Change,ChangeRequest,,Change,ChangeRequest,Dependency,,From,Pro_Dependency,Pro_ChangeRequest,TRUE,TRUE,,TRUE,,0,,,,,&#xA;Change,CustomerCR,Component,SubModule,,Component,SubModule,Dependency,,to,Pro_Dependency,Pro_SubModule,TRUE,TRUE,,TRUE,,0,,,,,&#xA;Component,SubModule,Change,CustomerCR,,Change,CustomerCR,Dependency,,From,Pro_Dependency,Pro_CustomerCR,TRUE,TRUE,,TRUE,,0,,,,,&#xA;Feature,Feature,Component,SubModule,,Component,SubModule,Dependency,,to,Pro_Dependency,Pro_SubModule,TRUE,TRUE,,TRUE,,0,,,,,&#xA;Component,SubModule,Feature,Feature,,Feature,Feature,Dependency,,From,Pro_Dependency,Pro_Feature,TRUE,TRUE,,TRUE,,0,,,,,&#xA;UseCase,usecase,Change,ChangeRequest,,Change,ChangeRequest,Dependency,,to,Pro_Dependency,Pro_ChangeRequest,TRUE,TRUE,,TRUE,,0,,,,,&#xA;Change,ChangeRequest,usecase,usecase,,UseCase,usecase,Dependency,,From,Pro_Dependency,Pro_usecase,TRUE,TRUE,,TRUE,,0,,,,,&#xA;Defect,Bug,Change,ChangeRequest,,Change,ChangeRequest,Dependency,,to,Pro_Dependency,Pro_ChangeRequest,TRUE,TRUE,,TRUE,,0,,,,,&#xA;Change,ChangeRequest,Defect,Bug,,Defect,Bug,Dependency,,From,Pro_Dependency,Pro_Bug,TRUE,TRUE,,TRUE,,0,,,,,&#xA;UseCase,testcase,UseCase,usecase,,UseCase,usecase,Dependency,,to,Pro_Dependency,Pro_usecase,TRUE,TRUE,,TRUE,,0,,,,,&#xA;UseCase,usecase,UseCase,testcase,,UseCase,testcase,Dependency,,From,Pro_Dependency,Pro_testcase,TRUE,TRUE,,TRUE,,0,,,,,&#xA;UseCase,usecase,UseCase,usecase,,UseCase,usecase,Extension,,to,Pro_Extension,Pro_usecase,TRUE,TRUE,,TRUE,,0,,,,,&#xA;&#xA;"/>
+			</Content>
+		</UMLProfile>
+	</UMLProfiles><TaggedValueTypes><RefData version="1.0" exporter="EA.25">
+			<DataSet name="Property Types" table="t_propertytypes" filter="Property='#Property#'"><DataRow><Column name="Property" value="Aprrox Time"/><Column name="Description" value="Time for Completion"/><Column name="Notes" value="Type=Time;"/></DataRow><DataRow><Column name="Property" value="Assigned To"/><Column name="Description" value="User need to work"/><Column name="Notes" value="Type=Enum;&#xA;Values=Anwar,Aravindhan,Ari,Arshad,Dinesh,Divakar,Durai,Gnanasekar,Kabeer,Madhav,Muthu,Muthupandi,Nisar,Nabil,Nizam,Praveen,Rajasekar,Ram,Ravee,Ravi,Raju,Rizan,Rizwana,Santhosh,Saravanan,Shanooj,Siva,Siva Krishnan,Sulaiman,Syed,Varatharajan,Venkat,Vignesh,Yuvaraj;"/></DataRow><DataRow><Column name="Property" value="Assignee"/><Column name="Description" value="Assigned By"/><Column name="Notes" value="Type=Enum;&#xA;Values=Anwar,Aravindhan,Ari,Arshad,Dinesh,Divakar,Durai,Gnanasekar,Kabeer,Madhav,Muthu,Muthupandi,Nisar,Nabil,Nizam,Praveen,Rajasekar,Ram,Ravee,Ravi,Raju,Rizan,Rizwana,Santhosh,Saravanan,Shanooj,Siva,Siva Krishnan,Sulaiman,Syed,Varatharajan,Venkat,Vignesh,Yuvaraj;"/></DataRow><DataRow><Column name="Property" value="Browsers"/><Column name="Notes" value="Type=Enum;&#xA;Values=Chrome,Firefox,Safari,IE;&#xA;Default=Chrome;"/></DataRow><DataRow><Column name="Property" value="Devices"/></DataRow><DataRow><Column name="Property" value="EA DB"/><Column name="Description" value="EA Databases"/><Column name="Notes" value="Type=CheckList;&#xA;Values=MSSQL,MySql,Oracle,PostgreSQL,Firebird,DB2,MS Access,MariaDB,Aurora,SQLite;"/></DataRow><DataRow><Column name="Property" value="End Date"/><Column name="Notes" value="Type=Date;"/></DataRow><DataRow><Column name="Property" value="License Types"/><Column name="Notes" value="Type=Enum;&#xA;Values=Enterprise,Large Teams,Growing Teams;&#xA;Default=Enterprise;"/></DataRow><DataRow><Column name="Property" value="Module Owner"/><Column name="Notes" value="Type=Enum;&#xA;Values=Anwar,Aravindhan,Ari,Arshad,Dinesh,Divakar,Durai,Gnanasekar,Kabeer,Madhav,Muthu,Muthupandi,Nisar,Nabil,Nizam,Praveen,Rajasekar,Ram,Ravee,Ravi,Raju,Rizan,Rizwana,Santhosh,Saravanan,Shanooj,Siva,Siva Krishnan,Sulaiman,Syed,Varatharajan,Venkat,Vignesh,Yuvaraj;"/></DataRow><DataRow><Column name="Property" value="Multi Language Support"/><Column name="Notes" value="Type=Boolean;&#xA;Default=True;"/></DataRow><DataRow><Column name="Property" value="Prolaborate DB"/><Column name="Description" value="Prolaborate Databases"/><Column name="Notes" value="Type=CheckList;&#xA;Values=MSSQL,MySql;"/></DataRow><DataRow><Column name="Property" value="Reported By"/><Column name="Notes" value="Type=Enum;&#xA;Values=Anwar,Aravindhan,Ari,Arshad,Dinesh,Divakar,Durai,Gnanasekar,Kabeer,Madhav,Muthu,Muthupandi,Nisar,Nabil,Nizam,Praveen,Rajasekar,Ram,Ravee,Ravi,Raju,Rizan,Rizwana,Santhosh,Saravanan,Shanooj,Siva,Siva Krishnan,Sulaiman,Syed,Varatharajan,Venkat,Vignesh,Yuvaraj;"/></DataRow><DataRow><Column name="Property" value="Requested By"/><Column name="Notes" value="Type=Enum;&#xA;Values=Anwar,Aravindhan,Ari,Arshad,Dinesh,Divakar,Durai,Gnanasekar,Kabeer,Madhav,Muthu,Muthupandi,Nisar,Nabil,Nizam,Praveen,Rajasekar,Ram,Ravee,Ravi,Raju,Rizan,Rizwana,Santhosh,Saravanan,Shanooj,Siva,Siva Krishnan,Sulaiman,Syed,Varatharajan,Venkat,Vignesh,Yuvaraj;"/></DataRow><DataRow><Column name="Property" value="Started Date"/><Column name="Description" value="Task Started Date"/><Column name="Notes" value="Type=Date;"/></DataRow><DataRow><Column name="Property" value="User Types"/><Column name="Notes" value="Type=Enum;&#xA;Values=Admin,Non Admin;&#xA;Default=Admin;"/></DataRow><DataRow><Column name="Property" value="Affected Versions"/><Column name="Notes" value="Type=Enum;&#xA;Values=V2.6,V3.0.4,V3.1,V3.1.5,V3.2,V3.2.1,V3.2.1.1,V3.2.1.2,V3.2.2,V3.2.2.1,V3.2.2.2,V3.2.2.3,V3.2.2.6,V3.2.3,V3.2.4,V3.2.4.2,V3.2.5,V3.2.6.1,V3.2.6.2,V3.2.6.3,V3.2.6.4,V3.2.6.5,V3.2.6.6,V3.2.6.7,V3.2.6.8,V3.2.6.9,V3.2.6.10,V3.2.7.1,V3.2.7.2,V3.4,V3.4.1,V3.5,V3.6,V3.7,V4.0.0,V4.1.1,V4.1.2,V4.2.0,V4.2.1,V4.3.0,V4.3.1,V4.4.0,V4.4.1,Future Release;"/></DataRow><DataRow><Column name="Property" value="Issue Type"/><Column name="Notes" value="Type=Enum;&#xA;Values=Task,Bug,Defect,Improvement,Text Defect;&#xA;Default=Bug;"/></DataRow><DataRow><Column name="Property" value="Prol Status"/><Column name="Notes" value="Type=Enum;&#xA;Values=Dev Completed,Differed,Done,Feature Removed,Implemented,In Progress,Invalid,Need to Discuss,Not Able to Reproduce,Not Yet Started,On Hold,Ready for Review,Ready for Smoke Testing,Ready for Testing,Rejected,Review Failed,Smoke Testing Done,Testing Failed,Unplanned,Waiting for Dependent Task Completion;&#xA;Default=Unplanned;&#xA;&#xA; &#xA; &#xA;"/></DataRow><DataRow><Column name="Property" value="Prol Priority"/><Column name="Notes" value="Type=Enum;&#xA;Values=Low,Medium,High,Highest;&#xA;Default=Medium;"/></DataRow><DataRow><Column name="Property" value="Fix Version"/><Column name="Notes" value="Type=Enum;&#xA;Values=V2.6, V3.0.4, V3.1, V3.1.5, V3.2,&#xA;V3.2.1, V3.2.1.1, V3.2.1.2, V3.2.2,&#xA;V3.2.2.1, V3.2.2.2, V3.2.2.3, V3.2.2.6,&#xA;V3.2.3, V3.2.4, V3.2.4.2, V3.2.5, V3.2.6.1,&#xA;V3.2.6.2, V3.2.6.3, V3.2.6.4, V3.2.6.5, V3.2.6.6,&#xA;V3.2.6.7, V3.2.6.8, V3.2.6.9, V3.2.6.10, V3.2.7.1,&#xA;V3.2.7.2, V3.4, V3.4.1, V3.5, V3.6, V3.7,&#xA;V4.0.0, V4.1.1, V4.1.2, V4.2.0,V4.2.1,V4.3.0,V4.3.1,V4.4.0,V4.4.1,Future Release;"/></DataRow><DataRow><Column name="Property" value="Release Versions"/><Column name="Notes" value="Type=Enum;&#xA;Values=V2.6, V3.0.4, V3.1, V3.1.5, V3.2,V3.2.1, V3.2.1.1, V3.2.1.2, V3.2.2,V3.2.2.1,V3.2.2.2,V3.2.2.3,V3.2.2.6,V3.2.3, V3.2.4,V3.2.4.2,V3.2.5,V3.2.6.1,V3.2.6.2, V3.2.6.3, V3.2.6.4, V3.2.6.5, V3.2.6.6,V3.2.6.7,V3.2.6.8, V3.2.6.9,V3.2.6.10, V3.2.7.1,V3.2.7.2,V3.4,V3.4.1,V3.5,V3.6, V3.7,V4.0.0, V4.1.1, V4.1.2, V4.2.0,V4.2.1,V4.3.0,V4.3.1,V4.4.0,V4.4.1,Future Release;"/></DataRow><DataRow><Column name="Property" value="Estimate"/><Column name="Description" value="Time for Completion in hours"/><Column name="Notes" value="Type=Integer;&#xA;Default=0;"/></DataRow><DataRow><Column name="Property" value="Iteration"/><Column name="Notes" value="Type=Enum;&#xA;Values=Milestone 1,Milestone 2,Milestone 3,Milestone 4,Milestone 5,Milestone 6,Milestone 7,Milestone 8,Milestone 9,Milestone 10,Milestone 11,Milestone 12,Milestone 13,Milestone 14,Milestone 15,Milestone 16,Milestone 17,Milestone 18,Milestone 19,Milestone 20,Milestone 21,Milestone 22,Milestone 23,Milestone 24,Milestone 25,Milestone 26,Milestone 27,Milestone 28,Milestone 29,Milestone 30,V4.2 Milestone 1,V4.2 Milestone 2,V4.2 Milestone 3,V4.2 Milestone 4,V4.2Milestone 5,V4.2 Milestone 6,V4.2 Milestone 7,V4.2 Milestone 8,V4.2 Milestone 9,V4.2 Milestone 10,V4.3 Milestone 1 ,V4.3 Milestone 2,V4.3 Milestone 3,V4.3 Milestone 4,V4.3 Milestone 5;"/></DataRow><DataRow><Column name="Property" value="Component"/><Column name="Notes" value="Type=Enum;&#xA;Values=Access Control Profile,Access Permissions,Active Directory,Analyzer/Diagrammer,Application Access,Azure Devops Integration,Charts,Charts Profile,Confluence Macro,Connector Creation,Create Elements,Data migrator,Dashboards,Default Group,Diagrammer,Diagrams, Discussions And Feeds, Domain Access, Ea Add-In,Ea Query,Ea Security &amp; Locks,EA,Filter Profile,Report Configuration,Forms,General,Health Checks,Iframe Integration,Impact Analysis,Integration,Invite,Jira Integration,License,Login,Mailer,Menus,Modeling Languages,MDG Based Colour Configuration,My Diagrams,My Profile,New Feature,Notification Settings,Oidc,Open Community Access,Others,Overall Application,Overview Page,Properties Tabs,Properties Window,Recently Viewed Items,Relationship Matrix,Repo Browser, Reports,Repositories,Reviews,Saml Single Sign-On,Search,Sections,Security,Service Management,Share, Sign Up,Subscription,Theme Settings,Time Zone &amp; Date Format,User Groups,User Management,User Session,Users,Widgets;&#xA;Default=;"/></DataRow><DataRow><Column name="Property" value="Activity Type"/><Column name="Notes" value="Type=Enum;&#xA;Values=Front End Dev,UI Design,Back End Dev,Model &amp; Documentation;"/></DataRow><DataRow><Column name="Property" value="Identified By"/><Column name="Description" value="Identified By"/><Column name="Notes" value="Type=Enum;&#xA;Values=Anwar,Aravindhan,Ari,Arshad,Dinesh,Divakar,Durai,Gnanasekar,Kabeer,Madhav,Muthu,Muthupandi,Nisar,Nabil,Nizam,Praveen,Rajasekar,Ram,Ravee,Ravi,Raju,Rizan,Rizwana,Santhosh,Saravanan,Shanooj,Siva,Siva Krishnan,Sulaiman,Syed,Varatharajan,Venkat,Vignesh,Yuvaraj;"/></DataRow><DataRow><Column name="Property" value="Regression"/><Column name="Description" value="Regression found if any issues fixed"/><Column name="Notes" value="Type=Enum;&#xA;&#xA;Values=Yes,No;&#xA;&#xA;Default=No;"/></DataRow><DataRow><Column name="Property" value="Web App Version"/><Column name="Description" value="Web App Version"/><Column name="Notes" value="Type=Enum;&#xA;Values=V2.6, V3.0.4, V3.1, V3.1.5, V3.2,&#xA;V3.2.1, V3.2.1.1, V3.2.1.2, V3.2.2,&#xA;V3.2.2.1, V3.2.2.2, V3.2.2.3, V3.2.2.6,&#xA;V3.2.3, V3.2.4, V3.2.4.2, V3.2.5, V3.2.6.1,&#xA;V3.2.6.2, V3.2.6.3, V3.2.6.4, V3.2.6.5, V3.2.6.6,&#xA;V3.2.6.7, V3.2.6.8, V3.2.6.9, V3.2.6.10, V3.2.7.1,&#xA;V3.2.7.2, V3.4, V3.4.1, V3.5, V3.6, V3.7,&#xA;V4.0.0, V4.1.1, V4.1.2, V4.2.0,V4.2.1,V4.3.0,V4.3.1,V4.4.0,V4.4.1,Future Release;"/></DataRow></DataSet></RefData></TaggedValueTypes><DiagramProfile><UMLProfile profiletype="uml2">
+			<Documentation id="72247F70-2" name="Prolaborate" version="1.29" notes="Prolaborate"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Prolaborate" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Diagram_Logical">
+								<Property name="pdata" value="HideEStereo=1;"/>
+								<Property name="styleex" value="ShowMaint=1;ShowTests=1;"/>
+								<Property name="toolbox" value="Prolaborate"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+	</DiagramProfile><UIToolboxes><UMLProfile profiletype="uml2">
+			<Documentation id="EB5939DF-7" name="Prolaborate" version="1.29" notes="Prolaborate"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Prolaborate" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="Prolaborate::Module(UML::Component)" type="" description="" unit="" values="" default="Module"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="InHouse" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="Prolaborate::Bug(UML::Defect)" type="" description="" unit="" values="" default="Bug"/>
+							<Tag name="Prolaborate::ChangeRequest(UML::Change)" type="" description="" unit="" values="" default="Change Request"/>
+							<Tag name="Prolaborate::CustomerCR(UML::Change)" type="" description="" unit="" values="" default="Customer CR"/>
+							<Tag name="Prolaborate::Defect(UML::Defect)" type="" description="" unit="" values="" default="Defect"/>
+							<Tag name="Prolaborate::ProlRequirement(UML::Requirement)" type="" description="" unit="" values="" default="Prol Requirement"/>
+							<Tag name="Prolaborate::ProlTask(UML::Requirement)" type="" description="" unit="" values="" default="Prol Task"/>
+							<Tag name="Prolaborate::testcase(UML::UseCase)" type="" description="" unit="" values="" default="TestCase"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="FrontEnd" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="Prolaborate::PL-Screen(UML::Component)" type="" description="" unit="" values="" default="PL-Screen"/>
+							<Tag name="Prolaborate::PL-Screen-Component(UML::Component)" type="" description="" unit="" values="" default="PL-Screen-Component"/>
+							<Tag name="Prolaborate::PL-UI-Control(UML::Class)" type="" description="" unit="" values="" default="PL-UI-Control"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="RelationShip" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="ArchiMate3::ArchiMate_Aggregation" type="" description="" unit="" values="" default="Aggregate"/>
+							<Tag name="Prolaborate::Dependency(UML::Dependency)" type="" description="" unit="" values="" default="Dependency"/>
+						</TaggedValues>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+	</UIToolboxes></MDG.Technology>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-16"?>
+<RefData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0" exporter="EA.25">
+  <DataSet name="Tagged Value Types" table="t_propertytypes" filter="Property='#Property#'">
+    <DataRow>
+      <Column name="Property" value="demo" />
+      <Column name="Description" value="" />
+      <Column name="Notes" value="Type=Enum; Values=1,2,3,4,5,6; Default=1; " />
+    </DataRow>
+  </DataSet>
+</RefData>

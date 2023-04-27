@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<RefData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0" exporter="EA.25">
+  <DataSet name="Tagged Value Types" table="t_propertytypes" filter="Property='#Property#'">
+    <DataRow>
+      <Column name="Property" value="Bulk Import Query 1" />
+      <Column name="Description" value="" />
+      <Column name="Notes" value="Type=ProlEaQuery; Default={&quot;ProfileId&quot;:&quot;db742dc9-7f0f-47b7-9286-a4640f0f100a&quot;,&quot;Query&quot;:&quot;&quot;}" />
+    </DataRow>
+    <DataRow>
+      <Column name="Property" value="Bulk Query Property 2" />
+      <Column name="Description" value="" />
+      <Column name="Notes" value="Type=ProlEaQuery; Default={&quot;ProfileId&quot;:&quot;145f1087-9bb8-4d49-8694-e3ce1f1cc5a5&quot;,&quot;Query&quot;:&quot;&quot;}" />
+    </DataRow>
+  </DataSet>
+</RefData>
